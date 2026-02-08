@@ -1,0 +1,12 @@
+# Source data file
+biomarkers.csv
+
+# macOS
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
