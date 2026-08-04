@@ -1,374 +1,414 @@
-# Whoop Biomarkers - Romanian Lab Provider Mapping
+# Whoop Biomarkers — Romanian Lab Mapping
 
-A comprehensive guide for Romanian Whoop users to find equivalent lab tests at local providers (Synevo and Regina Maria). This mapping helps you track your Whoop biomarkers by identifying the corresponding Romanian lab test names, pricing, and availability.
+Whoop Advanced Labs is US-only. What works from Romania is uploading your own lab
+results — free on any membership — and Whoop will display any biomarker in its
+supported set. This maps all 127 of them to what you can actually buy at Synevo
+and Regina Maria, and what it costs.
 
-## 📋 Table of Contents
+**Synevo** · [catalogue](https://www.synevo.ro/shop/) · home collection · 1-day results in București
+**Regina Maria** · [catalogue](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize) · home collection in most areas
 
-- [Provider Information](#provider-information)
-- [Biomarker Mappings](#biomarker-mappings)
-  - [Regina Maria](#regina-maria)
-  - [Synevo](#synevo)
-- [Panel Tests](#panel-tests)
-- [Indirect Biomarkers](#indirect-biomarkers)
-- [Notes & Disclaimer](#notes--disclaimer)
+## Biomarkers
 
-## 🏥 Provider Information
+Price = what that biomarker costs **alone** by the cheapest route. Rows sharing a
+panel repeat its price, so the column does not sum — the totals below come from the
+shopping list. `—` means the provider does not sell it.
 
-### Regina Maria
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
+|---|---|---:|---|---:|
+| 1,5-Anhydroglucitol (1,5-AG) | — | — | — | — |
+| Adiponectin | Adiponectina | 334 | Adiponectina | 350 |
+| **Adiponectin/Leptin Ratio (LAR)**<br>`= Adiponectin ÷ Leptin` | derived | 0 | derived | 0 |
+| Alanine Aminotransferase (ALT) | Alaninaminotransferaza (GPT, ALAT, ALT) | 21 | Alaninaminotransferaza (ALT/GPT/TGP) | 30 |
+| Albumin | Albumina serica | 22 | Albumina serica | 35 |
+| **Albumin/Globulin Ratio**<br>`= Albumin ÷ Globulin` | derived | 0 | derived | 0 |
+| Alkaline Phosphatase (ALP) | Fosfataza alcalina | 26 | Fosfataza alcalina | 35 |
+| **Anion Gap**<br>`= Na − (Cl + CO₂)` | derived | 0 | derived | 0 |
+| Anti-Müllerian Hormone (AMH) | Hormon anti-Müllerian (AMH) | 237 | Hormon antimullerian (AMH) | 360 |
+| Apolipoprotein B (ApoB) | Apolipoproteina B | 52 | Apolipoproteina B | 130 |
+| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 | 502 | — | — |
+| **Arachidonic Acid/EPA Ratio (AA/EPA)**<br>`= AA ÷ EPA` | derived | 0 | derived | 0 |
+| Aspartate Aminotransferase (AST) | Aspartataminotransferaza (GOT/ASAT/AST) | 21 | Aspartataminotransferaza (GOT/AST/TGO) | 30 |
+| Asymmetric Dimethylarginine (ADMA) | — | — | — | — |
+| **Atherogenic Index of Plasma (AIP)**<br>`= log₁₀(Triglycerides ÷ HDL), molar units` | derived | 0 | derived | 0 |
+| Basophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Basophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Blood Fasting Glucose | Glucoza serica (glicemie) | 21 | Glucoza serica | 30 |
+| Blood Urea Nitrogen | Uree serică | 21 | Uree serica | 30 |
+| **BUN/Creatinine Ratio**<br>`= BUN ÷ Creatinine` | derived | 0 | derived | 0 |
+| C-Peptide | Peptidul C | 101 | C-Peptid | 185 |
+| Calcium | Calciu seric | 18 | Calciu seric | 30 |
+| Carbon Dioxide | Bicarbonat (ECO2) | 58 | Rezerva alcalina (ECO2) | 55 |
+| Chloride | Clor seric | 25 | Clor seric | 30 |
+| **Cholesterol/HDL Ratio**<br>`= Total Cholesterol ÷ HDL` | derived | 0 | derived | 0 |
+| Copper (serum) | Cupru in sange (plasma/ser) | 163 | Cupru in ser/plasma | 175 |
+| **Corrected Calcium**<br>`= Calcium + 0.8 × (4 − Albumin)` | derived | 0 | derived | 0 |
+| Cortisol | Cortizol seric | 63 | Cortizol | 115 |
+| Creatine Kinase (CK) | Creatinkinaza (CK) | 26 | Creatinkinaza (CK) | 45 |
+| Creatinine | Creatinina serica | 20 | Creatinina serica | 30 |
+| Cystatin C | Cistatina C | 115 | Cystatin C | 165 |
+| **Cystatin C eGFR**<br>`from Cystatin C, age, sex` | derived | 0 | derived | 0 |
+| DHEA Sulfate | Dehidroepiandrosteron sulfat (DHEA-S) | 65 | DHEA S | 70 |
+| Dihydrotestosterone (DHT) | Dihidrotestosteron | 459 | Dihidrotestosteron | 520 |
+| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 | 502 | — | — |
+| Docosapentaenoic Acid (DPA) | — | — | — | — |
+| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 | 502 | — | — |
+| Eosinophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Eosinophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| **Estimated Average Glucose (eAG)**<br>`= 28.7 × HbA1c − 46.7` | derived | 0 | derived | 0 |
+| **Estimated Glomerular Filtration Rate (eGFR)**<br>`from Creatinine, age, sex` | derived | 0 | derived | 0 |
+| Estradiol | Estradiol | 63 | Estradiol | 70 |
+| Ferritin | Feritina | 57 | Feritina | 75 |
+| **FIB-4 Index**<br>`= (age × AST) ÷ (Platelets × √ALT)` | derived | 0 | derived | 0 |
+| Folate (Vitamin B9) | Folati serici | 60 | Folati serici (acid folic) | 100 |
+| Follicle Stimulating Hormone (FSH) | FSH (hormon de stimulare foliculară) | 62 | FSH (hormon de stimulare foliculara) | 70 |
+| Free T3 (FT3) | FT3 (triiodotironina libera) | 54 | FT3 (triiodotironina libera) | 70 |
+| Free T4 (FT4) | FT4 (Tiroxina libera) | 57 | FT4 (tiroxina libera) | 70 |
+| Free Testosterone | Testosteron liber | 69 | Testosteron liber | 80 |
+| Fructosamine | Fructozamina | 53 | Fructozamina | 40 |
+| Gamma-Glutamyl Transferase (GGT) | Gama-glutamiltransferaza (Glutamiltranspeptidaza) | 24 | Gamaglutamiltranspeptidaza (GGT) | 35 |
+| **Globulin**<br>`= Total Protein − Albumin` | derived | 0 | derived | 0 |
+| Glucose | Glucoza serica (glicemie) | 21 | Glucoza serica | 30 |
+| HDL Cholesterol | Colesterol HDL | 26 | HDL Colesterol | 35 |
+| HDL Large | — | — | — | — |
+| Hematocrit | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Hemoglobin | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Hemoglobin A1c (HbA1c) | Hemoglobina glicata (Hb A1c) | 59 | Hemoglobina glicozilata/HbA1c | 70 |
+| High-Sensitivity C-Reactive Protein (hs-CRP) | Proteina C reactiva (hsCRP) inalt sensibila | 76 | Proteina C reactiva inalt sensibila (HSCRP) | 100 |
+| **HOMA-IR Score**<br>`= Insulin × Blood Fasting Glucose ÷ 405` | derived | 0 | derived | 0 |
+| Homocysteine | Homocisteina | 208 | Homocisteina | 200 |
+| IGF-1 | IGF-I (somatomedin C) | 90 | IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | 100 |
+| Insulin | Insulina | 65 | Insulina | 70 |
+| Iodine | Iod seric | 376 | — | — |
+| Iron | Sideremie | 21 | Fier seric(sideremie) | 35 |
+| **Iron % Saturation**<br>`= Iron ÷ TIBC × 100` | derived | 0 | derived | 0 |
+| LDL Cholesterol | Colesterol LDL | 25 | LDL Colesterol | 35 |
+| LDL Medium | — | — | — | — |
+| LDL Particle Number | — | — | — | — |
+| **LDL Pattern**<br>`threshold on LDL Peak Size` | derived | 0 | derived | 0 |
+| LDL Peak Size | — | — | — | — |
+| LDL Small | small dense LDL (sdLDL) | 390 | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 |
+| **LDL/HDL Ratio**<br>`= LDL ÷ HDL` | derived | 0 | derived | 0 |
+| Leptin | Leptina | 399 | Leptina | 420 |
+| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 | 502 | — | — |
+| Lipoprotein (a) | Lipoproteina (a) | 135 | Lipoproteina A | 155 |
+| Lipoprotein-Associated Phospholipase A₂ (Lp-PLA₂) | Lipoproteina asociata fosfolipazei A2 | 399 | — | — |
+| Luteinizing Hormone (LH) | LH (hormon luteinizant) | 59 | LH (Hormon luteinizant) | 65 |
+| Lymphocyte % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Lymphocytes | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Magnesium | Magneziu seric | 19 | Magneziu seric | 30 |
+| Mean Corpuscular Hemoglobin (MCH) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Mean Corpuscular Hemoglobin Concentration (MCHC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Mean Corpuscular Volume (MCV) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Mean Platelet Volume (MPV) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Monocyte % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Monocytes | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Myeloperoxidase (MPO) | — | — | — | — |
+| Neutrophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Neutrophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| **Non-HDL Cholesterol**<br>`= Total Cholesterol − HDL` | derived | 0 | derived | 0 |
+| **Omega-3 Total**<br>`= EPA + DPA + DHA` | derived | 0 | derived | 0 |
+| **Omega-6 Total**<br>`= AA + LA` | derived | 0 | derived | 0 |
+| **Omega-6/Omega-3 Ratio**<br>`= Omega-6 Total ÷ Omega-3 Total` | derived | 0 | derived | 0 |
+| Phosphorus | Fosfor seric | 25 | Fosfor seric | 35 |
+| **Plasma Osmolality**<br>`= 2×Na + Glucose÷18 + BUN÷2.8` | derived | 0 | derived | 0 |
+| Platelets | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Potassium | Potasiu seric | 24 | Potasiu seric | 35 |
+| Progesterone | Progesteron | 61 | Progesteron | 70 |
+| Prolactin | Prolactina | 64 | Prolactina | 75 |
+| **PSA %, Free**<br>`= PSA Free ÷ PSA Total × 100` | derived | 0 | derived | 0 |
+| PSA, Free | Free PSA | 62 | Free PSA | 70 |
+| PSA, Total | PSA (Antigen specific prostatic) | 60 | PSA (Antigen specific prostatic) | 70 |
+| Red Blood Cell Count (RBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Red Cell Distribution Width (RDW) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| **Remnant Cholesterol**<br>`= Total Cholesterol − HDL − LDL` | derived | 0 | derived | 0 |
+| Reticulocyte Count (RET) | Hemograma cu formula leucocitara, Hb,Ht,indici si reticulocite (Hemograma) | 75 | Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite | 70 |
+| **Reticulocyte Index (RI)**<br>`= Reticulocyte % × (Hematocrit ÷ 45)` | derived | 0 | derived | 0 |
+| Selenium | Seleniu | 240 | Seleniu in sange | 250 |
+| Sex Hormone Binding Globulin (SHBG) | SHBG (sex hormone binding globuline) | 73 | SHBG (sex hormone binding globulin) | 75 |
+| Sodium | Sodiu seric | 24 | Sodiu seric | 35 |
+| Symmetric Dimethylarginine (SDMA) | — | — | — | — |
+| **Systemic Immune-Inflammation Index (SII)**<br>`= Platelets × Neutrophils ÷ Lymphocytes` | derived | 0 | derived | 0 |
+| Testosterone | Testosteron | 61 | Testosteron | 70 |
+| Thyroid Peroxidase Antibodies (TPOAb) | Anti-TPO (Anti-tiroidperoxidaza) | 71 | Anticorpi anti TPO (ATPO) | 85 |
+| Thyroid-Stimulating Hormone (TSH) | TSH (hormon de stimulare tiroidiană) | 56 | TSH (Hormon de stimulare tiroidiana) | 70 |
+| Total Bilirubin | Bilirubina totala | 19 | Bilirubina totala | 30 |
+| Total Cholesterol | Colesterol total | 18 | Colesterol total | 30 |
+| Total Iron-Binding Capacity (TIBC) | Capacitatea totala de legare a fierului (CTLF) | 39 | Capacitatea totala de legare a fierului (CTLF) | 50 |
+| Total Protein | Proteine totale serice | 18 | Proteine totale serice | 35 |
+| Triglycerides | Trigliceride | 21 | Trigliceride | 30 |
+| **Triglycerides/HDL**<br>`= Triglycerides ÷ HDL` | derived | 0 | derived | 0 |
+| Uric Acid (UA) | Acid uric seric | 21 | Acid uric seric | 30 |
+| Vitamin B12 (cobalamin) | Vitamina B12 | 76 | Vitamina B 12 | 85 |
+| Vitamin D | 25-OH-vitamina D | 170 | 25 OH Vitamina D | 175 |
+| White Blood Cells (WBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Zinc (serum) | Zinc în plasmă | 119 | Zinc in ser | 110 |
 
-Regina Maria is one of Romania's largest private healthcare networks with laboratories throughout the country.
+**Common set — 57 of 57 purchasable Core biomarkers, both providers**
 
-- **Website:** https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize
-- **Coverage:** National network with multiple locations
-- **Home collection:** Available in most areas
+| Provider | Core basket | Coverage |
+|---|---:|---|
+| Synevo | **1,860 RON** | 57/57 |
+| Regina Maria | **2,290 RON** | 57/57 |
+
+Coverage is identical, so **Synevo wins on price by 430 RON**. Neither provider has a Core exclusive.
+
+Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers and Regina Maria 28.
+
+## Shopping list
+
+Tick what you want. Core blocks together are the cheapest route to every Core
+biomarker the provider sells. Derived values cost nothing — buy the inputs and
+compute them.
 
 ### Synevo
 
-Synevo is a leading laboratory network in Romania offering comprehensive testing services.
+**Core — 1,860 RON**
 
-- **Website:** https://www.synevo.ro/shop/
-- **Coverage:** National network with multiple locations
-- **Home collection:** Available (service called "Testul se recoltează și la domiciliu")
-- **Turnaround:** Most tests have 1-day results in Bucharest
+**Blood count** · 44 RON · 20 biomarkers
+- [ ] [Hemograma cu formula leucocitara cu Hb, Ht si indici](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) — 44 · 20 biomarkers
 
----
+**Lipids** · 277 RON · 6 biomarkers (+6 derived)
+- [ ] [Lipoproteina (a)](https://www.synevo.ro/shop/lipoproteina-a/) — 135
+- [ ] [Apolipoproteina B](https://www.synevo.ro/shop/apolipoproteina-b/) — 52
+- [ ] [Colesterol HDL](https://www.synevo.ro/shop/colesterol-hdl/) — 26
+- [ ] [Colesterol LDL](https://www.synevo.ro/shop/colesterol-ldl/) — 25
+- [ ] [Trigliceride](https://www.synevo.ro/shop/trigliceride/) — 21
+- [ ] [Colesterol total](https://www.synevo.ro/shop/colesterol-total/) — 18
 
-## 🔬 Biomarker Mappings
+**Metabolic** · 145 RON · 4 biomarkers (+2 derived)
+- [ ] [Insulina](https://www.synevo.ro/shop/insulina/) — 65
+- [ ] [Hemoglobina glicata (Hb A1c)](https://www.synevo.ro/shop/hemoglobina-glicata-hb-a1c/) — 59
+- [ ] [Glucoza serica (glicemie)](https://www.synevo.ro/shop/glucoza-serica-glicemie/) — 21 · 2 biomarkers
+
+**Liver** · 87 RON · 4 biomarkers (+1 derived)
+- [ ] [Fosfataza alcalina](https://www.synevo.ro/shop/fosfataza-alcalina/) — 26
+- [ ] [Alaninaminotransferaza (GPT, ALAT, ALT)](https://www.synevo.ro/shop/alaninaminotransferaza-gpt-alat-alt/) — 21
+- [ ] [Aspartataminotransferaza (GOT/ASAT/AST)](https://www.synevo.ro/shop/aspartataminotransferaza-got-asat-ast/) — 21
+- [ ] [Bilirubina totala](https://www.synevo.ro/shop/bilirubina-totala/) — 19
+
+**Kidney** · 63 RON · 3 biomarkers (+2 derived)
+- [ ] [Albumina serica](https://www.synevo.ro/shop/albumina-serica/) — 22
+- [ ] [Uree serică](https://www.synevo.ro/shop/uree-serica/) — 21
+- [ ] [Creatinina serica](https://www.synevo.ro/shop/creatinina-serica/) — 20
+
+**Iron** · 117 RON · 3 biomarkers (+1 derived)
+- [ ] [Feritina](https://www.synevo.ro/shop/feritina/) — 57
+- [ ] [Capacitatea totala de legare a fierului (CTLF)](https://www.synevo.ro/shop/capacitatea-totala-de-legare-a-fierului-ctlf/) — 39
+- [ ] [Sideremie](https://www.synevo.ro/shop/sideremie/) — 21
+
+**Electrolytes** · 149 RON · 5 biomarkers (+3 derived)
+- [ ] [Bicarbonat (ECO2)](https://www.synevo.ro/shop/bicarbonat-eco2/) — 58
+- [ ] [Clor seric](https://www.synevo.ro/shop/clor-seric/) — 25
+- [ ] [Potasiu seric](https://www.synevo.ro/shop/potasiu-seric/) — 24
+- [ ] [Sodiu seric](https://www.synevo.ro/shop/sodiu-seric/) — 24
+- [ ] [Calciu seric](https://www.synevo.ro/shop/calciu-seric/) — 18
+
+**Protein** · 18 RON · 1 biomarker (+2 derived)
+- [ ] [Proteine totale serice](https://www.synevo.ro/shop/proteine-totale-serice/) — 18
+
+**Thyroid** · 56 RON · 1 biomarker
+- [ ] [TSH (hormon de stimulare tiroidiană)](https://www.synevo.ro/shop/tsh-hormon-de-stimulare-tiroidiana/) — 56
+
+**Hormones** · 450 RON · 7 biomarkers
+- [ ] [SHBG (sex hormone binding globuline)](https://www.synevo.ro/shop/shbg-sex-hormone-binding-globuline/) — 73
+- [ ] [Testosteron liber](https://www.synevo.ro/shop/testosteron-liber/) — 69
+- [ ] [Cortizol seric](https://www.synevo.ro/shop/cortizol-seric/) — 63
+- [ ] [Estradiol](https://www.synevo.ro/shop/estradiol/) — 63
+- [ ] [FSH (hormon de stimulare foliculară)](https://www.synevo.ro/shop/fsh-hormon-de-stimulare-foliculara/) — 62
+- [ ] [Testosteron](https://www.synevo.ro/shop/testosteron/) — 61
+- [ ] [LH (hormon luteinizant)](https://www.synevo.ro/shop/lh-hormon-luteinizant/) — 59
+
+**Inflammation** · 284 RON · 2 biomarkers (+1 derived)
+- [ ] [Homocisteina](https://www.synevo.ro/shop/homocisteina/) — 208
+- [ ] [Proteina C reactiva (hsCRP) inalt sensibila](https://www.synevo.ro/shop/proteina-c-reactiva-hscrp-inalt-sensibila/) — 76
+
+**Vitamins** · 170 RON · 1 biomarker
+- [ ] [25-OH-vitamina D](https://www.synevo.ro/shop/25-oh-vitamina-d/) — 170
+
+**Extended** — Whoop's specialized panels, priced on top of Core.
+
+**Heart Health** · +1,427 RON · 8 of 16 biomarkers
+- [ ] [Acizi grasi omega 3 si omega 6](https://www.synevo.ro/shop/acizi-grasi-omega-3-si-omega-6/) — 502 † · 4 biomarkers
+- [ ] [Lipoproteina asociata fosfolipazei A2](https://www.synevo.ro/shop/lipoproteina-asociata-fosfolipazei-a2/) — 399
+- [ ] [small dense LDL (sdLDL)](https://www.synevo.ro/shop/small-dense-ldl-sdldl/) — 390
+- [ ] [Cistatina C](https://www.synevo.ro/shop/cistatina-c/) — 115
+- [ ] [Acid uric seric](https://www.synevo.ro/shop/acid-uric-seric/) — 21 †
+- *not sold here: Asymmetric Dimethylarginine (ADMA), Docosapentaenoic Acid (DPA), HDL Large, LDL Medium, LDL Particle Number, LDL Peak Size, Myeloperoxidase (MPO), Symmetric Dimethylarginine (SDMA)*
+
+**Performance Health** · +915 RON · 12 of 13 biomarkers
+- [ ] [Acizi grasi omega 3 si omega 6](https://www.synevo.ro/shop/acizi-grasi-omega-3-si-omega-6/) — 502 † · 4 biomarkers
+- [ ] [IGF-I (somatomedin C)](https://www.synevo.ro/shop/igf-i-somatomedin-c/) — 90
+- [ ] [Vitamina B12](https://www.synevo.ro/shop/vitamina-b12/) — 76 †
+- [ ] [Folati serici](https://www.synevo.ro/shop/folati-serici/) — 60 †
+- [ ] [FT4 (Tiroxina libera)](https://www.synevo.ro/shop/ft4-tiroxina-libera/) — 57 †
+- [ ] [FT3 (triiodotironina libera)](https://www.synevo.ro/shop/ft3-triiodotironina-libera/) — 54 †
+- [ ] [Hemograma cu formula leucocitara, Hb,Ht,indici si reticulocite (Hemograma)](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-hbhtindici-si-reticulocite-hemoleucograma/) — 31 *(upgrade — replaces the Core one)*
+- [ ] [Creatinkinaza (CK)](https://www.synevo.ro/shop/creatinkinaza-ck/) — 26
+- [ ] [Magneziu seric](https://www.synevo.ro/shop/magneziu-seric/) — 19 †
+- *not sold here: Docosapentaenoic Acid (DPA)*
+
+**Metabolic Health** · +1,920 RON · 11 of 12 biomarkers
+- [ ] [Leptina](https://www.synevo.ro/shop/leptina/) — 399 †
+- [ ] [Iod seric](https://www.synevo.ro/shop/iod-seric/) — 376
+- [ ] [Adiponectina](https://www.synevo.ro/shop/adiponectina/) — 334
+- [ ] [Seleniu](https://www.synevo.ro/shop/seleniu/) — 240
+- [ ] [Cupru in plasma](https://www.synevo.ro/shop/cupru-in-plasma/) — 163
+- [ ] [Zinc în plasmă](https://www.synevo.ro/shop/zinc-in-plasma/) — 119 †
+- [ ] [Peptidul C](https://www.synevo.ro/shop/peptidul-c/) — 101
+- [ ] [FT4 (Tiroxina libera)](https://www.synevo.ro/shop/ft4-tiroxina-libera/) — 57 †
+- [ ] [FT3 (triiodotironina libera)](https://www.synevo.ro/shop/ft3-triiodotironina-libera/) — 54 †
+- [ ] [Fructozamina](https://www.synevo.ro/shop/fructozamina/) — 53
+- [ ] [GGT - Gama-glutamiltransferaza (Glutamiltranspeptidaza, Gama GT)](https://www.synevo.ro/shop/gama-glutamiltransferaza-glutamiltranspeptidaza/) — 24
+- *not sold here: 1,5-Anhydroglucitol (1,5-AG)*
+
+**Women's Health** · +1,123 RON · 11 of 11 biomarkers
+- [ ] [Leptina](https://www.synevo.ro/shop/leptina/) — 399 †
+- [ ] [Hormon anti-Müllerian (AMH)](https://www.synevo.ro/shop/hormon-anti-mullerian-amh/) — 237
+- [ ] [Vitamina B12](https://www.synevo.ro/shop/vitamina-b12/) — 76 †
+- [ ] [Anti-TPO (Anti-tiroidperoxidaza)](https://www.synevo.ro/shop/anti-tpo-anti-tiroidperoxidaza/) — 71
+- [ ] [Prolactina](https://www.synevo.ro/shop/prolactina/) — 64 †
+- [ ] [Progesteron](https://www.synevo.ro/shop/progesteron/) — 61
+- [ ] [Folati serici](https://www.synevo.ro/shop/folati-serici/) — 60 †
+- [ ] [FT4 (Tiroxina libera)](https://www.synevo.ro/shop/ft4-tiroxina-libera/) — 57 †
+- [ ] [FT3 (triiodotironina libera)](https://www.synevo.ro/shop/ft3-triiodotironina-libera/) — 54 †
+- [ ] [Fosfor seric](https://www.synevo.ro/shop/fosfor-seric/) — 25
+- [ ] [Magneziu seric](https://www.synevo.ro/shop/magneziu-seric/) — 19 †
+
+**Men's Health** · +1,203 RON · 8 of 8 biomarkers
+- [ ] [Dihidrotestosteron](https://www.synevo.ro/shop/dihidrotestosteron/) — 459
+- [ ] [Leptina](https://www.synevo.ro/shop/leptina/) — 399 †
+- [ ] [Zinc în plasmă](https://www.synevo.ro/shop/zinc-in-plasma/) — 119 †
+- [ ] [Prolactina](https://www.synevo.ro/shop/prolactina/) — 64 †
+- [ ] [Free PSA](https://www.synevo.ro/shop/free-psa/) — 62
+- [ ] [PSA (Antigen specific prostatic)](https://www.synevo.ro/shop/psa-antigen-specific-prostatic/) — 60
+- [ ] [Acid uric seric](https://www.synevo.ro/shop/acid-uric-seric/) — 21 †
+- [ ] [Magneziu seric](https://www.synevo.ro/shop/magneziu-seric/) — 19 †
+
 
 ### Regina Maria
 
-| Whoop Biomarker | Test Name | Estimated Price | Notes |
-|----------------|-----------|-----------------|-------|
-| **Alanine Aminotransferase (ALT)** | Alaninaminotransferaza (ALT/GPT/TGP) | 27 RON | |
-| **Albumin** | Albumina serica | | |
-| **Albumin/Globulin Ratio** | Calculated | — | See Indirect Biomarkers section |
-| **Alkaline Phosphatase (ALP)** | Fosfataza alcalina | 32 RON | |
-| **Apolipoprotein B (ApoB)** | Apolipoproteina B | | |
-| **Aspartate Aminotransferase (AST)** | Aspartataminotransferaza (GOT/AST/TGO) | 27 RON | |
-| **Basophils** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Basophil %** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Blood Urea Nitrogen** | Uree serica | | |
-| **BUN/Creatinine Ratio** | Calculated | — | See Indirect Biomarkers section |
-| **Calcium** | Calciu seric | 27 RON | |
-| **Carbon Dioxide** | Bicarbonat/CO2 | | Part of Echilibru acido bazic panel (145 RON) |
-| **Chloride** | Clor seric | 27 RON | |
-| **Cholesterol/HDL Ratio** | Calculated | — | See Indirect Biomarkers section |
-| **Cortisol** | Cortizol | | |
-| **Creatinine** | Creatinina serica | | |
-| **DHEA Sulfate** | DHEA S | | |
-| **Eosinophils** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Eosinophil %** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Estimated Glomerular Filtration Rate (eGFR)** | Capacitatea totala de legare a fierului (CTLF) | 47 RON | |
-| **Estradiol** | Estradiol | | |
-| **Ferritin** | Feritina | | |
-| **Follicle Stimulating Hormone (FSH)** | FSH (hormon de stimulare foliculara) | | |
-| **Free Testosterone** | Testosteron liber | | |
-| **Globulin** | Calculated | — | See Indirect Biomarkers section |
-| **Glucose** | Glucoza serica | 27 RON | |
-| **HDL Cholesterol** | HDL Colesterol | 32 RON | Also part of Profil lipidic (85 RON) |
-| **Hematocrit** | Ht | 70 RON | Part of Hemoleucograma completa |
-| **Hemoglobin** | Hb | 70 RON | Part of Hemoleucograma completa |
-| **Hemoglobin A1c (HbA1c)** | Hemoglobina glicozilata/HbA1c | 67 RON | |
-| **High-Sensitivity C-Reactive Protein (hs-CRP)** | Proteina C reactiva inalt sensibila (HSCRP) | | |
-| **HOMA-IR Score** | Indice HOMA - evaluarea homeostatica a rezistentei la insulina | | |
-| **Homocysteine** | Homocisteina | 197 RON | |
-| **Insulin** | Calculated | — | See Indirect Biomarkers section |
-| **Iron** | Fier seric (sideremie) | 32 RON | |
-| **Iron % Saturation** | Capacitatea totala de legare a fierului (CTLF) | 47 RON | |
-| **LDL Cholesterol** | LDL Colesterol | 32 RON | Also part of Profil lipidic (85 RON) |
-| **Lipoprotein (a)** | Lipoproteina A | 152 RON | |
-| **Luteinizing Hormone (LH)** | LH (Hormon luteinizant) | | |
-| **Lymphocytes** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Lymphocyte %** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Mean Corpuscular Hemoglobin (MCH)** | MCH | 70 RON | Part of Hemoleucograma completa |
-| **Mean Corpuscular Hemoglobin Concentration (MCHC)** | MCHC | 70 RON | Part of Hemoleucograma completa |
-| **Mean Corpuscular Volume (MCV)** | MCV | 70 RON | Part of Hemoleucograma completa |
-| **Mean Platelet Volume (MPV)** | MPV | 70 RON | Part of Hemoleucograma completa |
-| **Monocytes** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Monocyte %** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Neutrophils** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Neutrophil %** | Hemoleucograma Completa | 70 RON | Part of complete blood count panel |
-| **Non-HDL Cholesterol** | Profil lipidic | 85 RON | Part of lipid panel |
-| **Platelets** | Trombocite | 70 RON | Part of Hemoleucograma completa |
-| **Potassium** | Potasiu seric | 32 RON | |
-| **Red Blood Cell Count (RBC)** | Eritrocite/Hematii | 70 RON | Part of Hemoleucograma completa |
-| **Red Cell Distribution Width (RDW)** | RDW | 70 RON | Part of Hemoleucograma completa |
-| **Sex Hormone Binding Globulin (SHBG)** | SHBG (sex hormone binding globulin) | | |
-| **Sodium** | Sodiu seric | 32 RON | |
-| **Testosterone** | Testosteron | | |
-| **Thyroid-Stimulating Hormone (TSH)** | TSH (Hormon de stimulare tiroidiana) | | |
-| **Total Bilirubin** | Bilirubina totala | 27 RON | |
-| **Total Cholesterol** | Colesterol total | 27 RON | Also part of Profil lipidic (85 RON) |
-| **Total Iron-Binding Capacity (TIBC)** | Capacitatea totala de legare a fierului (CTLF) | 47 RON | |
-| **Total Protein** | Proteine totale serice | | |
-| **Triglycerides** | Trigliceride | 27 RON | Also part of Profil lipidic (85 RON) |
-| **Vitamin D** | 25 OH Vitamina D | | |
-| **White Blood Cells (WBC)** | Leucocite | 70 RON | Part of Hemoleucograma completa |
+**Core — 2,290 RON**
+
+**Blood count** · 60 RON · 20 biomarkers
+- [ ] [Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=160684) — 60 · 20 biomarkers
+
+**Lipids** · 370 RON · 6 biomarkers (+6 derived)
+- [ ] [Lipoproteina A](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157296) — 155
+- [ ] [Apolipoproteina B](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156386) — 130
+- [ ] [Profil lipidic](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155662) — 85 · 4 biomarkers
+
+**Metabolic** · 170 RON · 4 biomarkers (+2 derived)
+- [ ] [Hemoglobina glicozilata/HbA1c](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155394) — 70
+- [ ] [Insulina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155710) — 70
+- [ ] [Glucoza serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155314) — 30 · 2 biomarkers
+
+**Liver** · 125 RON · 4 biomarkers (+1 derived)
+- [ ] [Fosfataza alcalina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155362) — 35
+- [ ] [Alaninaminotransferaza (ALT/GPT/TGP)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155346) — 30
+- [ ] [Aspartataminotransferaza (GOT/AST/TGO)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155348) — 30
+- [ ] [Bilirubina totala](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155298) — 30
+
+**Kidney** · 95 RON · 3 biomarkers (+2 derived)
+- [ ] [Albumina serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=159520) — 35
+- [ ] [Uree serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155324) — 30
+- [ ] [Creatinina serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155310) — 30
+
+**Iron** · 160 RON · 3 biomarkers (+1 derived)
+- [ ] [Feritina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155684) — 75
+- [ ] [Capacitatea totala de legare a fierului (CTLF)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155370) — 50
+- [ ] [Fier seric(sideremie)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155372) — 35
+
+**Electrolytes** · 185 RON · 5 biomarkers (+3 derived)
+- [ ] [Rezerva alcalina (ECO2)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156380) — 55
+- [ ] [Potasiu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155382) — 35
+- [ ] [Sodiu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155386) — 35
+- [ ] [Calciu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157952) — 30
+- [ ] [Clor seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155538) — 30
+
+**Protein** · 35 RON · 1 biomarker (+2 derived)
+- [ ] [Proteine totale serice](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155318) — 35
+
+**Thyroid** · 70 RON · 1 biomarker
+- [ ] [TSH (Hormon de stimulare tiroidiana)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155414) — 70
+
+**Hormones** · 545 RON · 7 biomarkers
+- [ ] [Cortizol](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155400) — 115
+- [ ] [Testosteron liber](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155772) — 80
+- [ ] [SHBG (sex hormone binding globulin)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155848) — 75
+- [ ] [Estradiol](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155404) — 70
+- [ ] [FSH (hormon de stimulare foliculara)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155412) — 70
+- [ ] [Testosteron](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155422) — 70
+- [ ] [LH (Hormon luteinizant)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155410) — 65
+
+**Inflammation** · 300 RON · 2 biomarkers (+1 derived)
+- [ ] [Homocisteina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155964) — 200
+- [ ] [Proteina C reactiva inalt sensibila (HSCRP)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156290) — 100
+
+**Vitamins** · 175 RON · 1 biomarker
+- [ ] [25 OH Vitamina D](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156352) — 175
+
+**Extended** — Whoop's specialized panels, priced on top of Core.
+
+**Heart Health** · +595 RON · 3 of 16 biomarkers
+- [ ] [Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=165402) — 400
+- [ ] [Cystatin C](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=159854) — 165
+- [ ] [Acid uric seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155642) — 30 †
+- *not sold here: Arachidonic Acid (AA), Asymmetric Dimethylarginine (ADMA), Docosahexaenoic Acid (DHA), Docosapentaenoic Acid (DPA), Eicosapentaenoic Acid (EPA), HDL Large, LDL Medium, LDL Particle Number, LDL Peak Size, Linoleic Acid (LA), Lipoprotein-Associated Phospholipase A₂ (Lp-PLA₂), Myeloperoxidase (MPO), Symmetric Dimethylarginine (SDMA)*
+
+**Performance Health** · +510 RON · 8 of 13 biomarkers
+- [ ] [Folati serici (acid folic)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155958) — 100 †
+- [ ] [IGF 1 (Factor 1 de inhibitie a cresterii) (IGF)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155908) — 100
+- [ ] [Vitamina B 12](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155738) — 85 †
+- [ ] [FT3 (triiodotironina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155430) — 70 †
+- [ ] [FT4 (tiroxina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155424) — 70 †
+- [ ] [Creatinkinaza (CK)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155356) — 45
+- [ ] [Magneziu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155378) — 30 †
+- [ ] [Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155332) — 10 *(upgrade — replaces the Core one)*
+- *not sold here: Arachidonic Acid (AA), Docosahexaenoic Acid (DHA), Docosapentaenoic Acid (DPA), Eicosapentaenoic Acid (EPA), Linoleic Acid (LA)*
+
+**Metabolic Health** · +1,705 RON · 10 of 12 biomarkers
+- [ ] [Leptina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157692) — 420 †
+- [ ] [Adiponectina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=160404) — 350
+- [ ] [Seleniu in sange](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=158132) — 250
+- [ ] [C-Peptid](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155934) — 185
+- [ ] [Cupru in ser/plasma](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155782) — 175
+- [ ] [Zinc in ser](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155994) — 110 †
+- [ ] [FT3 (triiodotironina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155430) — 70 †
+- [ ] [FT4 (tiroxina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155424) — 70 †
+- [ ] [Fructozamina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=161406) — 40
+- [ ] [Gamaglutamiltranspeptidaza (GGT)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155536) — 35
+- *not sold here: 1,5-Anhydroglucitol (1,5-AG), Iodine*
+
+**Women's Health** · +1,400 RON · 11 of 11 biomarkers
+- [ ] [Leptina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157692) — 420 †
+- [ ] [Hormon antimullerian (AMH)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155988) — 360
+- [ ] [Folati serici (acid folic)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155958) — 100 †
+- [ ] [Anticorpi anti TPO (ATPO)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155432) — 85
+- [ ] [Vitamina B 12](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155738) — 85 †
+- [ ] [Prolactina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155420) — 75 †
+- [ ] [FT3 (triiodotironina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155430) — 70 †
+- [ ] [FT4 (tiroxina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155424) — 70 †
+- [ ] [Progesteron](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155418) — 70
+- [ ] [Fosfor seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155374) — 35
+- [ ] [Magneziu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155378) — 30 †
+
+**Men's Health** · +1,325 RON · 8 of 8 biomarkers
+- [ ] [Dihidrotestosteron](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156902) — 520
+- [ ] [Leptina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157692) — 420 †
+- [ ] [Zinc in ser](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155994) — 110 †
+- [ ] [Prolactina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155420) — 75 †
+- [ ] [Free PSA](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155446) — 70
+- [ ] [PSA (Antigen specific prostatic)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155444) — 70
+- [ ] [Magneziu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155378) — 30 †
+- [ ] [Acid uric seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155642) — 30 †
+
+
+† appears in more than one specialized panel — you buy it once, so two panels together cost less than their subtotals suggest.
 
 ---
 
-### Synevo
+*Community-maintained mapping, not medical advice. Prices are București, verified
+2026-08-04; check with the provider before ordering.*
 
-| Whoop Biomarker | Test Name | Link | Estimated Price | Notes |
-|----------------|-----------|------|-----------------|-------|
-| **Alanine Aminotransferase (ALT)** | Alaninaminotransferază (GPT/ALAT/ALT) | [Link](https://www.synevo.ro/shop/alaninaminotransferaza-gpt-alat-alt/) | 21 RON | |
-| **Albumin** | Albumina | [Link](https://www.synevo.ro/shop/profil-afectiuni-renale) | | Part of Profil afectiuni renale |
-| **Albumin/Globulin Ratio** | Calculated | — | — | See Indirect Biomarkers section |
-| **Alkaline Phosphatase (ALP)** | Fosfataza alcalina | [Link](https://www.synevo.ro/shop/fosfataza-alcalina/) | 25 RON | |
-| **Apolipoprotein B (ApoB)** | | | | |
-| **Aspartate Aminotransferase (AST)** | Aspartataminotransferaza (GOT/ASAT/AST) | [Link](https://www.synevo.ro/shop/aspartataminotransferaza-got-asat-ast/) | 21 RON | |
-| **Basophils** | Bazofile | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Basophil %** | Bazofile % | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Blood Urea Nitrogen** | Uree | [Link](https://www.synevo.ro/shop/profil-afectiuni-renale) | | Part of Profil afectiuni renale |
-| **BUN/Creatinine Ratio** | Calculated | — | — | See Indirect Biomarkers section |
-| **Calcium** | Calciu seric | [Link](https://www.synevo.ro/shop/calciu-seric/) | 18 RON | |
-| **Carbon Dioxide** | Bicarbonat (ECO2) | [Link](https://www.synevo.ro/shop/bicarbonat-eco2/) | 56 RON | |
-| **Chloride** | Clor seric | [Link](https://www.synevo.ro/shop/clor-seric/) | 25 RON | |
-| **Cholesterol/HDL Ratio** | Calculated | — | — | See Indirect Biomarkers section |
-| **Cortisol** | | | | |
-| **Creatinine** | Creatinina | [Link](https://www.synevo.ro/shop/profil-afectiuni-renale) | | Part of Profil afectiuni renale |
-| **DHEA Sulfate** | | | | |
-| **Eosinophils** | Eozinofile | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Eosinophil %** | Eozinofile % | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Estimated Glomerular Filtration Rate (eGFR)** | eGFR (Rata de filtrare glomerulară estimată) | [Link](https://www.synevo.ro/shop/profil-afectiuni-renale) | | Part of Profil afectiuni renale |
-| **Estradiol** | | | | |
-| **Ferritin** | | | | |
-| **Follicle Stimulating Hormone (FSH)** | | | | |
-| **Free Testosterone** | | | | |
-| **Globulin** | Calculated | — | — | See Indirect Biomarkers section |
-| **Glucose** | Glucoză serică (glicemie) | [Link](https://www.synevo.ro/shop/glucoza-serica-glicemie/) | 21 RON | |
-| **HDL Cholesterol** | Colesterol HDL | [Link](https://www.synevo.ro/shop/colesterol-hdl/) | 26 RON | Also part of Profil Lipidic (90 RON) |
-| **Hematocrit** | Hematocrit (Ht) | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Hemoglobin** | Hemoglobina (Hb) | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Hemoglobin A1c (HbA1c)** | Hemoglobina glicata (Hb A1c) | [Link](https://www.synevo.ro/shop/hemoglobina-glicata-hb-a1c/) | 57 RON | |
-| **High-Sensitivity C-Reactive Protein (hs-CRP)** | | | | |
-| **HOMA-IR Score** | | | | |
-| **Homocysteine** | Homocisteina | [Link](https://www.synevo.ro/shop/homocisteina/) | 203 RON | |
-| **Insulin** | Calculated | — | — | See Indirect Biomarkers section |
-| **Iron** | Sideremie (Fier seric) | [Link](https://www.synevo.ro/shop/sideremie/) | 21 RON | |
-| **Iron % Saturation** | Capacitatea totală de legare a fierului (CTLF) | [Link](https://www.synevo.ro/shop/capacitatea-totala-de-legare-a-fierului-ctlf/) | | Calculated from CTLF + Iron |
-| **LDL Cholesterol** | Colesterol LDL | [Link](https://www.synevo.ro/shop/colesterol-ldl/) | 25 RON | Also part of Profil Lipidic (90 RON) |
-| **Lipoprotein (a)** | Lipoproteina (a) | [Link](https://www.synevo.ro/shop/lipoproteina-a/) | 130 RON | |
-| **Luteinizing Hormone (LH)** | | | | |
-| **Lymphocytes** | Limfocite | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Lymphocyte %** | Limfocite % | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Mean Corpuscular Hemoglobin (MCH)** | MCH | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Mean Corpuscular Hemoglobin Concentration (MCHC)** | MCHC | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Mean Corpuscular Volume (MCV)** | MCV | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Mean Platelet Volume (MPV)** | MPV | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Monocytes** | Monocite | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Monocyte %** | Monocite % | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Neutrophils** | Neutrofile | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Neutrophil %** | Neutrofile % | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Non-HDL Cholesterol** | Colesterol non-HDL | [Link](https://www.synevo.ro/shop/profil-lipidic/) | 90 RON | Part of Profil Lipidic |
-| **Platelets** | Trombocite | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Potassium** | Potasiu seric | [Link](https://www.synevo.ro/shop/potasiu-seric/) | 24 RON | |
-| **Red Blood Cell Count (RBC)** | Eritrocite | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Red Cell Distribution Width (RDW)** | RDW | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-| **Sex Hormone Binding Globulin (SHBG)** | | | | |
-| **Sodium** | Sodiu seric | [Link](https://www.synevo.ro/shop/sodiu-seric/) | 24 RON | |
-| **Testosterone** | | | | |
-| **Thyroid-Stimulating Hormone (TSH)** | | | | |
-| **Total Bilirubin** | Bilirubina totala | [Link](https://www.synevo.ro/shop/bilirubina-totala/) | 18 RON | |
-| **Total Cholesterol** | Colesterol total | [Link](https://www.synevo.ro/shop/colesterol-total/) | 17 RON | Also part of Profil Lipidic (90 RON) |
-| **Total Iron-Binding Capacity (TIBC)** | | | | |
-| **Total Protein** | Proteine totale serice | | | |
-| **Triglycerides** | Trigliceride | [Link](https://www.synevo.ro/shop/trigliceride/) | 20 RON | Also part of Profil Lipidic (90 RON) |
-| **Vitamin D** | | | | |
-| **White Blood Cells (WBC)** | Leucocite | [Link](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/) | 43 RON | Part of Hemogramă completă |
-
----
-
-## 📦 Panel Tests
-
-Panel tests offer multiple biomarkers in a single package, often at a reduced total cost compared to ordering tests individually. Here are the main panels that cover multiple Whoop biomarkers:
-
-### Regina Maria Panels
-
-#### Hemoleucograma Completa cu formula leucocitara, Hb, Ht, indici si reticulocite
-**Price:** 70 RON
-
-**Includes 16 biomarkers:**
-- Hemoglobin (Hb)
-- Hematocrit (Ht)
-- Red Blood Cells (Eritrocite/Hematii)
-- White Blood Cells (Leucocite)
-- Platelets (Trombocite)
-- Mean Corpuscular Volume (MCV)
-- Mean Corpuscular Hemoglobin (MCH)
-- Mean Corpuscular Hemoglobin Concentration (MCHC)
-- Red Cell Distribution Width (RDW)
-- Mean Platelet Volume (MPV)
-- Neutrophils (absolute and %)
-- Lymphocytes (absolute and %)
-- Monocytes (absolute and %)
-- Eosinophils (absolute and %)
-- Basophils (absolute and %)
-
-**Cost comparison:** Ordering all blood count biomarkers individually would cost significantly more than 70 RON.
-
-#### Profil Lipidic
-**Price:** 85 RON
-
-**Includes 4 biomarkers:**
-- Total Cholesterol (Colesterol total)
-- HDL Cholesterol
-- LDL Cholesterol
-- Triglycerides
-
-**Cost comparison:** Individual tests: 27 + 32 + 32 + 27 = 118 RON (saves 33 RON with panel)
-
----
-
-### Synevo Panels
-
-#### Hemogramă cu formulă leucocitară cu Hb, Ht și indici
-**Link:** [Hemogramă completă](https://www.synevo.ro/shop/hemograma-cu-formula-leucocitara-cu-hb-ht-si-indici/)
-**Price:** 43 RON
-
-**Includes 16 biomarkers:**
-- Hemoglobin (Hb)
-- Hematocrit (Ht)
-- Red Blood Cells (Eritrocite)
-- White Blood Cells (Leucocite)
-- Platelets (Trombocite)
-- Mean Corpuscular Volume (MCV)
-- Mean Corpuscular Hemoglobin (MCH)
-- Mean Corpuscular Hemoglobin Concentration (MCHC)
-- Red Cell Distribution Width (RDW)
-- Mean Platelet Volume (MPV)
-- Neutrophils (Neutrofile - absolute and %)
-- Lymphocytes (Limfocite - absolute and %)
-- Monocytes (Monocite - absolute and %)
-- Eosinophils (Eozinofile - absolute and %)
-- Basophils (Bazofile - absolute and %)
-
-**Cost comparison:** This panel provides excellent value for all complete blood count biomarkers.
-
-#### Profil Lipidic
-**Link:** [Profil Lipidic](https://www.synevo.ro/shop/profil-lipidic/)
-**Price:** 90 RON
-
-**Includes 6 biomarkers:**
-- Total Cholesterol (Colesterol Total)
-- HDL Cholesterol (Colesterol HDL)
-- LDL Cholesterol (Colesterol LDL)
-- Triglycerides (Trigliceride)
-- Non-HDL Cholesterol (Colesterol non-HDL)
-- Lipids (Lipide)
-
-**Cost comparison:** Individual tests: 17 + 26 + 25 + 20 = 88 RON (panel costs 2 RON more but includes Non-HDL Cholesterol and Lipids)
-
-#### Profil Afectiuni Renale (Kidney Function Profile)
-**Link:** [Profil afectiuni renale](https://www.synevo.ro/shop/profil-afectiuni-renale)
-
-**Includes 4 biomarkers:**
-- Albumin (Albumina)
-- Blood Urea Nitrogen (Uree)
-- Creatinine (Creatinina)
-- Estimated Glomerular Filtration Rate (eGFR)
-
----
-
-## 🧮 Indirect Biomarkers
-
-Some Whoop biomarkers are not directly measured but are calculated from other test results. Here's how to obtain them:
-
-### Albumin/Globulin Ratio
-
-**Formula:** Albumin / Globulin
-
-**Required tests:**
-- Albumin (Albumina serica)
-- Globulin (Total Protein - Albumin)
-
-**Note:** You need both Total Protein and Albumin tests to calculate Globulin, then calculate the ratio.
-
----
-
-### BUN/Creatinine Ratio
-
-**Formula:** Blood Urea Nitrogen / Creatinine
-
-**Required tests:**
-- Blood Urea Nitrogen (Uree serica / Uree)
-- Creatinine (Creatinina serica / Creatinina)
-
-**Note:** Both available individually or as part of kidney function panels at both providers.
-
----
-
-### Cholesterol/HDL Ratio
-
-**Formula:** Total Cholesterol / HDL Cholesterol
-
-**Required tests:**
-- Total Cholesterol (Colesterol total)
-- HDL Cholesterol (HDL Colesterol)
-
-**Note:** Both included in the Profil Lipidic panel at both providers.
-
----
-
-### Globulin
-
-**Formula:** Total Protein - Albumin
-
-**Required tests:**
-- Total Protein (Proteine totale serice)
-- Albumin (Albumina serica / Albumina)
-
-**Note:** Not directly measured; calculated from the difference between total protein and albumin.
-
----
-
-### Insulin
-
-**Note:** While listed as "Indirect" in some contexts, insulin is typically a direct measurement. Check with your provider for "Insulina" test availability if needed for HOMA-IR calculations.
-
----
-
-## 📝 Notes & Disclaimer
-
-### About Pricing
-
-- **Prices vary by location:** Laboratory test prices may differ between cities and specific clinic locations
-- **Date of pricing:** Prices listed were current as of February 2026
-- **Always verify:** Check the current price at your local provider before ordering tests
-- **Home collection fees:** Additional charges may apply for at-home sample collection services
-
-### About Test Availability
-
-- **Blank entries:** Where test names are blank, the mapping has not been confirmed. Contact your provider directly to inquire about specific biomarkers
-- **Test names:** Romanian test names are preserved exactly as shown on provider websites to help you find them easily
-- **Panel benefits:** Consider ordering panel tests when you need multiple related biomarkers—they often provide cost savings
-
-### Medical Disclaimer
-
-**This guide is for informational purposes only.**
-
-- This is **not medical advice**
-- Always consult with your healthcare provider before ordering lab tests
-- Lab results should be interpreted by qualified healthcare professionals
-- Biomarker ranges and their clinical significance should be evaluated by your doctor
-- This mapping was created by community effort and may contain errors or become outdated
-
-### Contributing
-
-Found an error or have updated pricing information? This is a community resource, and contributions are welcome. Please verify information with official provider websites before suggesting updates.
-
-### Last Updated
-
-February 8, 2026
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-**Made for the Romanian Whoop community** 🇷🇴
-
-*Track your biomarkers, optimize your health.*
+MIT — see [LICENSE](LICENSE).
