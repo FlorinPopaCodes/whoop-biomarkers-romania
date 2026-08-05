@@ -16,11 +16,11 @@ Full biomarker-by-biomarker comparison — Core, Extended, and Derived — lives
 
 **Common set — 56 of 57 purchasable Core biomarkers, all three providers**
 
-| Provider | Core basket | Coverage |
-|---|---:|---|
-| Synevo | **1,797 RON** | 57/57 |
-| Regina Maria | **2,175 RON** | 57/57 |
-| MedLife | **1,858 RON** | 56/57 |
+| Provider | Core basket | Coverage | Subscriber (estimated) |
+|---|---:|---|---:|
+| Synevo | **1,797 RON** | 57/57 | — |
+| Regina Maria | **2,175 RON** | 57/57 | **~985 RON** |
+| MedLife | **1,858 RON** | 56/57 | **~810 RON** |
 
 **Synevo wins on price** by 61 RON over MedLife and 378 RON over Regina Maria.
 Cortisol is the one Core biomarker MedLife doesn't sell, so it's excluded from

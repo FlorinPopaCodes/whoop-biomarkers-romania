@@ -33,10 +33,14 @@ next full sweep unifies them, a footer may carry one date per provider instead
 of one shared date. The next full sweep collapses it back to a single date.
 
 After recomputing the Common Set totals in `BIOMARKERS.md`, copy the same two
-numbers into `README.md`'s teaser under `## Biomarkers`. Once both
-subscription files exist, the teaser also carries a subscriber-pricing
-column — copy that from them on the same sweep. Nothing enforces either
-copy; forgetting it is the fast way for the files to quietly disagree.
+numbers into `README.md`'s teaser under `## Biomarkers`. The teaser's
+`Subscriber (estimated)` column also has to stay in sync — copy Regina
+Maria's and MedLife's headline Core totals from
+`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` and
+`SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` on the same sweep, right after
+each subscription file's own pass (below) recomputes them. Nothing enforces
+any of these copies; forgetting one is the fast way for the files to
+quietly disagree.
 
 The Basket recompute (see below) determines the `SHOPPING-LIST-*.md` contents
 directly — there's no separate step, but a price change that flips a
