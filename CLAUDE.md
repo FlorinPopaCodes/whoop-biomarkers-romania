@@ -56,16 +56,15 @@ find the annex.
 - *Core* is one flat table, alphabetical by Whoop biomarker, 7 columns: Whoop
   Biomarker · Synevo test · RON · Regina Maria test · RON · MedLife test · RON.
   Plain text, no links.
-- *Extended* is the same shape but still 5 columns — MedLife isn't priced for
-  Extended yet — grouped into subsections by Whoop's five Specialized Panels
-  (see Blocks below). A biomarker shared by more than one
+- *Extended* is the same shape, 7 columns, grouped into subsections by Whoop's
+  five Specialized Panels (see Blocks below). A biomarker shared by more than one
   panel repeats under each, marked `†` — this is deliberate: it keeps every
   panel's row count matching its own coverage count in the shopping list, at
   the cost of the Extended table being longer than a flat list would be.
 - Each half is followed by its own short Derived list (Name · Formula, 2
   columns, no price columns — see Pricing rules) instead of interleaving
   Derived rows into the price table.
-- **DHEA Sulfate is unplaced.** It's Extended, priced at both providers, but
+- **DHEA Sulfate is unplaced.** It's Extended, priced at all three providers, but
   isn't part of any of Whoop's five Specialized Panels — checked directly
   against Whoop's panel marketing, not inferred. It currently sits in its own
   one-line "not yet placed" note rather than being folded into a topically-close
@@ -299,6 +298,7 @@ change far less often than prices.
 | Regina Maria | Glucoza serica | 30 | 2: Blood Fasting Glucose, Glucose |
 | Regina Maria | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 | 2: LDL Cholesterol, LDL Small |
 | MedLife | Hemoleucograma completa | 51 | 20: Basophil %, Basophils, Eosinophil %, Eosinophils, Hematocrit, Hemoglobin, Lymphocyte %, Lymphocytes, Mean Corpuscular Hemoglobin (MCH), Mean Corpuscular Hemoglobin Concentration (MCHC), Mean Corpuscular Volume (MCV), Mean Platelet Volume (MPV), Monocyte %, Monocytes, Neutrophil %, Neutrophils, Platelets, Red Blood Cell Count (RBC), Red Cell Distribution Width (RDW), White Blood Cells (WBC) |
+| MedLife | Acizi grasi omega 3 si omega 6 | 512 | 4: Arachidonic Acid (AA), Docosahexaenoic Acid (DHA), Eicosapentaenoic Acid (EPA), Linoleic Acid (LA) — same name and yield assumed identical to Synevo's identically-named panel; MedLife has no per-test deep link to verify the composition directly |
 
 ## Checking whether Whoop's list moved
 

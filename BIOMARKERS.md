@@ -109,101 +109,101 @@ Costs 0 RON at all three providers — buy the inputs above and compute it.
 
 ## Extended
 
-Beyond Core, Synevo covers 34 of 43 purchasable Extended biomarkers and Regina
-Maria 28. Grouped by Whoop's five Specialized Panels; a biomarker shared by more
-than one panel repeats, marked `†`.
+Beyond Core, Synevo covers 34 of 43 purchasable Extended biomarkers, Regina
+Maria 28, and MedLife 34. Grouped by Whoop's five Specialized Panels; a biomarker
+shared by more than one panel repeats, marked `†`.
 
 ### Heart Health
 
-| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
-|---|---|---:|---|---:|
-| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Asymmetric Dimethylarginine (ADMA) | — | — | — | — |
-| Cystatin C | Cistatina C | 115 | Cystatin C | 165 |
-| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Docosapentaenoic Acid (DPA) | — | — | — | — |
-| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| HDL Large | — | — | — | — |
-| LDL Medium | — | — | — | — |
-| LDL Particle Number | — | — | — | — |
-| LDL Peak Size | — | — | — | — |
-| LDL Small | small dense LDL (sdLDL) | 390 | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 |
-| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Lipoprotein-Associated Phospholipase A₂ (Lp-PLA₂) | Lipoproteina asociata fosfolipazei A2 | 399 | — | — |
-| Myeloperoxidase (MPO) | — | — | — | — |
-| Symmetric Dimethylarginine (SDMA) | — | — | — | — |
-| Uric Acid (UA) | Acid uric seric † | 21 | Acid uric seric † | 30 |
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON | MedLife | RON |
+|---|---|---:|---|---:|---|---:|
+| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Asymmetric Dimethylarginine (ADMA) | — | — | — | — | — | — |
+| Cystatin C | Cistatina C | 115 | Cystatin C | 165 | Cistatina C | 124 |
+| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Docosapentaenoic Acid (DPA) | — | — | — | — | — | — |
+| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| HDL Large | — | — | — | — | — | — |
+| LDL Medium | — | — | — | — | — | — |
+| LDL Particle Number | — | — | — | — | — | — |
+| LDL Peak Size | — | — | — | — | — | — |
+| LDL Small | small dense LDL (sdLDL) | 390 | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 | Small dense LDL (sdLDL) | 370 |
+| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Lipoprotein-Associated Phospholipase A₂ (Lp-PLA₂) | Lipoproteina asociata fosfolipazei A2 | 399 | — | — | Lipoproteina asociata fosfolipazei A2 | 305 |
+| Myeloperoxidase (MPO) | — | — | — | — | — | — |
+| Symmetric Dimethylarginine (SDMA) | — | — | — | — | — | — |
+| Uric Acid (UA) | Acid uric seric † | 21 | Acid uric seric † | 30 | Acid uric † | 21 |
 
 ### Performance Health
 
-| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
-|---|---|---:|---|---:|
-| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Creatine Kinase (CK) | Creatinkinaza (CK) | 26 | Creatinkinaza (CK) | 45 |
-| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Docosapentaenoic Acid (DPA) | — | — | — | — |
-| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Folate (Vitamin B9) | Folati serici † | 60 | Folati serici (acid folic) † | 100 |
-| Free T3 (FT3) | FT3 (triiodotironina libera) † | 54 | FT3 (triiodotironina libera) † | 70 |
-| Free T4 (FT4) | FT4 (Tiroxina libera) † | 57 | FT4 (tiroxina libera) † | 70 |
-| IGF-1 | IGF-I (somatomedin C) | 90 | IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | 100 |
-| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — |
-| Magnesium | Magneziu seric † | 19 | Magneziu seric † | 30 |
-| Reticulocyte Count (RET) | Hemograma cu formula leucocitara, Hb,Ht,indici si reticulocite (Hemograma) | 75 | Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite | 70 |
-| Vitamin B12 (cobalamin) | Vitamina B12 † | 76 | Vitamina B 12 † | 85 |
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON | MedLife | RON |
+|---|---|---:|---|---:|---|---:|
+| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Creatine Kinase (CK) | Creatinkinaza (CK) | 26 | Creatinkinaza (CK) | 45 | Creatinkinaza-CK | 24 |
+| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Docosapentaenoic Acid (DPA) | — | — | — | — | — | — |
+| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Folate (Vitamin B9) | Folati serici † | 60 | Folati serici (acid folic) † | 100 | Folat seric † | 61 |
+| Free T3 (FT3) | FT3 (triiodotironina libera) † | 54 | FT3 (triiodotironina libera) † | 70 | Free T3 † | 55 |
+| Free T4 (FT4) | FT4 (Tiroxina libera) † | 57 | FT4 (tiroxina libera) † | 70 | Free T4 † | 60 |
+| IGF-1 | IGF-I (somatomedin C) | 90 | IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | 100 | IGF-1 (somatomedin C) | 78 |
+| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | 502 | — | — | Acizi grasi omega 3 si omega 6 † | 512 |
+| Magnesium | Magneziu seric † | 19 | Magneziu seric † | 30 | Magneziu † | 20 |
+| Reticulocyte Count (RET) | Hemograma cu formula leucocitara, Hb,Ht,indici si reticulocite (Hemograma) | 75 | Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite | 70 | Numaratoare de reticulocite | 44 |
+| Vitamin B12 (cobalamin) | Vitamina B12 † | 76 | Vitamina B 12 † | 85 | Vitamina B12 † | 68 |
 
 ### Metabolic Health
 
-| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
-|---|---|---:|---|---:|
-| 1,5-Anhydroglucitol (1,5-AG) | — | — | — | — |
-| Adiponectin | Adiponectina | 334 | Adiponectina | 350 |
-| C-Peptide | Peptidul C | 101 | C-Peptid | 185 |
-| Copper (serum) | Cupru in sange (plasma/ser) | 163 | Cupru in ser/plasma | 175 |
-| Free T3 (FT3) | FT3 (triiodotironina libera) † | 54 | FT3 (triiodotironina libera) † | 70 |
-| Free T4 (FT4) | FT4 (Tiroxina libera) † | 57 | FT4 (tiroxina libera) † | 70 |
-| Fructosamine | Fructozamina | 53 | Fructozamina | 40 |
-| Gamma-Glutamyl Transferase (GGT) | Gama-glutamiltransferaza (Glutamiltranspeptidaza) | 24 | Gamaglutamiltranspeptidaza (GGT) | 35 |
-| Iodine | Iod seric | 376 | — | — |
-| Leptin | Leptina † | 399 | Leptina † | 420 |
-| Selenium | Seleniu | 240 | Seleniu in sange | 250 |
-| Zinc (serum) | Zinc în plasmă † | 119 | Zinc in ser † | 110 |
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON | MedLife | RON |
+|---|---|---:|---|---:|---|---:|
+| 1,5-Anhydroglucitol (1,5-AG) | — | — | — | — | — | — |
+| Adiponectin | Adiponectina | 334 | Adiponectina | 350 | Adiponectina | 309 |
+| C-Peptide | Peptidul C | 101 | C-Peptid | 185 | Peptid C | 100 |
+| Copper (serum) | Cupru in sange (plasma/ser) | 163 | Cupru in ser/plasma | 175 | Cupru seric | 106 |
+| Free T3 (FT3) | FT3 (triiodotironina libera) † | 54 | FT3 (triiodotironina libera) † | 70 | Free T3 † | 55 |
+| Free T4 (FT4) | FT4 (Tiroxina libera) † | 57 | FT4 (tiroxina libera) † | 70 | Free T4 † | 60 |
+| Fructosamine | Fructozamina | 53 | Fructozamina | 40 | Fructozamina | 47 |
+| Gamma-Glutamyl Transferase (GGT) | Gama-glutamiltransferaza (Glutamiltranspeptidaza) | 24 | Gamaglutamiltranspeptidaza (GGT) | 35 | Gama GT | 23 |
+| Iodine | Iod seric | 376 | — | — | Iod in sange | 210 |
+| Leptin | Leptina † | 399 | Leptina † | 420 | Leptina † | 321 |
+| Selenium | Seleniu | 240 | Seleniu in sange | 250 | Seleniu | 216 |
+| Zinc (serum) | Zinc în plasmă † | 119 | Zinc in ser † | 110 | Zinc † | 116 |
 
 ### Women's Health
 
-| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
-|---|---|---:|---|---:|
-| Anti-Müllerian Hormone (AMH) | Hormon anti-Müllerian (AMH) | 237 | Hormon antimullerian (AMH) | 360 |
-| Folate (Vitamin B9) | Folati serici † | 60 | Folati serici (acid folic) † | 100 |
-| Free T3 (FT3) | FT3 (triiodotironina libera) † | 54 | FT3 (triiodotironina libera) † | 70 |
-| Free T4 (FT4) | FT4 (Tiroxina libera) † | 57 | FT4 (tiroxina libera) † | 70 |
-| Leptin | Leptina † | 399 | Leptina † | 420 |
-| Magnesium | Magneziu seric † | 19 | Magneziu seric † | 30 |
-| Phosphorus | Fosfor seric | 25 | Fosfor seric | 35 |
-| Progesterone | Progesteron | 61 | Progesteron | 70 |
-| Prolactin | Prolactina † | 64 | Prolactina † | 75 |
-| Thyroid Peroxidase Antibodies (TPOAb) | Anti-TPO (Anti-tiroidperoxidaza) | 71 | Anticorpi anti TPO (ATPO) | 85 |
-| Vitamin B12 (cobalamin) | Vitamina B12 † | 76 | Vitamina B 12 † | 85 |
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON | MedLife | RON |
+|---|---|---:|---|---:|---|---:|
+| Anti-Müllerian Hormone (AMH) | Hormon anti-Müllerian (AMH) | 237 | Hormon antimullerian (AMH) | 360 | Hormon Anti-Mullerian | 288 |
+| Folate (Vitamin B9) | Folati serici † | 60 | Folati serici (acid folic) † | 100 | Folat seric † | 61 |
+| Free T3 (FT3) | FT3 (triiodotironina libera) † | 54 | FT3 (triiodotironina libera) † | 70 | Free T3 † | 55 |
+| Free T4 (FT4) | FT4 (Tiroxina libera) † | 57 | FT4 (tiroxina libera) † | 70 | Free T4 † | 60 |
+| Leptin | Leptina † | 399 | Leptina † | 420 | Leptina † | 321 |
+| Magnesium | Magneziu seric † | 19 | Magneziu seric † | 30 | Magneziu † | 20 |
+| Phosphorus | Fosfor seric | 25 | Fosfor seric | 35 | Fosfor seric | 26 |
+| Progesterone | Progesteron | 61 | Progesteron | 70 | Progesteron | 58 |
+| Prolactin | Prolactina † | 64 | Prolactina † | 75 | Prolactina † | 61 |
+| Thyroid Peroxidase Antibodies (TPOAb) | Anti-TPO (Anti-tiroidperoxidaza) | 71 | Anticorpi anti TPO (ATPO) | 85 | Ac Anti-Tireoperoxidaza (ATPO) | 71 |
+| Vitamin B12 (cobalamin) | Vitamina B12 † | 76 | Vitamina B 12 † | 85 | Vitamina B12 † | 68 |
 
 ### Men's Health
 
-| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
-|---|---|---:|---|---:|
-| Dihydrotestosterone (DHT) | Dihidrotestosteron | 459 | Dihidrotestosteron | 520 |
-| Leptin | Leptina † | 399 | Leptina † | 420 |
-| Magnesium | Magneziu seric † | 19 | Magneziu seric † | 30 |
-| PSA, Free | Free PSA | 62 | Free PSA | 70 |
-| PSA, Total | PSA (Antigen specific prostatic) | 60 | PSA (Antigen specific prostatic) | 70 |
-| Prolactin | Prolactina † | 64 | Prolactina † | 75 |
-| Uric Acid (UA) | Acid uric seric † | 21 | Acid uric seric † | 30 |
-| Zinc (serum) | Zinc în plasmă † | 119 | Zinc in ser † | 110 |
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON | MedLife | RON |
+|---|---|---:|---|---:|---|---:|
+| Dihydrotestosterone (DHT) | Dihidrotestosteron | 459 | Dihidrotestosteron | 520 | Dihidrotestosteron (DHT) | 285 |
+| Leptin | Leptina † | 399 | Leptina † | 420 | Leptina † | 321 |
+| Magnesium | Magneziu seric † | 19 | Magneziu seric † | 30 | Magneziu † | 20 |
+| PSA, Free | Free PSA | 62 | Free PSA | 70 | Free PSA | 62 |
+| PSA, Total | PSA (Antigen specific prostatic) | 60 | PSA (Antigen specific prostatic) | 70 | Ag. specific prostatic (PSA) | 63 |
+| Prolactin | Prolactina † | 64 | Prolactina † | 75 | Prolactina † | 61 |
+| Uric Acid (UA) | Acid uric seric † | 21 | Acid uric seric † | 30 | Acid uric † | 21 |
+| Zinc (serum) | Zinc în plasmă † | 119 | Zinc in ser † | 110 | Zinc † | 116 |
 
 † appears in more than one Specialized Panel — priced here standalone; see the
 shopping list for what buying it once actually costs across panels.
 
-**Not yet placed:** DHEA Sulfate (Synevo 65 RON, Regina Maria 70 RON) is Extended
-but isn't part of any of Whoop's five Specialized Panels — see `CLAUDE.md` for
-why this is still open.
+**Not yet placed:** DHEA Sulfate (Synevo 65 RON, Regina Maria 70 RON, MedLife 57
+RON) is Extended but isn't part of any of Whoop's five Specialized Panels — see
+`CLAUDE.md` for why this is still open.
 
 **Extended — Derived (9)**
 
@@ -219,7 +219,7 @@ why this is still open.
 | PSA %, Free | = PSA Free ÷ PSA Total × 100 |
 | Reticulocyte Index (RI) | = Reticulocyte % × (Hematocrit ÷ 45) |
 
-Costs 0 RON at both providers — buy the inputs above and compute it.
+Costs 0 RON at all three providers — buy the inputs above and compute it.
 
 ---
 

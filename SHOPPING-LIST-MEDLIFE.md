@@ -71,6 +71,67 @@ hyperlinked; search the catalogue page for the name to order.
 **Vitamins** · 174 RON · 1 biomarker
 - [ ] 25-OH Vitamina D — 174
 
+**Extended** — Whoop's specialized panels, priced on top of Core.
+
+**Heart Health** · +1,332 RON · 8 of 16 biomarkers
+- [ ] Acizi grasi omega 3 si omega 6 — 512 † · 4 biomarkers
+- [ ] Small dense LDL (sdLDL) — 370
+- [ ] Lipoproteina asociata fosfolipazei A2 — 305
+- [ ] Cistatina C — 124
+- [ ] Acid uric — 21 †
+- *not sold here: Asymmetric Dimethylarginine (ADMA), Docosapentaenoic Acid (DPA), HDL Large, LDL Medium, LDL Particle Number, LDL Peak Size, Myeloperoxidase (MPO), Symmetric Dimethylarginine (SDMA)*
+
+**Performance Health** · +922 RON · 12 of 13 biomarkers
+- [ ] Acizi grasi omega 3 si omega 6 — 512 † · 4 biomarkers
+- [ ] IGF-1 (somatomedin C) — 78
+- [ ] Vitamina B12 — 68 †
+- [ ] Folat seric — 61 †
+- [ ] Free T4 — 60 †
+- [ ] Free T3 — 55 †
+- [ ] Numaratoare de reticulocite — 44
+- [ ] Creatinkinaza-CK — 24
+- [ ] Magneziu — 20 †
+- *not sold here: Docosapentaenoic Acid (DPA)*
+
+**Metabolic Health** · +1,563 RON · 11 of 12 biomarkers
+- [ ] Leptina — 321 †
+- [ ] Adiponectina — 309
+- [ ] Seleniu — 216
+- [ ] Iod in sange — 210
+- [ ] Zinc — 116 †
+- [ ] Cupru seric — 106
+- [ ] Peptid C — 100
+- [ ] Free T4 — 60 †
+- [ ] Free T3 — 55 †
+- [ ] Fructozamina — 47
+- [ ] Gama GT — 23
+- *not sold here: 1,5-Anhydroglucitol (1,5-AG)*
+
+**Women's Health** · +1,089 RON · 11 of 11 biomarkers
+- [ ] Leptina — 321 †
+- [ ] Hormon Anti-Mullerian — 288
+- [ ] Ac Anti-Tireoperoxidaza (ATPO) — 71
+- [ ] Vitamina B12 — 68 †
+- [ ] Folat seric — 61 †
+- [ ] Prolactina — 61 †
+- [ ] Free T4 — 60 †
+- [ ] Progesteron — 58
+- [ ] Free T3 — 55 †
+- [ ] Fosfor seric — 26
+- [ ] Magneziu — 20 †
+
+**Men's Health** · +949 RON · 8 of 8 biomarkers
+- [ ] Leptina — 321 †
+- [ ] Dihidrotestosteron (DHT) — 285
+- [ ] Zinc — 116 †
+- [ ] Ag. specific prostatic (PSA) — 63
+- [ ] Free PSA — 62
+- [ ] Prolactina — 61 †
+- [ ] Acid uric — 21 †
+- [ ] Magneziu — 20 †
+
+† appears in more than one specialized panel — you buy it once, so two panels together cost less than their subtotals suggest.
+
 ---
 
 *Community-maintained mapping, not medical advice. Prices are national,
