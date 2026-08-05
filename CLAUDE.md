@@ -1,14 +1,14 @@
 # Maintaining this repo
 
-`README.md`, `BIOMARKERS.md`, `SHOPPING-LIST-SYNEVO.md` and
-`SHOPPING-LIST-REGINA-MARIA.md` together are the product. `BIOMARKERS.md` is
-the source of truth for every price; the two `SHOPPING-LIST-*.md` files are
-the source of truth for what to actually order; `README.md` is a thin landing
-page — intro, provider links, the headline Core verdict, and pointers to the
-other files. There are no scripts. Everything here is what you need to
-refresh it correctly.
+`README.md`, `BIOMARKERS.md`, `SHOPPING-LIST-SYNEVO.md`,
+`SHOPPING-LIST-REGINA-MARIA.md` and `SHOPPING-LIST-MEDLIFE.md` together are
+the product. `BIOMARKERS.md` is the source of truth for every price; the
+three `SHOPPING-LIST-*.md` files are the source of truth for what to
+actually order; `README.md` is a thin landing page — intro, provider links,
+the headline Core verdict, and pointers to the other files. There are no
+scripts. Everything here is what you need to refresh it correctly.
 
-`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` is a fifth file, deliberately
+`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` is a sixth file, deliberately
 outside "the product": it prices Regina Maria's Comfort Premium subscription
 tier for a subscriber, which isn't a price every reader of this repo gets.
 See its own section below.
@@ -18,15 +18,17 @@ the rest of the vocabulary used below.
 
 ## Refresh cadence
 
-Every ~3 months. Re-verify **every** price at both providers, not just the gaps:
-a table mixing fresh and stale cells under one date lies about half its contents.
-Re-stamp the date at the bottom of `BIOMARKERS.md`, both `SHOPPING-LIST-*.md`
-files, and `README.md` only when the whole sweep is done — all four files
-share prices, so they share a date.
+Every ~3 months. Re-verify **every** price at all three providers, not just
+the gaps: a table mixing fresh and stale cells under one date lies about half
+its contents. Re-stamp the date at the bottom of `BIOMARKERS.md`, all three
+`SHOPPING-LIST-*.md` files, and `README.md` only when the whole sweep is
+done — all five files share prices, so they share a date.
 
 After recomputing the Common Set totals in `BIOMARKERS.md`, copy the same two
-numbers into `README.md`'s teaser under `## Biomarkers`. Nothing enforces that
-copy; forgetting it is the fast way for the two files to quietly disagree.
+numbers into `README.md`'s teaser under `## Biomarkers`. Once both
+subscription files exist, the teaser also carries a subscriber-pricing
+column — copy that from them on the same sweep. Nothing enforces either
+copy; forgetting it is the fast way for the files to quietly disagree.
 
 The Basket recompute (see below) determines the `SHOPPING-LIST-*.md` contents
 directly — there's no separate step, but a price change that flips a
@@ -65,12 +67,12 @@ Together they answer *which provider do I pick*. `README.md` keeps only the
 Common Set totals as a teaser, linking to `BIOMARKERS.md` for the row-by-row
 breakdown.
 
-**Shopping list** (`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`)
-— one file per provider, each grouped into Blocks with checkboxes, per-item
-prices, subtotals and biomarker counts. Test names are hyperlinked here and
-nowhere else. Together they answer *what do I actually order*. Split per
-provider rather than kept as one file because a reader shops at one provider
-at a time, not both.
+**Shopping list** (`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`,
+`SHOPPING-LIST-MEDLIFE.md`) — one file per provider, each grouped into Blocks
+with checkboxes, per-item prices, subtotals and biomarker counts. Test names
+are hyperlinked here and nowhere else. Together they answer *what do I
+actually order*. Split per provider rather than kept as one file because a
+reader shops at one provider at a time, not all of them at once.
 
 ## Pricing rules
 
@@ -99,11 +101,11 @@ Basket already contains its inputs, so buying it is pure waste. Derived stays 0.
 genuinely sells nothing that yields it. `?` means undetermined. Never render an
 undetermined cell as `—`: unresolved biomarkers are excluded from the Common Set
 and named explicitly under the totals, and quietly demoting one to "unavailable"
-shifts *both* providers' totals on evidence you don't have.
+shifts every provider's totals on evidence you don't have.
 
 ## Totals
 
-Quote the head-to-head over the **Common Set** — the Core biomarkers both
+Quote the head-to-head over the **Common Set** — the Core biomarkers all
 providers cover — so the comparison is like-for-like. List each provider's
 exclusives separately with their prices. Never fold an exclusive into the
 comparable total.
@@ -117,7 +119,7 @@ This is the one way this repo goes quietly wrong. Drop Synevo's lipid profile
 from 90 to 60 RON and the right answer changes — buying the panel now beats
 buying its four parts — but nothing in the README looks broken. So:
 
-> **After changing any price, recompute both Baskets from scratch.**
+> **After changing any price, recompute every Basket from scratch.**
 
 To recompute: for each provider, choose the set of tests of least total cost
 whose union covers every covered Core biomarker. The only real decisions are
@@ -142,7 +144,7 @@ Block subtotals deliberately do not add up.
 
 ## Looking prices up
 
-The two providers need completely different handling. Do not treat them
+The three providers need completely different handling. Do not treat them
 symmetrically.
 
 **Regina Maria — one request gets everything.**
@@ -182,8 +184,46 @@ JSON-LD `sku` is a stable `CH…` code worth recording. The on-site A-Z filter i
 Livewire and does not respond to query params, so the sitemap is the only bulk
 route. One national price, no region selector.
 
-Neither site has bot protection, a login wall, or a JS requirement for prices.
-Neither publishes a usable PDF price list — third-party ones are stale B2B rates.
+**MedLife — one request gets everything.**
+
+```
+https://www.medlife.ro/gama-analize
+```
+
+Server-renders the entire 2,031-test catalogue in ~1.8 MB of HTML on a plain
+GET with no parameters, no login, no pagination, no JS. Each row carries
+machine-readable attributes, contrary to how it first looks — there is no
+JSON-LD and no `data-drupal-*` naming, but the same shape exists under
+different names:
+
+```html
+<li class="option" data-name="1,25 Dihidroxi Vitamina D3"
+    data-price="278 lei" data-id="23024768">
+```
+
+inside `<ul id="servicii-wrapper">`. Parse `data-name`, `data-price` and
+`data-id`. `data-id` is a stable per-test numeric ID (2,031 unique values for
+2,031 rows, one-to-one) worth recording the way Synevo's `CH…` SKU and Regina
+Maria's `data-drupal-investigation` are. There is no per-test deep link —
+neither a Synevo-style slug nor a Regina Maria-style dictionary URL exists on
+this page.
+
+The page also shows a locality selector, a specific-lab selector, and a
+27-category filter, all defaulting to "București" / "Laborator MedLife
+Grivița" / "Toate categoriile" in the markup. Verified 2026-08-05 that these
+are decorative for scraping purposes: submitting `field_localitate_target_id`
+as a GET query param, and separately POSTing the exposed Drupal form
+(`medlife_servicii_laborator_gama_analize`) with a different locality, both
+left the row count and every sampled price byte-identical to the untouched
+default, and the response still echoed the same hardcoded selections
+regardless of what was submitted — the filtering that select implies happens
+client-side (the page ships React) over data that's already all there.
+**Prices are national and the default fetch is exhaustive; there is nothing
+to iterate by city, lab, or category.**
+
+None of the three sites has bot protection, a login wall, or a JS requirement
+for prices. None publishes a usable PDF price list — third-party ones are
+stale B2B rates.
 
 ## Subscription pricing (Regina Maria Comfort Premium)
 
@@ -272,12 +312,23 @@ actually DHEA Sulfate. Normalize to whoop.com's Title Case spellings.
 
 ## Style
 
-Spartan. Two deliverables split across four files (`BIOMARKERS.md` for the
-comparison tables, `SHOPPING-LIST-SYNEVO.md` and `SHOPPING-LIST-REGINA-MARIA.md`
-for the shopping list, `README.md` as a thin landing page linking to both),
-plus `SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` as a clearly-separate
-fifth file for subscriber-only pricing. Each file carries its own two-line
-provider block or back-link, one-line disclaimer, and one-line licence. No
+Spartan. Two deliverables split across five files (`BIOMARKERS.md` for the
+comparison tables, `SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`
+and `SHOPPING-LIST-MEDLIFE.md` for the shopping list, `README.md` as a thin
+landing page linking to all three), plus `SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md`
+and `SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` as two clearly-separate files
+for subscriber-only pricing. Each file carries its own two-line provider
+block or back-link, one-line disclaimer, and one-line licence. No
 table of contents, no emoji headers, no medical essay. If you are adding a
 new section to any of these files, check first whether it belongs in this
 file instead — agent-facing detail lives here, not in any product file.
+
+## Agent skills
+
+### Issue tracker
+
+Issues and PRDs live as GitHub issues in this repo (`gh` CLI). See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context layout — `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
