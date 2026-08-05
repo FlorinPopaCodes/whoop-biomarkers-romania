@@ -26,7 +26,7 @@ Full biomarker-by-biomarker comparison — Core, Extended, and Derived — lives
 Cortisol is the one Core biomarker MedLife doesn't sell, so it's excluded from
 the Common Set — Synevo and Regina Maria both cover it individually.
 
-Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers and Regina Maria 28.
+Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers, Regina Maria 28, and MedLife 34.
 
 ## Shopping list
 
