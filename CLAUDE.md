@@ -322,13 +322,3 @@ block or back-link, one-line disclaimer, and one-line licence. No
 table of contents, no emoji headers, no medical essay. If you are adding a
 new section to any of these files, check first whether it belongs in this
 file instead — agent-facing detail lives here, not in any product file.
-
-## Agent skills
-
-### Issue tracker
-
-Issues and PRDs live as GitHub issues in this repo (`gh` CLI). See `docs/agents/issue-tracker.md`.
-
-### Domain docs
-
-Single-context layout — `CONTEXT.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
