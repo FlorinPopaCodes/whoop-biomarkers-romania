@@ -24,6 +24,13 @@ its contents. Re-stamp the date at the bottom of `BIOMARKERS.md`, all three
 `SHOPPING-LIST-*.md` files, and `README.md` only when the whole sweep is
 done — all five files share prices, so they share a date.
 
+**Exception: onboarding a new provider.** Adding a provider's first column/file
+(as MedLife's Core column and shopping list were) isn't a refresh sweep — the
+existing providers' cells are genuinely untouched, not stale, so re-stamping
+them under the new provider's date would be the same lie in reverse. Until the
+next full sweep unifies them, a footer may carry one date per provider instead
+of one shared date. The next full sweep collapses it back to a single date.
+
 After recomputing the Common Set totals in `BIOMARKERS.md`, copy the same two
 numbers into `README.md`'s teaser under `## Biomarkers`. Once both
 subscription files exist, the teaser also carries a subscriber-pricing
@@ -46,10 +53,12 @@ find the annex.
 
 **Comparison tables** (`BIOMARKERS.md`) — split into Core and Extended.
 
-- *Core* is one flat table, alphabetical by Whoop biomarker, 5 columns: Whoop
-  Biomarker · Synevo test · RON · Regina Maria test · RON. Plain text, no links.
-- *Extended* is the same 5 columns but grouped into subsections by Whoop's five
-  Specialized Panels (see Blocks below). A biomarker shared by more than one
+- *Core* is one flat table, alphabetical by Whoop biomarker, 7 columns: Whoop
+  Biomarker · Synevo test · RON · Regina Maria test · RON · MedLife test · RON.
+  Plain text, no links.
+- *Extended* is the same shape but still 5 columns — MedLife isn't priced for
+  Extended yet — grouped into subsections by Whoop's five Specialized Panels
+  (see Blocks below). A biomarker shared by more than one
   panel repeats under each, marked `†` — this is deliberate: it keeps every
   panel's row count matching its own coverage count in the shopping list, at
   the cost of the Extended table being longer than a flat list would be.
@@ -70,9 +79,11 @@ breakdown.
 **Shopping list** (`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`,
 `SHOPPING-LIST-MEDLIFE.md`) — one file per provider, each grouped into Blocks
 with checkboxes, per-item prices, subtotals and biomarker counts. Test names
-are hyperlinked here and nowhere else. Together they answer *what do I
-actually order*. Split per provider rather than kept as one file because a
-reader shops at one provider at a time, not all of them at once.
+are hyperlinked here and nowhere else — except MedLife's, which has no
+per-test deep links to hyperlink to (see "Looking prices up" below). Together
+they answer *what do I actually order*. Split per provider rather than kept
+as one file because a reader shops at one provider at a time, not all of them
+at once.
 
 ## Pricing rules
 
@@ -84,7 +95,7 @@ panel → the whole panel's price. So MCV shows the full hemogram price.
 column sum counts it sixteen times. The totals under the table come from the
 Basket optimization, not from the column.
 
-**Derived biomarkers are 0 RON at both providers**, and live in their own Name ·
+**Derived biomarkers are 0 RON at all three providers**, and live in their own Name ·
 Formula list (Core Derived, Extended Derived) rather than the price tables —
 a 0/0 row carries no comparison information, so it doesn't belong there. Derived
 means *no Romanian lab sells it and it must be computed from other biomarkers on
@@ -287,6 +298,7 @@ change far less often than prices.
 | Regina Maria | Profil lipidic | 85 | 4: HDL Cholesterol, LDL Cholesterol, Total Cholesterol, Triglycerides |
 | Regina Maria | Glucoza serica | 30 | 2: Blood Fasting Glucose, Glucose |
 | Regina Maria | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 | 2: LDL Cholesterol, LDL Small |
+| MedLife | Hemoleucograma completa | 51 | 20: Basophil %, Basophils, Eosinophil %, Eosinophils, Hematocrit, Hemoglobin, Lymphocyte %, Lymphocytes, Mean Corpuscular Hemoglobin (MCH), Mean Corpuscular Hemoglobin Concentration (MCHC), Mean Corpuscular Volume (MCV), Mean Platelet Volume (MPV), Monocyte %, Monocytes, Neutrophil %, Neutrophils, Platelets, Red Blood Cell Count (RBC), Red Cell Distribution Width (RDW), White Blood Cells (WBC) |
 
 ## Checking whether Whoop's list moved
 
