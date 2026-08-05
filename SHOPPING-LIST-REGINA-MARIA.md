@@ -1,129 +1,236 @@
 # Regina Maria — Shopping List
 
-Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Tick what you
-want. Core blocks together are the cheapest route to every Core biomarker the
-provider sells. Derived values cost nothing — buy the inputs and compute them.
+Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search Regina
+Maria's [catalogue](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize)
+for the Test name to order.
 
-Comfort Premium subscriber? See
-[SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md](SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md)
-for what changes.
+## Core
 
-**Core — 2,290 RON**
+2,290 RON · subscriber ~985 RON · 57 biomarkers · 18 derived
 
-**Blood count** · 60 RON · 20 biomarkers
-- [ ] [Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=160684) — 60 · 20 biomarkers
+### Blood count
 
-**Lipids** · 370 RON · 6 biomarkers (+6 derived)
-- [ ] [Lipoproteina A](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157296) — 155
-- [ ] [Apolipoproteina B](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156386) — 130
-- [ ] [Profil lipidic](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155662) — 85 · 4 biomarkers
+60 RON · subscriber 0 RON · 20 biomarkers
 
-**Metabolic** · 170 RON · 4 biomarkers (+2 derived)
-- [ ] [Hemoglobina glicozilata/HbA1c](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155394) — 70
-- [ ] [Insulina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155710) — 70
-- [ ] [Glucoza serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155314) — 30 · 2 biomarkers
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari ‡ | 60 | 0 ○ |
 
-**Liver** · 125 RON · 4 biomarkers (+1 derived)
-- [ ] [Fosfataza alcalina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155362) — 35
-- [ ] [Alaninaminotransferaza (ALT/GPT/TGP)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155346) — 30
-- [ ] [Aspartataminotransferaza (GOT/AST/TGO)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155348) — 30
-- [ ] [Bilirubina totala](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155298) — 30
+### Lipids
 
-**Kidney** · 95 RON · 3 biomarkers (+2 derived)
-- [ ] [Albumina serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=159520) — 35
-- [ ] [Uree serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155324) — 30
-- [ ] [Creatinina serica](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155310) — 30
+370 RON · subscriber ~155 RON · 6 biomarkers · 6 derived
 
-**Iron** · 160 RON · 3 biomarkers (+1 derived)
-- [ ] [Feritina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155684) — 75
-- [ ] [Capacitatea totala de legare a fierului (CTLF)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155370) — 50
-- [ ] [Fier seric(sideremie)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155372) — 35
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Lipoproteina A | 155 | 155 |
+| Apolipoproteina B | 130 | 0 ○ |
+| Profil lipidic ‡ | 85 | 0 ○ |
 
-**Electrolytes** · 185 RON · 5 biomarkers (+3 derived)
-- [ ] [Rezerva alcalina (ECO2)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156380) — 55
-- [ ] [Potasiu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155382) — 35
-- [ ] [Sodiu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155386) — 35
-- [ ] [Calciu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157952) — 30
-- [ ] [Clor seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155538) — 30
+### Metabolic
 
-**Protein** · 35 RON · 1 biomarker (+2 derived)
-- [ ] [Proteine totale serice](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155318) — 35
+170 RON · subscriber ~70 RON · 4 biomarkers · 2 derived
 
-**Thyroid** · 70 RON · 1 biomarker
-- [ ] [TSH (Hormon de stimulare tiroidiana)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155414) — 70
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Hemoglobina glicozilata/HbA1c | 70 | 0 ○ |
+| Insulina | 70 | 70 |
+| Glucoza serica ‡ | 30 | 0 ○ |
 
-**Hormones** · 545 RON · 7 biomarkers
-- [ ] [Cortizol](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155400) — 115
-- [ ] [Testosteron liber](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155772) — 80
-- [ ] [SHBG (sex hormone binding globulin)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155848) — 75
-- [ ] [Estradiol](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155404) — 70
-- [ ] [FSH (hormon de stimulare foliculara)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155412) — 70
-- [ ] [Testosteron](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155422) — 70
-- [ ] [LH (Hormon luteinizant)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155410) — 65
+### Liver
 
-**Inflammation** · 300 RON · 2 biomarkers (+1 derived)
-- [ ] [Homocisteina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155964) — 200
-- [ ] [Proteina C reactiva inalt sensibila (HSCRP)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156290) — 100
+125 RON · subscriber 0 RON · 4 biomarkers · 1 derived
 
-**Vitamins** · 175 RON · 1 biomarker
-- [ ] [25 OH Vitamina D](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156352) — 175
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Fosfataza alcalina | 35 | 0 ○ |
+| Alaninaminotransferaza (ALT/GPT/TGP) | 30 | 0 ○ |
+| Aspartataminotransferaza (GOT/AST/TGO) | 30 | 0 ○ |
+| Bilirubina totala | 30 | 0 ○ |
 
-**Extended** — Whoop's specialized panels, priced on top of Core.
+### Kidney
 
-**Heart Health** · +595 RON · 3 of 16 biomarkers
-- [ ] [Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=165402) — 400
-- [ ] [Cystatin C](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=159854) — 165
-- [ ] [Acid uric seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155642) — 30 †
-- *not sold here: Arachidonic Acid (AA), Asymmetric Dimethylarginine (ADMA), Docosahexaenoic Acid (DHA), Docosapentaenoic Acid (DPA), Eicosapentaenoic Acid (EPA), HDL Large, LDL Medium, LDL Particle Number, LDL Peak Size, Linoleic Acid (LA), Lipoprotein-Associated Phospholipase A₂ (Lp-PLA₂), Myeloperoxidase (MPO), Symmetric Dimethylarginine (SDMA)*
+95 RON · subscriber 0 RON · 3 biomarkers · 2 derived
 
-**Performance Health** · +510 RON · 8 of 13 biomarkers
-- [ ] [Folati serici (acid folic)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155958) — 100 †
-- [ ] [IGF 1 (Factor 1 de inhibitie a cresterii) (IGF)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155908) — 100
-- [ ] [Vitamina B 12](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155738) — 85 †
-- [ ] [FT3 (triiodotironina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155430) — 70 †
-- [ ] [FT4 (tiroxina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155424) — 70 †
-- [ ] [Creatinkinaza (CK)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155356) — 45
-- [ ] [Magneziu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155378) — 30 †
-- [ ] [Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155332) — 10 *(upgrade — replaces the Core one)*
-- *not sold here: Arachidonic Acid (AA), Docosahexaenoic Acid (DHA), Docosapentaenoic Acid (DPA), Eicosapentaenoic Acid (EPA), Linoleic Acid (LA)*
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Albumina serica | 35 | 0 ○ |
+| Uree serica | 30 | 0 ○ |
+| Creatinina serica | 30 | 0 ○ |
 
-**Metabolic Health** · +1,705 RON · 10 of 12 biomarkers
-- [ ] [Leptina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157692) — 420 †
-- [ ] [Adiponectina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=160404) — 350
-- [ ] [Seleniu in sange](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=158132) — 250
-- [ ] [C-Peptid](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155934) — 185
-- [ ] [Cupru in ser/plasma](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155782) — 175
-- [ ] [Zinc in ser](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155994) — 110 †
-- [ ] [FT3 (triiodotironina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155430) — 70 †
-- [ ] [FT4 (tiroxina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155424) — 70 †
-- [ ] [Fructozamina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=161406) — 40
-- [ ] [Gamaglutamiltranspeptidaza (GGT)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155536) — 35
-- *not sold here: 1,5-Anhydroglucitol (1,5-AG), Iodine*
+### Iron
 
-**Women's Health** · +1,400 RON · 11 of 11 biomarkers
-- [ ] [Leptina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157692) — 420 †
-- [ ] [Hormon antimullerian (AMH)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155988) — 360
-- [ ] [Folati serici (acid folic)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155958) — 100 †
-- [ ] [Anticorpi anti TPO (ATPO)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155432) — 85
-- [ ] [Vitamina B 12](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155738) — 85 †
-- [ ] [Prolactina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155420) — 75 †
-- [ ] [FT3 (triiodotironina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155430) — 70 †
-- [ ] [FT4 (tiroxina libera)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155424) — 70 †
-- [ ] [Progesteron](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155418) — 70
-- [ ] [Fosfor seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155374) — 35
-- [ ] [Magneziu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155378) — 30 †
+160 RON · subscriber ~75 RON · 3 biomarkers · 1 derived
 
-**Men's Health** · +1,325 RON · 8 of 8 biomarkers
-- [ ] [Dihidrotestosteron](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=156902) — 520
-- [ ] [Leptina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=157692) — 420 †
-- [ ] [Zinc in ser](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155994) — 110 †
-- [ ] [Prolactina](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155420) — 75 †
-- [ ] [Free PSA](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155446) — 70
-- [ ] [PSA (Antigen specific prostatic)](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155444) — 70
-- [ ] [Magneziu seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155378) — 30 †
-- [ ] [Acid uric seric](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize?city=6951&location=6805&investigation_category=All&investigation=155642) — 30 †
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Feritina | 75 | 75 |
+| Capacitatea totala de legare a fierului (CTLF) | 50 | 0 ○ |
+| Fier seric(sideremie) | 35 | 0 ○ |
 
-† appears in more than one specialized panel — you buy it once, so two panels together cost less than their subtotals suggest.
+### Electrolytes
+
+185 RON · subscriber ~55 RON · 5 biomarkers · 3 derived
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Rezerva alcalina (ECO2) | 55 | 55 |
+| Potasiu seric | 35 | 0 ○ |
+| Sodiu seric | 35 | 0 ○ |
+| Calciu seric | 30 | 0 ○ |
+| Clor seric | 30 | 0 ○ |
+
+### Protein
+
+35 RON · subscriber 0 RON · 1 biomarker · 2 derived
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Proteine totale serice | 35 | 0 ○ |
+
+### Thyroid
+
+70 RON · subscriber 0 RON · 1 biomarker
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| TSH (Hormon de stimulare tiroidiana) | 70 | 0 ○ |
+
+### Hormones
+
+545 RON · subscriber ~155 RON · 7 biomarkers
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Cortizol | 115 | 0 ○ |
+| Testosteron liber | 80 | 80 |
+| SHBG (sex hormone binding globulin) | 75 | 75 |
+| Estradiol | 70 | 0 ○ |
+| FSH (hormon de stimulare foliculara) | 70 | 0 ○ |
+| Testosteron | 70 | 0 ○ |
+| LH (Hormon luteinizant) | 65 | 0 ○ |
+
+### Inflammation
+
+300 RON · subscriber 300 RON · 2 biomarkers · 1 derived
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Homocisteina | 200 | 200 |
+| Proteina C reactiva inalt sensibila (HSCRP) | 100 | 100 |
+
+### Vitamins
+
+175 RON · subscriber 175 RON · 1 biomarker
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| 25 OH Vitamina D | 175 | 175 |
+
+## Extended
+
+Whoop's five Specialized Panels, priced on top of Core. No total — the Panels
+share Tests, so their subtotals deliberately don't add up.
+
+### Heart Health
+
++595 RON · subscriber ~565 RON · 3 of 16 biomarkers · 13 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 | 400 |
+| Cystatin C | 165 | 165 |
+| Acid uric seric † | 30 | 0 ○ |
+
+### Performance Health
+
++510 RON · subscriber ~295 RON · 8 of 13 biomarkers · 5 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Folati serici (acid folic) † | 100 | 100 |
+| IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | 100 | 100 |
+| Vitamina B 12 † | 85 | 85 |
+| FT3 (triiodotironina libera) † | 70 | 0 ○ |
+| FT4 (tiroxina libera) † | 70 | 0 ○ |
+| Creatinkinaza (CK) | 45 | 0 ○ |
+| Magneziu seric † | 30 | 0 ○ |
+| Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite ↑ | 10 | 10 |
+
+### Metabolic Health
+
++1,705 RON · subscriber ~1,530 RON · 10 of 12 biomarkers · 2 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Leptina † | 420 | 420 |
+| Adiponectina | 350 | 350 |
+| Seleniu in sange | 250 | 250 |
+| C-Peptid | 185 | 185 |
+| Cupru in ser/plasma | 175 | 175 |
+| Zinc in ser † | 110 | 110 |
+| FT3 (triiodotironina libera) † | 70 | 0 ○ |
+| FT4 (tiroxina libera) † | 70 | 0 ○ |
+| Fructozamina | 40 | 40 |
+| Gamaglutamiltranspeptidaza (GGT) | 35 | 0 ○ |
+
+### Women's Health
+
++1,400 RON · subscriber ~965 RON · 11 biomarkers
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Leptina † | 420 | 420 |
+| Hormon antimullerian (AMH) | 360 | 360 |
+| Folati serici (acid folic) † | 100 | 100 |
+| Anticorpi anti TPO (ATPO) | 85 | 0 ○ |
+| Vitamina B 12 † | 85 | 85 |
+| Prolactina † | 75 | 0 ○ |
+| FT3 (triiodotironina libera) † | 70 | 0 ○ |
+| FT4 (tiroxina libera) † | 70 | 0 ○ |
+| Progesteron | 70 | 0 ○ |
+| Fosfor seric | 35 | 0 ○ |
+| Magneziu seric † | 30 | 0 ○ |
+
+### Men's Health
+
++1,325 RON · subscriber ~1,120 RON · 8 biomarkers
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Dihidrotestosteron | 520 | 520 |
+| Leptina † | 420 | 420 |
+| Zinc in ser † | 110 | 110 |
+| Prolactina † | 75 | 0 ○ |
+| Free PSA | 70 | 70 |
+| PSA (Antigen specific prostatic) | 70 | 0 ○ |
+| Magneziu seric † | 30 | 0 ○ |
+| Acid uric seric † | 30 | 0 ○ |
+
+## Comfort Premium
+
+The `Subscriber` column above is what these Tests cost if you hold a Comfort
+Premium subscription. Comfort Premium discounts ~300 lab tests by 100%, but only
+"la recomandarea medicului RM" — with a referral from a Regina Maria doctor,
+which is an individual GP's call and isn't published anywhere. So every `0 ○` is
+an estimate, not a guaranteed price; a Test showing its full price in both
+columns isn't on the discount annex at all.
+
+Verified against Regina Maria's live subscriber terms 2026-08-05.
+
+---
+
+| | Means |
+|---|---|
+| ‡ | One Test, several biomarkers. |
+| † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
+| ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
+| ○ | Estimated — 100% off with a doctor's referral, which is theirs to give. |
+| `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
+| Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
+| Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
+
+Which biomarkers a Block covers, and what's missing, is in
+[BIOMARKERS.md](BIOMARKERS.md).
 
 ---
 

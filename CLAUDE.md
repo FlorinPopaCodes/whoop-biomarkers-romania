@@ -1,29 +1,35 @@
 # Maintaining this repo
 
 `README.md`, `BIOMARKERS.md`, `SHOPPING-LIST-SYNEVO.md`,
-`SHOPPING-LIST-REGINA-MARIA.md` and `SHOPPING-LIST-MEDLIFE.md` together are
-the product. `BIOMARKERS.md` is the source of truth for every price; the
-three `SHOPPING-LIST-*.md` files are the source of truth for what to
-actually order; `README.md` is a thin landing page — intro, provider links,
-the headline Core verdict, and pointers to the other files. There are no
-scripts. Everything here is what you need to refresh it correctly.
+`SHOPPING-LIST-REGINA-MARIA.md` and `SHOPPING-LIST-MEDLIFE.md` are the
+product — all five of it. There are no scripts. Everything here is what you
+need to refresh it correctly.
 
-`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` and
-`SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` are two more files, deliberately
-outside "the product": each prices one provider's subscription tier for a
-subscriber, which isn't a price every reader of this repo gets. See their
-own sections below.
+Each file answers exactly one question, and **every price exists in exactly one
+place**:
 
-Read `CONTEXT.md` first — it defines Solo Price, Common Set, Basket, Block and
-the rest of the vocabulary used below.
+- `README.md` — which provider do I pick? A thin landing page: intro, catalogue
+  links, the headline Core verdict, pointers to the rest.
+- `BIOMARKERS.md` — what is this biomarker called, and who sells it? A name map.
+  **It carries no prices.** See `docs/adr/0001-prices-live-in-the-shopping-lists.md`.
+- `SHOPPING-LIST-*.md` — what do I order and what does it cost? The source of
+  truth for every price, including subscriber pricing.
+
+Read `CONTEXT.md` first — it defines Common Set, Basket, Block, Specialized
+Panel, Subscriber Price and the rest of the vocabulary used below.
 
 ## Refresh cadence
 
 Every ~3 months. Re-verify **every** price at all three providers, not just
 the gaps: a table mixing fresh and stale cells under one date lies about half
-its contents. Re-stamp the date at the bottom of `BIOMARKERS.md`, all three
-`SHOPPING-LIST-*.md` files, and `README.md` only when the whole sweep is
-done — all five files share prices, so they share a date.
+its contents. Re-stamp the date at the bottom of all three
+`SHOPPING-LIST-*.md` files and `README.md` only when the whole sweep is
+done — those four share prices, so they share a date.
+
+`BIOMARKERS.md` carries no prices, so its footer date means *test names checked
+against the catalogue*, which is a different claim. Re-stamp it when you
+actually re-check the names, which the sweep does anyway since you're reading
+the same catalogues.
 
 **Exception: onboarding a new provider.** Adding a provider's first column/file
 (as MedLife's Core column and shopping list were) isn't a refresh sweep — the
@@ -32,75 +38,74 @@ them under the new provider's date would be the same lie in reverse. Until the
 next full sweep unifies them, a footer may carry one date per provider instead
 of one shared date. The next full sweep collapses it back to a single date.
 
-After recomputing the Common Set totals in `BIOMARKERS.md`, copy the same two
-numbers into `README.md`'s teaser under `## Biomarkers`. The teaser's
-`Subscriber (estimated)` column also has to stay in sync — copy Regina
-Maria's and MedLife's headline Core totals from
-`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` and
-`SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` on the same sweep, right after
-each subscription file's own pass (below) recomputes them. Nothing enforces
-any of these copies; forgetting one is the fast way for the files to
-quietly disagree.
+**`README.md`'s table is four hand-copied numbers per provider and nothing
+enforces any of them.** After the Basket recompute, copy across:
+
+- *Like-for-like* — the Common Set total (Core minus any biomarker some provider
+  doesn't sell; currently Cortisol).
+- *Everything it sells* — that provider's full Core total, which is the
+  `## Core` line of its shopping list verbatim, plus its coverage as `n/57`.
+- *Subscriber (est.)* — the `subscriber ~N RON` figure from the same `## Core`
+  line, for Regina Maria and MedLife.
+
+The two money columns are on **different bases** and always were; the README now
+says so out loud. Don't quietly re-base one to match the other.
 
 The Basket recompute (see below) determines the `SHOPPING-LIST-*.md` contents
 directly — there's no separate step, but a price change that flips a
 panel-versus-parts decision has to be reflected in both the chosen Basket
-*and* which lines are ticked-off-able in the shopping list.
+*and* which lines appear in the shopping list.
 
-**Both `SUBSCRIPTION-*.md` files need their own pass**, not just a copy from
-their shopping list: re-check each provider's discount annex itself (it can
-change independently of that provider's public prices, and nothing else in
-this repo would catch that), then re-derive which lines are struck through.
-See each file's own section below for how to find its annex.
+**Each subscriber column needs its own pass**, not just a re-derivation from the
+standard prices beside it: re-check each provider's discount annex itself (it can
+change independently of that provider's public prices, and nothing else in this
+repo would catch that), then re-derive which lines are `●`, which are `○`, and
+which stay at full price. See each provider's section below for how to find its
+annex.
 
-## The two deliverables
+## What each file contains
 
-**Comparison tables** (`BIOMARKERS.md`) — split into Core and Extended.
+**Name map** (`BIOMARKERS.md`) — split into Core and Extended.
 
-- *Core* is one flat table, alphabetical by Whoop biomarker, 7 columns: Whoop
-  Biomarker · Synevo test · RON · Regina Maria test · RON · MedLife test · RON.
-  Plain text, no links.
-- *Extended* is the same shape, 7 columns, grouped into subsections by Whoop's
-  five Specialized Panels (see Blocks below). A biomarker shared by more than one
-  panel repeats under each, marked `†` — this is deliberate: it keeps every
-  panel's row count matching its own coverage count in the shopping list, at
-  the cost of the Extended table being longer than a flat list would be.
-- Each half is followed by its own short Derived list (Name · Formula, 2
-  columns, no price columns — see Pricing rules) instead of interleaving
-  Derived rows into the price table.
-- **DHEA Sulfate is unplaced.** It's Extended, priced at all three providers, but
-  isn't part of any of Whoop's five Specialized Panels — checked directly
-  against Whoop's panel marketing, not inferred. It currently sits in its own
-  one-line "not yet placed" note rather than being folded into a topically-close
-  panel; doing that would make that panel's row count disagree with its own
-  shopping-list coverage count. Revisit if Whoop ever documents where it belongs.
+- *Core* is one flat table, alphabetical by Whoop biomarker, 4 columns: Whoop
+  Biomarker · Synevo test · Regina Maria test · MedLife test. Plain text, no
+  links, **no prices**. Where a biomarker is only obtainable inside a panel, the
+  cell names the panel.
+- *Extended* is the same shape, grouped into subsections by Whoop's five
+  Specialized Panels (see Blocks below). A biomarker shared by more than one
+  repeats under each, marked `†` — this is deliberate: it keeps every
+  Specialized Panel's row count matching its own coverage count in the shopping
+  list, at the cost of the Extended table being longer than a flat list would be.
+- Each half is followed by its own short Derived list (Name · Formula) instead of
+  interleaving Derived rows into the map.
+- **DHEA Sulfate is unplaced.** It's Extended and sold at all three providers,
+  but isn't part of any of Whoop's five Specialized Panels — checked directly
+  against Whoop's panel marketing, not inferred. It sits in its own one-line "not
+  yet placed" note rather than being folded into a topically-close Panel; doing
+  that would make that Panel's row count disagree with its own shopping-list
+  coverage count. **It is the one exception to "no prices in this file"** — with
+  no Block it has no shopping-list line, so its three prices would otherwise
+  vanish from the repo. They live in that note. Revisit if Whoop ever documents
+  where it belongs.
 
-Together they answer *which provider do I pick*. `README.md` keeps only the
-Common Set totals as a teaser, linking to `BIOMARKERS.md` for the row-by-row
-breakdown.
+It answers *what is this called and who sells it*.
 
-**Shopping list** (`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`,
-`SHOPPING-LIST-MEDLIFE.md`) — one file per provider, each grouped into Blocks
-with checkboxes, per-item prices, subtotals and biomarker counts. Test names
-are hyperlinked here and nowhere else — except MedLife's, which has no
-per-test deep links to hyperlink to (see "Looking prices up" below). Together
-they answer *what do I actually order*. Split per provider rather than kept
-as one file because a reader shops at one provider at a time, not all of them
-at once.
+**Shopping lists** (`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`,
+`SHOPPING-LIST-MEDLIFE.md`) — one file per provider. They answer *what do I
+order and what does it cost*, and hold every price in the repo. Split per
+provider because a reader shops at one provider at a time.
 
 ## Pricing rules
 
-**Solo Price.** Every price cell is what that biomarker costs *alone* by the
-cheapest route. Sold individually → its own price. Obtainable only inside a
-panel → the whole panel's price. So MCV shows the full hemogram price.
-
-**Never sum the price column.** Sixteen biomarkers come out of one hemogram; a
-column sum counts it sixteen times. The totals under the table come from the
-Basket optimization, not from the column.
+**Prices are per Test, never per biomarker.** A shopping list prices Tests, and
+each Test appears once, so its columns sum honestly — that's what the Block
+subtotals are. There is no longer any per-biomarker price anywhere in the repo;
+the old Solo Price ("MCV shows the full hemogram price", sixteen rows repeating
+one number, never sum the column) went away with `BIOMARKERS.md`'s price
+columns. **Don't reintroduce it.**
 
 **Derived biomarkers are 0 RON at all three providers**, and live in their own Name ·
-Formula list (Core Derived, Extended Derived) rather than the price tables —
-a 0/0 row carries no comparison information, so it doesn't belong there. Derived
+Formula list (Core Derived, Extended Derived) in `BIOMARKERS.md`. Derived
 means *no Romanian lab sells it and it must be computed from other biomarkers on
 this list*. That is not Whoop's definition —
 Whoop marks LDL Cholesterol, TIBC and ALP as "Calculated" but Romanian labs sell
@@ -108,14 +113,64 @@ all three as line items, so they are purchasable here. (Whoop's ALP row is
 simply an error; it is an enzyme assay.)
 
 Some providers *do* sell a derived value directly — Regina Maria lists "Indice
-HOMA". Never put that price in the table and never put it in a Basket: the
-Basket already contains its inputs, so buying it is pure waste. Derived stays 0.
+HOMA". Never give it a line and never put it in a Basket: the Basket already
+contains its inputs, so buying it is pure waste. Derived stays 0.
 
-**Three states, kept distinct.** A price means covered. `—` means the provider
-genuinely sells nothing that yields it. `?` means undetermined. Never render an
-undetermined cell as `—`: unresolved biomarkers are excluded from the Common Set
-and named explicitly under the totals, and quietly demoting one to "unavailable"
-shifts every provider's totals on evidence you don't have.
+**Three states, kept distinct.** In `BIOMARKERS.md`, a test name means covered.
+`—` means the provider genuinely sells nothing that yields it. `?` means
+undetermined. Never render an undetermined cell as `—`: unresolved biomarkers are
+excluded from the Common Set and named explicitly, and quietly demoting one to
+"unavailable" shifts every provider's totals on evidence you don't have.
+
+## Shopping list shape
+
+All three files have the same skeleton. Keep them identical in shape even where
+a provider makes a section trivial.
+
+`## Core` and `## Extended` are headings; Blocks and Specialized Panels are
+`###` under them. **Never put a price in heading text** — anchors like `#lipids`
+are permalinks and must survive a refresh. Numbers go on a metadata line
+directly under the heading:
+
+- Fully covered: `370 RON · 6 biomarkers · 6 derived`
+- Partially: `+595 RON · 3 of 16 biomarkers · 13 not sold here`
+- With a subscriber column, `subscriber ~N RON` goes second. Use `~` only when
+  the figure is non-zero.
+- `n of m` only when `n ≠ m`; omit the `derived` segment when a Block has none.
+
+Items are a table, `| Test | RON |` — plus `| Subscriber |` at Regina Maria and
+MedLife. Descending price within a Block. Markers go on the Test name:
+
+| | |
+|---|---|
+| `‡` | One Test, several biomarkers |
+| `†` | Shared across Specialized Panels |
+| `↑` | Upgrade, price shown is the *difference* (Synevo and RM reticulocyte hemograms only — MedLife's is a standalone Test) |
+| `●` | Subscriber: guaranteed free, no referral |
+| `○` | Subscriber: estimated, referral-gated |
+
+Then a subscription-mechanics section (Regina Maria and MedLife), then the
+**shared legend**, then the disclaimer. The legend is a two-column table and is
+**identical across all three files** apart from the `●`/`○` rows, which only the
+two providers with subscriptions carry. Change it in one file, change it in all
+three.
+
+**Absences are counted, never named** — `13 not sold here`, not a list of
+thirteen biomarker names. This applies to Core too, including MedLife's Cortisol.
+`BIOMARKERS.md` already renders every absence as `—`, provider by provider, and
+`README.md` names Cortisol specifically.
+
+**No per-item editorial notes in the product files.** Why a line is kept at full
+price, why an annex match was rejected, why a name is ambiguous — all of that is
+agent-facing and lives in this file, under the provider's section below. An
+unmarked row already says "not on the annex"; it doesn't need a parenthetical.
+
+**Test names are hyperlinked at Synevo only.** Regina Maria's links were dropped
+deliberately — `?investigation=<id>` URLs don't reach a test page, they run ~130
+characters per row, and only ~241 of RM's 1,083 tests have clean
+`/utile/dictionar-de-analize/` URLs, so linking some and not others is worse than
+linking none. **Don't re-add them** on rediscovering that
+`data-drupal-investigation` exists. MedLife has no per-test links to add.
 
 ## Totals
 
@@ -239,23 +294,27 @@ None of the three sites has bot protection, a login wall, or a JS requirement
 for prices. None publishes a usable PDF price list — third-party ones are
 stale B2B rates.
 
-## Subscription pricing (Regina Maria Comfort Premium)
+## Subscriber pricing (Regina Maria Comfort Premium)
 
-`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` is not one of "the two
-deliverables" above — it prices Regina Maria for someone holding a Comfort
-Premium subscription specifically, which most readers don't have. It exists
-because the discount is large enough (roughly half of Regina Maria's Core
-list) to be worth showing, not because it's a universal price.
+The `Subscriber` column in `SHOPPING-LIST-REGINA-MARIA.md`. It exists because
+the discount is large enough (roughly half of Regina Maria's Core list) to be
+worth showing, not because it's a price every reader gets.
 
 **The mechanic.** Comfort Premium gives two things: a free annual screening
 panel (~11 tests, no referral, capped at 1×/year each), and a much larger
 discount annex — about 300 lab tests at 100% off, but *only* "la
 recomandarea medicului RM" (with a referral from an RM doctor). Enforcement
 of that referral is a GP's individual call and isn't published anywhere, so
-this repo doesn't model it as guaranteed. Every annex-covered line in the
-subscription file is marked **(estimated)**, not asserted as a hard price —
-this is the one file in the repo where "Covered" doesn't mean "buy it for
-this price, guaranteed."
+this repo doesn't model it as guaranteed. Every annex-covered line is marked
+`○` (estimated), not asserted as a hard price.
+
+**Known gap: the free annual screening panel is not modelled.** Every Regina
+Maria subscriber line is currently `○`; none is `●`. MedLife's equivalent annual
+set *is* modelled, so the two providers' columns aren't built the same way and
+Regina Maria's ~985 RON may be pessimistic. Resolving it means identifying the
+~11 tests in Comfort Premium's screening panel and re-grading any that appear in
+the shopping list. Do this on the next refresh — it's the same PDF you're already
+opening.
 
 **Finding the current annex.** The live terms PDF is linked from
 `https://shop.reginamaria.ro/abonamentul-comfort-premium-adulti.html` as a
@@ -281,16 +340,15 @@ at full price rather than assumed covered:
 Re-check these three by name against the current annex text on every
 refresh; Regina Maria could make any of them explicit in either direction.
 
-This file intentionally never mentions the subscription's own monthly
-cost — it's a per-test price list for someone who already has the
+The shopping list intentionally never mentions the subscription's own monthly
+cost — the column is a per-test price list for someone who already has the
 subscription, not a cost/benefit case for buying one.
 
-## Subscription pricing (MedLife Respect Infinit)
+## Subscriber pricing (MedLife Respect Infinit)
 
-`SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` is the MedLife counterpart to the
-Comfort Premium file above — same "not one of the two deliverables" framing,
-same never-mention-the-monthly-cost rule, same **(estimated)** caveat for
-anything gated on a doctor's say-so.
+The `Subscriber` column in `SHOPPING-LIST-MEDLIFE.md` — the counterpart to
+Comfort Premium above, with the same never-mention-the-monthly-cost rule and the
+same `○` caveat for anything gated on a doctor's say-so.
 
 **The mechanic.** Respect Infinit (539 RON/month, 12-month validity) gives
 two separate things, unlike Comfort Premium's single discount annex. An
@@ -321,10 +379,10 @@ discipline as Comfort Premium's PDF.
 same discipline as Comfort Premium's — see that section above. Known gaps
 confirmed absent from the annex, kept at full price without further comment:
 Cortisol (MedLife doesn't sell it at all), Estradiol, FSH, Insulin, DHEA
-Sulfate (also unplaced — see "The two deliverables" above — so it never gets
-a line in the subscription file either), and "Testosteron liber" (free
-testosterone; only plain "Testosteron" is listed). Known ambiguous cases,
-currently kept at full price rather than assumed covered:
+Sulfate (also unplaced — see "What each file contains" above — so it has no
+shopping-list line to grade), and "Testosteron liber" (free testosterone; only
+plain "Testosteron" is listed). Known ambiguous cases, currently kept at full
+price rather than assumed covered:
 - "Free T4" and "Free T3" — the annex lists generic "T4"/"T3", not
   explicitly the free-hormone assays.
 - "Ureea nitrogen (BUN)" — the annex lists generic "Uree serica" (serum
@@ -343,8 +401,7 @@ both by name against the current annex text on every refresh:
   Markeri tumorali category alone, which lists it verbatim. It's also
   plausibly the annual set's combined "Test Papanicolau clasic / PSA" line,
   read as Pap smear for women / PSA for men — again not load-bearing for the
-  "covered" verdict, just the reason it gets the simpler no-referral caveat
-  in the subscription file.
+  "covered" verdict, just the reason it's graded `●` rather than `○`.
 - "Ac Anti-Tireoperoxidaza (ATPO)" — the annex's Imunologie category spells
   it "Ac Anti-Tireoperoxidaza (TPO)", same antibody test, not a scope
   difference.
@@ -399,16 +456,17 @@ actually DHEA Sulfate. Normalize to whoop.com's Title Case spellings.
 
 ## Style
 
-Spartan. Two deliverables split across five files (`BIOMARKERS.md` for the
-comparison tables, `SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`
-and `SHOPPING-LIST-MEDLIFE.md` for the shopping list, `README.md` as a thin
-landing page linking to all three), plus `SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md`
-and `SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` as two clearly-separate files
-for subscriber-only pricing. Each file carries its own two-line provider
-block or back-link, one-line disclaimer, and one-line licence. No
-table of contents, no emoji headers, no medical essay. If you are adding a
-new section to any of these files, check first whether it belongs in this
-file instead — agent-facing detail lives here, not in any product file.
+Spartan. Five files, one question each — `README.md` as a thin landing page,
+`BIOMARKERS.md` as the name map, and one `SHOPPING-LIST-*.md` per provider
+carrying every price including the subscriber column. Each file carries its own
+back-link, one-line disclaimer, and one-line licence. No table of contents, no
+emoji headers, no medical essay.
+
+If you are adding a new section to any of these files, check first whether it
+belongs in this file instead — agent-facing detail lives here, not in any
+product file. Justifications especially: why a price was kept, why an annex
+match was rejected, why a name is ambiguous. The product files state what is
+true, not how it was decided.
 
 ## Agent skills
 
