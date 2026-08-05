@@ -1,9 +1,17 @@
 # Maintaining this repo
 
-`README.md` and `BIOMARKERS.md` together are the product. `BIOMARKERS.md` is the
-source of truth for every price; `README.md` is the landing page — intro,
-provider links, the headline Core verdict, and the shopping list. There are no
-scripts. Everything here is what you need to refresh it correctly.
+`README.md`, `BIOMARKERS.md`, `SHOPPING-LIST-SYNEVO.md` and
+`SHOPPING-LIST-REGINA-MARIA.md` together are the product. `BIOMARKERS.md` is
+the source of truth for every price; the two `SHOPPING-LIST-*.md` files are
+the source of truth for what to actually order; `README.md` is a thin landing
+page — intro, provider links, the headline Core verdict, and pointers to the
+other files. There are no scripts. Everything here is what you need to
+refresh it correctly.
+
+`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` is a fifth file, deliberately
+outside "the product": it prices Regina Maria's Comfort Premium subscription
+tier for a subscriber, which isn't a price every reader of this repo gets.
+See its own section below.
 
 Read `CONTEXT.md` first — it defines Solo Price, Common Set, Basket, Block and
 the rest of the vocabulary used below.
@@ -12,12 +20,25 @@ the rest of the vocabulary used below.
 
 Every ~3 months. Re-verify **every** price at both providers, not just the gaps:
 a table mixing fresh and stale cells under one date lies about half its contents.
-Re-stamp the date at the bottom of both `BIOMARKERS.md` and `README.md` only
-when the whole sweep is done — the two files share prices, so they share a date.
+Re-stamp the date at the bottom of `BIOMARKERS.md`, both `SHOPPING-LIST-*.md`
+files, and `README.md` only when the whole sweep is done — all four files
+share prices, so they share a date.
 
 After recomputing the Common Set totals in `BIOMARKERS.md`, copy the same two
 numbers into `README.md`'s teaser under `## Biomarkers`. Nothing enforces that
 copy; forgetting it is the fast way for the two files to quietly disagree.
+
+The Basket recompute (see below) determines the `SHOPPING-LIST-*.md` contents
+directly — there's no separate step, but a price change that flips a
+panel-versus-parts decision has to be reflected in both the chosen Basket
+*and* which lines are ticked-off-able in the shopping list.
+
+**`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` needs its own pass**, not
+just a copy from `SHOPPING-LIST-REGINA-MARIA.md`: re-check the Comfort
+Premium discount annex itself (it can change independently of Regina Maria's
+public prices, and nothing else in this repo would catch that), then
+re-derive which lines are struck through. See its section below for how to
+find the annex.
 
 ## The two deliverables
 
@@ -44,9 +65,12 @@ Together they answer *which provider do I pick*. `README.md` keeps only the
 Common Set totals as a teaser, linking to `BIOMARKERS.md` for the row-by-row
 breakdown.
 
-**Shopping list** (`README.md`) — per provider, grouped into Blocks with
-checkboxes, per-item prices, subtotals and biomarker counts. Test names are
-hyperlinked here and nowhere else. It answers *what do I actually order*.
+**Shopping list** (`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md`)
+— one file per provider, each grouped into Blocks with checkboxes, per-item
+prices, subtotals and biomarker counts. Test names are hyperlinked here and
+nowhere else. Together they answer *what do I actually order*. Split per
+provider rather than kept as one file because a reader shops at one provider
+at a time, not both.
 
 ## Pricing rules
 
@@ -161,6 +185,52 @@ route. One national price, no region selector.
 Neither site has bot protection, a login wall, or a JS requirement for prices.
 Neither publishes a usable PDF price list — third-party ones are stale B2B rates.
 
+## Subscription pricing (Regina Maria Comfort Premium)
+
+`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` is not one of "the two
+deliverables" above — it prices Regina Maria for someone holding a Comfort
+Premium subscription specifically, which most readers don't have. It exists
+because the discount is large enough (roughly half of Regina Maria's Core
+list) to be worth showing, not because it's a universal price.
+
+**The mechanic.** Comfort Premium gives two things: a free annual screening
+panel (~11 tests, no referral, capped at 1×/year each), and a much larger
+discount annex — about 300 lab tests at 100% off, but *only* "la
+recomandarea medicului RM" (with a referral from an RM doctor). Enforcement
+of that referral is a GP's individual call and isn't published anywhere, so
+this repo doesn't model it as guaranteed. Every annex-covered line in the
+subscription file is marked **(estimated)**, not asserted as a hard price —
+this is the one file in the repo where "Covered" doesn't mean "buy it for
+this price, guaranteed."
+
+**Finding the current annex.** The live terms PDF is linked from
+`https://shop.reginamaria.ro/abonamentul-comfort-premium-adulti.html` as a
+dynamically-served download (`Anexa includeri abonament.pdf`) — that page,
+not a dated static PDF under `reginamaria.ro/sites/default/files/`, is the
+one to check each refresh, since Regina Maria revises the PDF in place
+without changing its URL. Check the PDF's `ModDate` against your last refresh
+to see whether it changed at all before re-deriving anything.
+
+**Matching annex test names to shopping-list lines is manual and literal.**
+The annex names tests generically (e.g. "Testosteron total", "PCR (Proteina
+C reactivă) test cantitativ") while the shopping list sells RM's specific
+SKUs (e.g. "Free PSA" vs plain "PSA"). Do not assume a generic annex name
+covers a more specific SKU — three known ambiguous cases, currently all kept
+at full price rather than assumed covered:
+- "Proteina C reactiva inalt sensibila (HSCRP)" — the annex lists generic
+  "PCR", not explicitly the high-sensitivity assay.
+- "Free PSA" — the annex lists generic "PSA", not explicitly free PSA.
+- The reticulocyte-inclusive hemogram upgrade — the annex says
+  "Hemoleucogramă completă" generically, not specifically the
+  reticulocyte-inclusive SKU.
+
+Re-check these three by name against the current annex text on every
+refresh; Regina Maria could make any of them explicit in either direction.
+
+This file intentionally never mentions the subscription's own monthly
+cost — it's a per-test price list for someone who already has the
+subscription, not a cost/benefit case for buying one.
+
 ## Panel membership
 
 Optimizer input. Verify these still hold when refreshing, but expect them to
@@ -202,9 +272,12 @@ actually DHEA Sulfate. Normalize to whoop.com's Title Case spellings.
 
 ## Style
 
-Spartan. Two deliverables split across two files (`BIOMARKERS.md` for the
-comparison tables, `README.md` for the landing page and shopping list), a
-two-line provider block, a one-line disclaimer, a one-line licence. No table of
-contents, no emoji headers, no medical essay. If you are adding a third
-section — to either file — check first whether it belongs in this file
-instead — agent-facing detail lives here, not in the README or BIOMARKERS.md.
+Spartan. Two deliverables split across four files (`BIOMARKERS.md` for the
+comparison tables, `SHOPPING-LIST-SYNEVO.md` and `SHOPPING-LIST-REGINA-MARIA.md`
+for the shopping list, `README.md` as a thin landing page linking to both),
+plus `SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` as a clearly-separate
+fifth file for subscriber-only pricing. Each file carries its own two-line
+provider block or back-link, one-line disclaimer, and one-line licence. No
+table of contents, no emoji headers, no medical essay. If you are adding a
+new section to any of these files, check first whether it belongs in this
+file instead — agent-facing detail lives here, not in any product file.
