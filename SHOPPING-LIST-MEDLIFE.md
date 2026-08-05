@@ -1,136 +1,250 @@
 # MedLife — Shopping List
 
-Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Tick what you
-want. Core blocks together are the cheapest route to every Core biomarker the
-provider sells. Derived values cost nothing — buy the inputs and compute them.
+Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
+[catalogue](https://www.medlife.ro/gama-analize) for the Test name to order.
 
-MedLife's [catalogue page](https://www.medlife.ro/gama-analize) has no
-per-test deep links — unlike Synevo and Regina Maria, test names below aren't
-hyperlinked; search the catalogue page for the name to order.
+## Core
 
-**Core — 1,858 RON**
+1,858 RON · subscriber ~810 RON · 56 of 57 biomarkers · 18 derived
 
-**Blood count** · 51 RON · 20 biomarkers
-- [ ] Hemoleucograma completa — 51 · 20 biomarkers
+### Blood count
 
-**Lipids** · 345 RON · 6 biomarkers (+6 derived)
-- [ ] Lipoproteina (a) — 149
-- [ ] Apolipoproteina B — 100
-- [ ] HDL- Colesterol — 28
-- [ ] LDL-Colesterol — 26
-- [ ] Trigliceride — 21
-- [ ] Colesterol total — 21
+51 RON · subscriber 0 RON · 20 biomarkers
 
-**Metabolic** · 140 RON · 4 biomarkers (+2 derived)
-- [ ] Insulina — 61
-- [ ] Hemoglobina glicozilata (HbA1C) — 58
-- [ ] Glucoza serica — 21 · 2 biomarkers
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Hemoleucograma completa ‡ | 51 | 0 ● |
 
-**Liver** · 88 RON · 4 biomarkers (+1 derived)
-- [ ] Fosfataza alcalina — 26
-- [ ] TGP/ALT — 21
-- [ ] TGO/AST — 21
-- [ ] Bilirubina totala — 20
+### Lipids
 
-**Kidney** · 63 RON · 3 biomarkers (+2 derived)
-- [ ] Albumina serica — 21
-- [ ] Ureea nitrogen (BUN) — 21
-- [ ] Creatinina serica — 21
+345 RON · subscriber ~149 RON · 6 biomarkers · 6 derived
 
-**Iron** · 116 RON · 3 biomarkers (+1 derived)
-- [ ] Feritina — 60
-- [ ] CTLFe (Capacitatea totala de legare a fierului) — 33
-- [ ] Sideremie — 23
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Lipoproteina (a) | 149 | 149 |
+| Apolipoproteina B | 100 | 0 ○ |
+| HDL- Colesterol | 28 | 0 ● |
+| LDL-Colesterol | 26 | 0 ● |
+| Trigliceride | 21 | 0 ● |
+| Colesterol total | 21 | 0 ● |
 
-**Electrolytes** · 152 RON · 5 biomarkers (+3 derived)
-- [ ] Bicarbonat seric — 60
-- [ ] Clor seric — 24
-- [ ] Potasiu seric — 24
-- [ ] Sodiu seric — 24
-- [ ] Calciu seric total — 20
+### Metabolic
 
-**Protein** · 20 RON · 1 biomarker (+2 derived)
-- [ ] Proteine totale — 20
+140 RON · subscriber ~61 RON · 4 biomarkers · 2 derived
 
-**Thyroid** · 60 RON · 1 biomarker
-- [ ] TSH — 60
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Insulina | 61 | 61 |
+| Hemoglobina glicozilata (HbA1C) | 58 | 0 ○ |
+| Glucoza serica ‡ | 21 | 0 ● |
 
-**Hormones** · 376 RON · 6 of 7 biomarkers
-- [ ] SHBG — 72
-- [ ] Testosteron liber — 63
-- [ ] FSH — 62
-- [ ] Estradiol — 61
-- [ ] Testosteron — 61
-- [ ] LH — 57
-- *not sold here: Cortisol*
+### Liver
 
-**Inflammation** · 273 RON · 2 biomarkers (+1 derived)
-- [ ] Homocisteina — 207
-- [ ] CRP hs — 66
+88 RON · subscriber 0 RON · 4 biomarkers · 1 derived
 
-**Vitamins** · 174 RON · 1 biomarker
-- [ ] 25-OH Vitamina D — 174
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Fosfataza alcalina | 26 | 0 ○ |
+| TGP/ALT | 21 | 0 ● |
+| TGO/AST | 21 | 0 ● |
+| Bilirubina totala | 20 | 0 ○ |
 
-**Extended** — Whoop's specialized panels, priced on top of Core.
+### Kidney
 
-**Heart Health** · +1,332 RON · 8 of 16 biomarkers
-- [ ] Acizi grasi omega 3 si omega 6 — 512 † · 4 biomarkers
-- [ ] Small dense LDL (sdLDL) — 370
-- [ ] Lipoproteina asociata fosfolipazei A2 — 305
-- [ ] Cistatina C — 124
-- [ ] Acid uric — 21 †
-- *not sold here: Asymmetric Dimethylarginine (ADMA), Docosapentaenoic Acid (DPA), HDL Large, LDL Medium, LDL Particle Number, LDL Peak Size, Myeloperoxidase (MPO), Symmetric Dimethylarginine (SDMA)*
+63 RON · subscriber ~21 RON · 3 biomarkers · 2 derived
 
-**Performance Health** · +922 RON · 12 of 13 biomarkers
-- [ ] Acizi grasi omega 3 si omega 6 — 512 † · 4 biomarkers
-- [ ] IGF-1 (somatomedin C) — 78
-- [ ] Vitamina B12 — 68 †
-- [ ] Folat seric — 61 †
-- [ ] Free T4 — 60 †
-- [ ] Free T3 — 55 †
-- [ ] Numaratoare de reticulocite — 44
-- [ ] Creatinkinaza-CK — 24
-- [ ] Magneziu — 20 †
-- *not sold here: Docosapentaenoic Acid (DPA)*
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Albumina serica | 21 | 0 ○ |
+| Ureea nitrogen (BUN) | 21 | 21 |
+| Creatinina serica | 21 | 0 ● |
 
-**Metabolic Health** · +1,563 RON · 11 of 12 biomarkers
-- [ ] Leptina — 321 †
-- [ ] Adiponectina — 309
-- [ ] Seleniu — 216
-- [ ] Iod in sange — 210
-- [ ] Zinc — 116 †
-- [ ] Cupru seric — 106
-- [ ] Peptid C — 100
-- [ ] Free T4 — 60 †
-- [ ] Free T3 — 55 †
-- [ ] Fructozamina — 47
-- [ ] Gama GT — 23
-- *not sold here: 1,5-Anhydroglucitol (1,5-AG)*
+### Iron
 
-**Women's Health** · +1,089 RON · 11 of 11 biomarkers
-- [ ] Leptina — 321 †
-- [ ] Hormon Anti-Mullerian — 288
-- [ ] Ac Anti-Tireoperoxidaza (ATPO) — 71
-- [ ] Vitamina B12 — 68 †
-- [ ] Folat seric — 61 †
-- [ ] Prolactina — 61 †
-- [ ] Free T4 — 60 †
-- [ ] Progesteron — 58
-- [ ] Free T3 — 55 †
-- [ ] Fosfor seric — 26
-- [ ] Magneziu — 20 †
+116 RON · subscriber ~60 RON · 3 biomarkers · 1 derived
 
-**Men's Health** · +949 RON · 8 of 8 biomarkers
-- [ ] Leptina — 321 †
-- [ ] Dihidrotestosteron (DHT) — 285
-- [ ] Zinc — 116 †
-- [ ] Ag. specific prostatic (PSA) — 63
-- [ ] Free PSA — 62
-- [ ] Prolactina — 61 †
-- [ ] Acid uric — 21 †
-- [ ] Magneziu — 20 †
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Feritina | 60 | 60 |
+| CTLFe (Capacitatea totala de legare a fierului) | 33 | 0 ○ |
+| Sideremie | 23 | 0 ○ |
 
-† appears in more than one specialized panel — you buy it once, so two panels together cost less than their subtotals suggest.
+### Electrolytes
+
+152 RON · subscriber ~60 RON · 5 biomarkers · 3 derived
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Bicarbonat seric | 60 | 60 |
+| Clor seric | 24 | 0 ○ |
+| Potasiu seric | 24 | 0 ○ |
+| Sodiu seric | 24 | 0 ○ |
+| Calciu seric total | 20 | 0 ○ |
+
+### Protein
+
+20 RON · subscriber 0 RON · 1 biomarker · 2 derived
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Proteine totale | 20 | 0 ○ |
+
+### Thyroid
+
+60 RON · subscriber 0 RON · 1 biomarker
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| TSH | 60 | 0 ○ |
+
+### Hormones
+
+376 RON · subscriber ~186 RON · 6 of 7 biomarkers · 1 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| SHBG | 72 | 0 ○ |
+| Testosteron liber | 63 | 63 |
+| FSH | 62 | 62 |
+| Estradiol | 61 | 61 |
+| Testosteron | 61 | 0 ○ |
+| LH | 57 | 0 ○ |
+
+### Inflammation
+
+273 RON · subscriber 273 RON · 2 biomarkers · 1 derived
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Homocisteina | 207 | 207 |
+| CRP hs | 66 | 66 |
+
+### Vitamins
+
+174 RON · subscriber 0 RON · 1 biomarker
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| 25-OH Vitamina D | 174 | 0 ○ |
+
+## Extended
+
+Whoop's five Specialized Panels, priced on top of Core. No total — the Panels
+share Tests, so their subtotals deliberately don't add up.
+
+### Heart Health
+
++1,332 RON · subscriber ~1,311 RON · 8 of 16 biomarkers · 8 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Acizi grasi omega 3 si omega 6 ‡ † | 512 | 512 |
+| Small dense LDL (sdLDL) | 370 | 370 |
+| Lipoproteina asociata fosfolipazei A2 | 305 | 305 |
+| Cistatina C | 124 | 124 |
+| Acid uric † | 21 | 0 ○ |
+
+### Performance Health
+
++922 RON · subscriber ~790 RON · 12 of 13 biomarkers · 1 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Acizi grasi omega 3 si omega 6 ‡ † | 512 | 512 |
+| IGF-1 (somatomedin C) | 78 | 78 |
+| Vitamina B12 † | 68 | 0 ○ |
+| Folat seric † | 61 | 61 |
+| Free T4 † | 60 | 60 |
+| Free T3 † | 55 | 55 |
+| Numaratoare de reticulocite | 44 | 0 ○ |
+| Creatinkinaza-CK | 24 | 24 |
+| Magneziu † | 20 | 0 ○ |
+
+### Metabolic Health
+
++1,563 RON · subscriber ~1,540 RON · 11 of 12 biomarkers · 1 not sold here
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Leptina † | 321 | 321 |
+| Adiponectina | 309 | 309 |
+| Seleniu | 216 | 216 |
+| Iod in sange | 210 | 210 |
+| Zinc † | 116 | 116 |
+| Cupru seric | 106 | 106 |
+| Peptid C | 100 | 100 |
+| Free T4 † | 60 | 60 |
+| Free T3 † | 55 | 55 |
+| Fructozamina | 47 | 47 |
+| Gama GT | 23 | 0 ○ |
+
+### Women's Health
+
++1,089 RON · subscriber ~497 RON · 11 biomarkers
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Leptina † | 321 | 321 |
+| Hormon Anti-Mullerian | 288 | 0 ○ |
+| Ac Anti-Tireoperoxidaza (ATPO) | 71 | 0 ○ |
+| Vitamina B12 † | 68 | 0 ○ |
+| Folat seric † | 61 | 61 |
+| Prolactina † | 61 | 0 ○ |
+| Free T4 † | 60 | 60 |
+| Progesteron | 58 | 0 ○ |
+| Free T3 † | 55 | 55 |
+| Fosfor seric | 26 | 0 ○ |
+| Magneziu † | 20 | 0 ○ |
+
+### Men's Health
+
++949 RON · subscriber ~722 RON · 8 biomarkers
+
+| Test | RON | Subscriber |
+|---|---:|---:|
+| Leptina † | 321 | 321 |
+| Dihidrotestosteron (DHT) | 285 | 285 |
+| Zinc † | 116 | 116 |
+| Ag. specific prostatic (PSA) | 63 | 0 ● |
+| Free PSA | 62 | 0 ○ |
+| Prolactina † | 61 | 0 ○ |
+| Acid uric † | 21 | 0 ○ |
+| Magneziu † | 20 | 0 ○ |
+
+## Respect Infinit
+
+The `Subscriber` column above is what these Tests cost if you hold a Respect
+Infinit subscription. It gives two separate things.
+
+An **annual set** of 11 Tests is included with no referral, capped 1×/year each,
+from first use rather than from signing — those are the `0 ●` lines, and they're
+guaranteed. A much larger **discount annex**, about 19 test categories at 100%
+off, needs "cu recomandarea medicului MedLife" — a MedLife doctor's referral,
+which is theirs to give — and caps each Test at 4×/year. Those are the `0 ○`
+lines, and they're estimates. A Test showing its full price in both columns is on
+neither list.
+
+Several Tests sit on both lists; they're marked with the annual set's guaranteed
+`●`, since that's the better route for the first order each year — the annex can
+still supply further free draws later, up to its own cap.
+
+Verified against MedLife's live subscriber terms 2026-08-05.
+
+---
+
+| | Means |
+|---|---|
+| ‡ | One Test, several biomarkers. |
+| † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
+| ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
+| ● | Free 1×/year, no referral. Guaranteed. |
+| ○ | Estimated — 100% off with a doctor's referral, which is theirs to give. Capped 4×/year. |
+| `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
+| Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
+| Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
+
+Which biomarkers a Block covers, and what's missing, is in
+[BIOMARKERS.md](BIOMARKERS.md).
 
 ---
 

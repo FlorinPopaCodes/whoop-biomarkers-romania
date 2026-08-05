@@ -41,9 +41,15 @@ _Avoid_: analysis, analiză, product, SKU
 
 **Panel**:
 A Test covering more than one Biomarker, such as a hemogram. A property of a
-Test, not a separate kind of thing. Never means one of Whoop's panels — those
-are Core and Extended.
+Test, not a separate kind of thing. Bare *Panel* never means one of Whoop's
+five; those are Specialized Panels, always written in full.
 _Avoid_: profile, profil, package, pachet, bundle
+
+**Specialized Panel**:
+One of the five groupings Whoop markets as its Specialized Panels — Heart,
+Performance, Metabolic, Women's, Men's Health. Together they make up Extended.
+Whoop's own name, kept because it mirrors their product structure.
+_Avoid_: specialized block, extended block
 
 **Provider**:
 A Romanian lab network selling Tests. Exactly three: Synevo, Regina Maria,
@@ -51,19 +57,20 @@ and MedLife.
 
 ### Money and coverage
 
-**Solo Price**:
-What it costs to obtain one Biomarker *alone* by the cheapest route at a
-Provider — its own Test's price, or the whole Panel's price where that is the
-only route. The number in every price cell of the Comparison Table. Solo Prices
-do not sum to anything meaningful and the column is never totalled.
-_Avoid_: unit price, price per biomarker
-
 **Covered / Uncovered / Unresolved**:
 The three states a Biomarker can hold at a Provider. Covered: some Test yields
-it, and it has a Solo Price. Uncovered: the Provider sells nothing that yields
-it, rendered as an em-dash. Unresolved: we could not determine it, rendered as
-`?`. Unresolved is excluded from the Common Set and named explicitly, so a soft
-number is never laundered into a hard one.
+it, so the name map cell names that Test. Uncovered: the Provider sells nothing
+that yields it, rendered as an em-dash. Unresolved: we could not determine it,
+rendered as `?`. Unresolved is excluded from the Common Set and named
+explicitly, so a soft number is never laundered into a hard one.
+
+**Subscriber Price**:
+What a Test costs someone holding that Provider's subscription. Two grades, and
+they are never interchangeable: *guaranteed* — a fixed annual set, no referral,
+capped per year — and *estimated* — a discount annex gated on a doctor's
+referral, which is theirs to give. Never quoted without its grade. Lives beside
+the standard price in the Provider's shopping list, never in place of it.
+_Avoid_: discounted price, member price
 
 **Common Set**:
 The Core Biomarkers Covered by all Providers. Provider totals are quoted over
@@ -82,12 +89,12 @@ _Avoid_: cart, order, selection
 **Block**:
 A group of the shopping list's Tests carrying its own subtotal and Biomarker
 count, so a user can drop a whole theme and see what they saved and what they
-lost. Core Blocks are clinical themes; Specialized Blocks are Whoop's five —
-Heart, Performance, Metabolic, Women's, Men's Health.
+lost. Core Blocks are clinical themes; Extended's Blocks are the five
+Specialized Panels.
 _Avoid_: category, group, section
 
 **Shared Biomarker**:
-A Biomarker appearing in more than one Specialized Block — Leptin, Magnesium,
-Free T3/T4, the omega panel. Each Block is priced standalone, so Shared
-Biomarkers are marked `†` and two Blocks together cost less than their subtotals
+A Biomarker appearing in more than one Specialized Panel — Leptin, Magnesium,
+Free T3/T4, the omega panel. Each is priced standalone, so Shared Biomarkers are
+marked `†` and two Specialized Panels together cost less than their subtotals
 suggest.
