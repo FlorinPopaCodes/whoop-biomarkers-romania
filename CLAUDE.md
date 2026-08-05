@@ -1,6 +1,8 @@
 # Maintaining this repo
 
-`README.md` is the product and the only source of truth for prices. There are no
+`README.md` and `BIOMARKERS.md` together are the product. `BIOMARKERS.md` is the
+source of truth for every price; `README.md` is the landing page — intro,
+provider links, the headline Core verdict, and the shopping list. There are no
 scripts. Everything here is what you need to refresh it correctly.
 
 Read `CONTEXT.md` first — it defines Solo Price, Common Set, Basket, Block and
@@ -10,17 +12,41 @@ the rest of the vocabulary used below.
 
 Every ~3 months. Re-verify **every** price at both providers, not just the gaps:
 a table mixing fresh and stale cells under one date lies about half its contents.
-Re-stamp the date at the bottom of `README.md` only when the whole sweep is done.
+Re-stamp the date at the bottom of both `BIOMARKERS.md` and `README.md` only
+when the whole sweep is done — the two files share prices, so they share a date.
+
+After recomputing the Common Set totals in `BIOMARKERS.md`, copy the same two
+numbers into `README.md`'s teaser under `## Biomarkers`. Nothing enforces that
+copy; forgetting it is the fast way for the two files to quietly disagree.
 
 ## The two deliverables
 
-**Comparison table** — one table, alphabetical by Whoop biomarker, 5 columns:
-Whoop Biomarker · Synevo test · RON · Regina Maria test · RON. Plain text, no
-links. It answers *which provider do I pick*.
+**Comparison tables** (`BIOMARKERS.md`) — split into Core and Extended.
 
-**Shopping list** — per provider, grouped into Blocks with checkboxes, per-item
-prices, subtotals and biomarker counts. Test names are hyperlinked here and
-nowhere else. It answers *what do I actually order*.
+- *Core* is one flat table, alphabetical by Whoop biomarker, 5 columns: Whoop
+  Biomarker · Synevo test · RON · Regina Maria test · RON. Plain text, no links.
+- *Extended* is the same 5 columns but grouped into subsections by Whoop's five
+  Specialized Panels (see Blocks below). A biomarker shared by more than one
+  panel repeats under each, marked `†` — this is deliberate: it keeps every
+  panel's row count matching its own coverage count in the shopping list, at
+  the cost of the Extended table being longer than a flat list would be.
+- Each half is followed by its own short Derived list (Name · Formula, 2
+  columns, no price columns — see Pricing rules) instead of interleaving
+  Derived rows into the price table.
+- **DHEA Sulfate is unplaced.** It's Extended, priced at both providers, but
+  isn't part of any of Whoop's five Specialized Panels — checked directly
+  against Whoop's panel marketing, not inferred. It currently sits in its own
+  one-line "not yet placed" note rather than being folded into a topically-close
+  panel; doing that would make that panel's row count disagree with its own
+  shopping-list coverage count. Revisit if Whoop ever documents where it belongs.
+
+Together they answer *which provider do I pick*. `README.md` keeps only the
+Common Set totals as a teaser, linking to `BIOMARKERS.md` for the row-by-row
+breakdown.
+
+**Shopping list** (`README.md`) — per provider, grouped into Blocks with
+checkboxes, per-item prices, subtotals and biomarker counts. Test names are
+hyperlinked here and nowhere else. It answers *what do I actually order*.
 
 ## Pricing rules
 
@@ -32,9 +58,11 @@ panel → the whole panel's price. So MCV shows the full hemogram price.
 column sum counts it sixteen times. The totals under the table come from the
 Basket optimization, not from the column.
 
-**Derived biomarkers are 0 RON at both providers**, and carry their formula in
-the Whoop Biomarker cell. Derived means *no Romanian lab sells it and it must be
-computed from other biomarkers on this list*. That is not Whoop's definition —
+**Derived biomarkers are 0 RON at both providers**, and live in their own Name ·
+Formula list (Core Derived, Extended Derived) rather than the price tables —
+a 0/0 row carries no comparison information, so it doesn't belong there. Derived
+means *no Romanian lab sells it and it must be computed from other biomarkers on
+this list*. That is not Whoop's definition —
 Whoop marks LDL Cholesterol, TIBC and ALP as "Calculated" but Romanian labs sell
 all three as line items, so they are purchasable here. (Whoop's ALP row is
 simply an error; it is an enzyme assay.)
@@ -174,7 +202,9 @@ actually DHEA Sulfate. Normalize to whoop.com's Title Case spellings.
 
 ## Style
 
-Spartan. Two deliverables, a two-line provider block, a one-line disclaimer, a
-one-line licence. No table of contents, no emoji headers, no medical essay. If
-you are adding a third section, check first whether it belongs in this file
-instead — agent-facing detail lives here, not in the README.
+Spartan. Two deliverables split across two files (`BIOMARKERS.md` for the
+comparison tables, `README.md` for the landing page and shopping list), a
+two-line provider block, a one-line disclaimer, a one-line licence. No table of
+contents, no emoji headers, no medical essay. If you are adding a third
+section — to either file — check first whether it belongs in this file
+instead — agent-facing detail lives here, not in the README or BIOMARKERS.md.
