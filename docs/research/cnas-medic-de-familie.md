@@ -1,5 +1,5 @@
 # State-funded analyses via the medic de familie — research findings
-Research only. Nothing here has been folded into the product yet, and the shape it should take is undecided. Verified 2026-08-05.
+The prevention route has since been folded into the product as the `§` marker — see `docs/adr/0002-only-the-prevention-route.md`. Everything else here, the diagnostic route above all, remains research only. Verified 2026-08-05; the prevention list re-verified against primary sources 2026-08-05, see below.
 ## The headline
 There is no single "free via CNAS" answer. There are **two different routes** with different gates, different yields, and — critically — different exposure to the monthly budget ceiling. Conflating them is the main way a reader would be misled.
 
@@ -7,7 +7,7 @@ There is no single "free via CNAS" answer. There are **two different routes** wi
 | --- | --- | --- |
 | What it needs | Nothing but being asymptomatic and due | A diagnosis or presumptive diagnosis (ICD-10 code) on the referral |
 | Whoop Core biomarkers it yields | **27 of 57** | **39 of 57** |
-| Whoop Extended it yields | 0–1 (FT4 for women 40+) | 8   |
+| Whoop Extended it yields | 0–2 (FT4 for women 40+; PSA for men 50+) | 8   |
 | How often | **Once per calendar year** | Per clinical episode; no annual cap found |
 | Referral validity | 60 calendar days | 30 days (acute), up to 90 (chronic) |
 | Monthly ceiling | **Exempt — settled above the contract value** | **Fully exposed** |
@@ -49,9 +49,18 @@ The specialist-only bucket is what breaks the naive reading. **Every sex hormone
 Cross-checked two ways: an independent decode of the annex PDF and a separate documentary trace both land on the same conclusion; they differ by three rows on the exact `*1` count, which does not move any biomarker in or out.
 ## What the two routes actually yield
 ### Prevention route — 27 of 57 Core
-For asymptomatic adults 18–39 the annual preventive list is: complete blood count, CRP, fasting glucose, total cholesterol, LDL cholesterol, creatinine with eGFR, AST, ALT, and VDRL/RPR. Adults 40+ add urinary albumin/creatinine ratio, TSH and FT4 for women, and PSA for men from 50 every three years.
+For asymptomatic adults 18–39 the annual preventive list is: complete blood count, CRP, fasting glucose, total cholesterol, LDL cholesterol, creatinine with eGFR, AST, ALT, and VDRL/RPR. Adults 40+ add urinary albumin/creatinine ratio; women add TSH and FT4; men add PSA from 50, once every three years.
 
-Mapped onto Whoop: the blood count alone is 20 Core biomarkers, plus fasting glucose and glucose, total cholesterol, LDL, creatinine, AST and ALT — **27**. Women 40+ add TSH (28 Core) and FT4 (1 Extended).
+**The list lives only in the norms, and TSH is women-only.** HG 521/2023 anexa 1 pct. 1.2.3 defines the consultation but carries no test list; that exists solely in Ordin MS/CNAS 1857/441/2023, in anexa 1 pct. 1.2.3 and anexa 2 pct. 1.2.3, which agree. The relevant lines, from CNAS's January 2026 consolidation, pct. 1.2.3.b ("pentru adultul asimptomatic cu vârsta de 40 de ani şi peste"):
+
+> — TSH şi FT4 la femei
+> — pentru bărbaţi, PSA, începând cu vârsta de 50 de ani, o dată la 3 ani.
+
+`la femei` scopes the coordinated pair, and the wording is identical in the original Monitorul Oficial 484 bis/31.V.2023 publication and the August 2024 consolidation. The drafters write a bare `• TSH` where they mean no sex restriction — the pediatric dismetabolic lists in the same document do exactly that. The 18–39 list carries no TSH at all, so **TSH is never claimable by a man on this route, at any age.** Sources: `https://cnas.ro/wp-content/uploads/2026/01/ALL-ORDIN-Nr.-1857_441_2023-Partea-I.pdf` and `https://cnas.ro/wp-content/uploads/2024/08/ordin-1857.pdf`.
+
+**A second gate, not previously modelled.** The same passage conditions the annual bloods on risk, not merely on the consultation: "adulţii asimptomatici, **cu factori de risc modificabili**, beneficiază anual de investigaţii paraclinice […] doar pentru investigaţiile paraclinice apreciate a fi necesare de către medicul de familie". A reader with no modifiable risk factor may get the consultation and none of the tests.
+
+Mapped onto Whoop: the blood count alone is 20 Core biomarkers, plus fasting glucose and glucose, total cholesterol, LDL, creatinine, AST and ALT — **27**. Women 40+ add TSH (28 Core) and FT4 (1 Extended). Men gain no further Core biomarker at any age — what they add is the urinary albumin/creatinine ratio at 40 and PSA (Extended) at 50, neither of which moves the Core count.
 
 Two things a reader would trip on. **HDL cholesterol is not on the preventive list** — total and LDL are, HDL isn't, which also strands several Derived ratios that need it. CNAS published a draft in July 2026 proposing to add it; not in force. And the plain **CRP on the list is not the high-sensitivity assay** this repo maps to Whoop's hs-CRP.
 

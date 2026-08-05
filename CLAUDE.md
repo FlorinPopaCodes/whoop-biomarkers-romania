@@ -64,8 +64,9 @@ which stay at full price. See each provider's section below for how to find its
 annex.
 
 **The `§` set needs its own pass too**, for the same reason and with a twist: it
-is national, so one derivation feeds all three files and they must come out
-agreeing. See "State funding" below.
+is national, so one derivation of the funded *biomarkers* feeds all three files.
+Which Test lines end up marked can still differ per provider. See "State funding"
+below.
 
 ## What each file contains
 
@@ -138,8 +139,10 @@ directly under the heading:
 
 - Fully covered: `370 RON · 6 biomarkers · 6 derived`
 - Partially: `+595 RON · 3 of 16 biomarkers · 13 not sold here`
-- With a subscriber column, `subscriber ~N RON` goes second. Use `~` only when
-  the figure is non-zero.
+- With a subscriber column, `subscriber ~N RON` goes second. `~` marks the figure
+  as an estimate, so it needs *both* conditions: a non-zero figure, and at least
+  one `○` line in the Block. A subtotal of 0, or a non-zero one made entirely of
+  full-price and `●` lines, takes no `~`.
 - `n of m` only when `n ≠ m`; omit the `derived` segment when a Block has none.
 
 Items are a table, `| Test | RON |` — plus `| Subscriber |` at Regina Maria and
@@ -151,19 +154,25 @@ MedLife. Descending price within a Block. Markers go on the Test name:
 | `†` | Shared across Specialized Panels |
 | `↑` | Upgrade, price shown is the *difference* (Synevo and RM reticulocyte hemograms only — MedLife's is a standalone Test) |
 | `§` | Free on a prevention referral from a family doctor |
-| `●` | Subscriber: guaranteed free, no referral |
-| `○` | Subscriber: estimated, referral-gated |
+| `●` | Subscriber: guaranteed free, no Recommendation |
+| `○` | Subscriber: estimated, Recommendation-gated |
 
-`§` takes no guaranteed/estimated grade the way the subscriber glyphs do — the
-prevention list is fixed in law and settled above the lab's monthly ceiling, so
-it is a hard claim. One marker is enough where the subscriber column needed two.
+`‡` is judged **per Block, not per Test**: it marks a Test contributing more than
+one biomarker *to the Block it sits in*. Regina Maria's `Profil LDL` bundles four
+assays but contributes only LDL Small to Heart Health — LDL Cholesterol arrives
+via Profil lipidic in Core — so it is correctly unmarked.
+
+`§` takes no guaranteed/estimated grade the way the subscriber glyphs do, though
+not because it is ungated — see `docs/adr/0002`. Both are a doctor's call; what
+differs is that a refused `§` line refuses a published entitlement. A second
+glyph would grade all 27 lines identically.
 
 Then a subscription-mechanics section (Regina Maria and MedLife), then a
 `## Free on a prevention referral` section (all three), then the **shared
-legend**, then the disclaimer. The legend is a two-column table and is
-**identical across all three files** apart from the `●`/`○` rows, which only the
-two providers with subscriptions carry. Change it in one file, change it in all
-three.
+legend**: one row per glyph the file actually uses, worded identically across all
+three. Change a row's wording in one file, change it in all three. Which rows
+appear follows from the file — Synevo carries no `●`/`○` (no subscription),
+MedLife no `↑` (its reticulocyte count is a standalone Test).
 
 **Absences are counted, never named** — `13 not sold here`, not a list of
 thirteen biomarker names. This applies to Core too, including MedLife's Cortisol.
@@ -259,7 +268,13 @@ where `<id>` is `data-drupal-investigation`.
 Slugs enumerate from `https://www.synevo.ro/sitemap_index.xml` (2,354 `/shop/`
 products; it is one flat urlset despite the name). Then fetch
 `https://www.synevo.ro/shop/<slug>/` and read the JSON-LD `offers.price`. The
-JSON-LD `sku` is a stable `CH…` code worth recording. The on-site A-Z filter is
+JSON-LD `sku` is a stable `CH…` code worth recording.
+
+**Each Synevo product page carries two different names** — the `<title>` and the
+`<h1>`/JSON-LD `name`, e.g. "Cupru in plasma" against "Cupru în sânge" for one
+product. Take the `<title>` form: it is the catalogue-listing name, and it is
+what the shopping-list links already use. Using both is how `BIOMARKERS.md` and
+the shopping list came to disagree on two rows. The on-site A-Z filter is
 Livewire and does not respond to query params, so the sitemap is the only bulk
 route. One national price, no region selector.
 
@@ -311,10 +326,10 @@ the discount is large enough (roughly half of Regina Maria's Core list) to be
 worth showing, not because it's a price every reader gets.
 
 **The mechanic.** Comfort Premium gives two things: a free annual screening
-panel (~11 tests, no referral, capped at 1×/year each), and a much larger
+panel (~11 tests, no Recommendation, capped at 1×/year each), and a much larger
 discount annex — about 300 lab tests at 100% off, but *only* "la
-recomandarea medicului RM" (with a referral from an RM doctor). Enforcement
-of that referral is a GP's individual call and isn't published anywhere, so
+recomandarea medicului RM" (with a Recommendation from an RM doctor).
+Enforcement of it is a GP's individual call and isn't published anywhere, so
 this repo doesn't model it as guaranteed. Every annex-covered line is marked
 `○` (estimated), not asserted as a hard price.
 
@@ -365,14 +380,14 @@ two separate things, unlike Comfort Premium's single discount annex. An
 **annual set** of 11 tests — Papanicolau clasic/PSA, Sumar de urină,
 Glicemie, LDL colesterol, HDL colesterol, Trigliceride, Hemoleucogramă, VSH,
 Transaminaze (TGO, TGP), Creatinină serică, Colesterol total — is included
-with **no referral**, capped **1×/year each**; the limit applies from first
+with **no Recommendation**, capped **1×/year each**; the limit applies from first
 use, not from contract signing. A much larger **discount annex** — about 19
 test categories (Biochimie, Hematologie, Markeri endocrini, Markeri
 cardiovasculari, Imunologie, Coagulare, Electroforeză, Biologie moleculară,
 Anatomie patologică, Markeri tumorali, Markeri osoși, Markeri hepatici,
 Markeri infecțioși, Markeri alergii, Microbiologie, Bacteriologie,
 Toxicologie, Parazitologie, Screening prenatal) — is 100% off but needs "cu
-recomandarea medicului MedLife" (a MedLife doctor's referral), the same
+recomandarea medicului MedLife" (a MedLife doctor's Recommendation), the same
 enforcement uncertainty as Comfort Premium's annex. Unlike Comfort Premium,
 Respect Infinit's annex caps each test at **4×/year** ("1 analiză/trimestru,"
 one per quarter) — Comfort Premium's annex has no equivalent per-test annual
@@ -427,17 +442,42 @@ import Comfort Premium's caution onto this file's Free PSA line.
 
 `§` marks Tests obtainable free on a prevention referral from a family doctor.
 Unlike the subscriber columns this is **national** — the same entitlement at all
-three providers — so the marked set is derived once and applied three times, and
-the three files must agree. Only the prevention route is modelled; see
+three providers — so the set is derived once, at the level of *biomarkers*, and
+applied three times. Only the prevention route is modelled; see
 `docs/adr/0002-only-the-prevention-route.md` for why the larger diagnostic route
 is deliberately absent.
+
+Its *expression* may differ between files. `§` marks a Test, and a Provider whose
+Basket buys a Panel mixing funded and unfunded biomarkers cannot mark it; where
+that happens the explainer must name the funded members in prose instead. There
+is currently one such case — Regina Maria's `Profil lipidic`, where Total
+Cholesterol and LDL are funded and HDL and Triglycerides are not — which is why
+Regina Maria carries 25 `§` biomarkers against the others' 27. That is the
+expected shape, not a gap to close.
+
+The set as derived 2026-08-05: the 20-parameter blood count, fasting glucose,
+total cholesterol, LDL, creatinine, AST and ALT for everyone from 18; TSH and
+free T4 for women from 40; PSA for men from 50, once every three years. **TSH is
+women-only** — the norms read "TSH şi FT4 la femei", where `la femei` scopes both,
+so a man gains no further Core biomarker at any age. Re-stamp this date when the
+set is re-derived, not when prices move.
 
 **The lists are in two different documents, and only one of them is the one you
 want.** The tariff annex — Anexa 17 to Ordin MS/CNAS 1857/441/2023 — is the 108
 investigations the state funds *at all*, with reimbursed tariffs. The prevention
-lists are elsewhere: **HG 521/2023, anexa 1, lit. B, pct. 1.2.3**, reproduced in
-the norms. Reading the tariff annex alone will overstate `§` by twelve Core
-biomarkers, because it includes everything a *specialist* can order too.
+lists are elsewhere. **HG 521/2023, anexa 1, pct. 1.2.3 defines the consultation
+but carries no test list** — that exists solely in the norms, Ordin MS/CNAS
+1857/441/2023, at anexa 1 pct. 1.2.3 and anexa 2 pct. 1.2.3, which agree. Use
+CNAS's own consolidation, currently
+`https://cnas.ro/wp-content/uploads/2026/01/ALL-ORDIN-Nr.-1857_441_2023-Partea-I.pdf`;
+legislatie.just.ro's consolidated forms are subscriber-gated. Reading the tariff
+annex alone will overstate `§` by twelve Core biomarkers, because it includes
+everything a *specialist* can order too.
+
+A third gate sits in the same passage and is easy to miss: the annual bloods go
+to "adulţii asimptomatici, **cu factori de risc modificabili**", and only "pentru
+investigaţiile paraclinice apreciate a fi necesare de către medicul de familie".
+Risk factors condition the tests, not just the consultation.
 
 Both live at `https://cnas.ro`. Two traps when reading them:
 
@@ -453,14 +493,23 @@ Both live at `https://cnas.ro`. Two traps when reading them:
 Refresh discipline: re-derive the `§` set from the prevention lists each sweep.
 It can change independently of every price in this repo, so nothing else here
 would catch it. A CNAS draft in transparency (July 2026) proposes adding HDL
-cholesterol, which would mark a new line at all three providers and, at Regina
-Maria, would make Profil lipidic fully covered and retire the swap note below.
+cholesterol, which would mark a new line at Synevo and MedLife. It would *not*
+retire Regina Maria's swap note below: triglycerides stay unfunded, so Profil
+lipidic would still lose — to buying Trigliceride alone for 30 against the
+panel's 85, a wider gap than today's.
 
 Two lines that look like they qualify and don't. **CRP hs** — the prevention
 list carries plain C-reactive protein, a different assay from the
 high-sensitivity one this repo maps to Whoop's hs-CRP. **The
 reticulocyte-inclusive hemogram** — the state covers the 20-parameter count
 only.
+
+**`§` and `↑` don't compose**, which the Synevo and Regina Maria explainers now
+say. A referral is a closed set the lab may not add to, so the upgrade cannot be
+bought on top of a funded blood count: a reader wanting reticulocytes buys the
+full hemogram (75 Synevo, 70 RM) and forfeits the free one. MedLife is immune —
+its reticulocyte count is a standalone Test. Keep this in prose; don't try to
+express it in a marker.
 
 **Regina Maria's lipid Block is knowingly non-optimal on this route.** Total
 cholesterol and LDL come free, leaving only HDL (35) and Trigliceride (30) —
@@ -490,6 +539,7 @@ change far less often than prices.
 | Regina Maria | Profil lipidic | 85 | 4: HDL Cholesterol, LDL Cholesterol, Total Cholesterol, Triglycerides |
 | Regina Maria | Glucoza serica | 30 | 2: Blood Fasting Glucose, Glucose |
 | Regina Maria | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | 400 | 2: LDL Cholesterol, LDL Small |
+| MedLife | Glucoza serica | 21 | 2: Blood Fasting Glucose, Glucose |
 | MedLife | Hemoleucograma completa | 51 | 20: Basophil %, Basophils, Eosinophil %, Eosinophils, Hematocrit, Hemoglobin, Lymphocyte %, Lymphocytes, Mean Corpuscular Hemoglobin (MCH), Mean Corpuscular Hemoglobin Concentration (MCHC), Mean Corpuscular Volume (MCV), Mean Platelet Volume (MPV), Monocyte %, Monocytes, Neutrophil %, Neutrophils, Platelets, Red Blood Cell Count (RBC), Red Cell Distribution Width (RDW), White Blood Cells (WBC) |
 | MedLife | Acizi grasi omega 3 si omega 6 | 512 | 4: Arachidonic Acid (AA), Docosahexaenoic Acid (DHA), Eicosapentaenoic Acid (EPA), Linoleic Acid (LA) — same name and yield assumed identical to Synevo's identically-named panel; MedLife has no per-test deep link to verify the composition directly |
 

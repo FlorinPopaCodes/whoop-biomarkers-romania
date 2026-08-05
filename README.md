@@ -23,9 +23,9 @@ Like-for-like is the 56 Core biomarkers all three providers sell. Cortisol is th
 57th: MedLife's 2,031-test catalogue carries no standalone serum cortisol assay,
 so it's held out of the comparison — Synevo and Regina Maria both sell it, at 63
 and 115 RON. Subscriber figures are estimates over that provider's *full* Core,
-not the like-for-like set, and most of the discount depends on a doctor's
-referral; each shopping list spells out which lines are guaranteed and which
-aren't.
+not the like-for-like set, and most of the discount depends on a recommendation
+from that provider's own doctor; each shopping list spells out which lines are
+guaranteed and which aren't.
 
 Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers, Regina
 Maria 28, and MedLife 34. What each provider calls each biomarker, and who sells
@@ -41,8 +41,10 @@ One list per provider, grouped into blocks with per-block subtotals and coverage
 Hold a Regina Maria Comfort Premium or MedLife Respect Infinit subscription? The
 same lists carry a second price column for it.
 
-Roughly 175–250 RON of each list is free once a year on a prevention referral
-from your family doctor, if you're insured. The lists mark those lines `§`.
+Insured, symptom-free, not on your family doctor's chronic-disease register, and
+carrying a modifiable risk factor? Roughly 170–182 RON of each list is then free
+once a year on a prevention referral — 226–250 RON for women from 40. The lists
+mark those lines `§` and spell out the age and sex conditions.
 
 ---
 

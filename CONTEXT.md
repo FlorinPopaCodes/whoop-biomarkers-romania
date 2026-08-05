@@ -66,28 +66,37 @@ explicitly, so a soft number is never laundered into a hard one.
 
 **Subscriber Price**:
 What a Test costs someone holding that Provider's subscription. Two grades, and
-they are never interchangeable: *guaranteed* — a fixed annual set, no referral,
-capped per year — and *estimated* — a discount annex gated on a doctor's
-referral, which is theirs to give. Never quoted without its grade. Lives beside
-the standard price in the Provider's shopping list, never in place of it.
+they are never interchangeable: *guaranteed* — a fixed annual set, no
+Recommendation, capped per year — and *estimated* — a discount annex gated on a
+Recommendation, which is theirs to give. Never quoted without its grade. Lives
+beside the standard price in the Provider's shopping list, never in place of it.
 _Avoid_: discounted price, member price
 
 **Prevention Route**:
 The annual state-funded screening an insured adult can claim from their family
-doctor without being ill — no diagnosis, no symptoms, and explicitly only for
-people not registered with a chronic disease. Yields a fixed, age- and
-sex-dependent list of Tests at 0 RON, marked `§` in the shopping lists. Not a
-discount on a Provider's price but a different way of obtaining the Test, so it
-never changes a Basket or a total; the lists keep pricing what you pay walking
-in cold. Distinct from the Diagnostic Route, which reaches more Biomarkers but
-needs a diagnosis code and is deliberately not modelled here.
+doctor without being ill — no diagnosis, no symptoms, only for people not
+registered with a chronic disease, and only for those carrying a modifiable risk
+factor. Yields a fixed, age- and sex-dependent list of Tests at 0 RON. A ceiling
+rather than an entitlement: which of the list the doctor writes is theirs to
+decide.
 _Avoid_: CNAS price, free tests, state discount
+
+**Diagnostic Route**:
+The same state funding claimed on a Referral carrying an ICD-10 diagnosis code.
+Reaches more Biomarkers than the Prevention Route, and unlike it is settled only
+up to the lab's monthly contract ceiling.
 
 **Referral**:
 The *bilet de trimitere* a contracted family doctor issues, naming the Tests the
 state will fund. The unit of *entitlement*. A lab may not add to it or
 substitute on it, so what the doctor wrote is what you get.
-_Avoid_: prescription, trimitere, order
+_Avoid_: prescription, trimitere, order, recommendation
+
+**Recommendation**:
+The *recomandarea medicului* a Provider's own doctor gives, unlocking that
+Provider's discount annex. Discretionary and unenforceable — which is why every
+price it gates is graded estimated. Never a Referral: it entitles you to nothing.
+_Avoid_: referral, prescription
 
 **Common Set**:
 The Core Biomarkers Covered by all Providers. Provider totals are quoted over

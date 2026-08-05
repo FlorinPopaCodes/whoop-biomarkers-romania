@@ -22,13 +22,14 @@ basket. But the referral carries an ICD-10 code for a known or presumed
 diagnosis, and it is settled only up to the lab's monthly contract value, which
 is the whole reason for the "funds are exhausted, come back on the 1st" problem.
 
-**The prevention route.** An insured adult not registered with a chronic disease
-can claim an annual preventive consultation and, with it, a referral for a fixed
-list requiring no diagnosis at all. It maps onto **27 of 57 Core** — the blood
-count, fasting glucose, total cholesterol, LDL, creatinine, AST, ALT — plus TSH
-from 40, free T4 for women 40+, and PSA for men from 50. Worth 170–182 RON, or
-226–250 RON from 40. Crucially it is settled **above** the monthly ceiling, so
-exhausted funds are not a lawful refusal.
+**The prevention route.** An insured adult not registered with a chronic disease,
+carrying a modifiable risk factor, can claim an annual preventive consultation
+and, with it, a referral for a fixed list requiring no diagnosis at all. It maps
+onto **27 of 57 Core** — the blood count, fasting glucose, total cholesterol,
+LDL, creatinine, AST, ALT — plus TSH and free T4 for women 40+, and PSA for men
+from 50. Worth 170–182 RON, or 226–250 RON for women from 40; a man gains no
+further Core biomarker at any age. Crucially it is settled **above** the monthly
+ceiling, so exhausted funds are not a lawful refusal.
 
 The saving is a third of the diagnostic route's. The temptation was to document
 both and let the reader choose.
@@ -55,11 +56,13 @@ tip would be advising readers to misuse a public system on behalf of people who
 do need it. This is the actual reason for the decision; the rest is
 corroboration.
 
-**Every `§` is a hard claim.** Unlike the subscriber column, which needed a
-guaranteed-versus-estimated split because its discount is gated on a doctor's
-discretion, the prevention list is fixed in law and immune to the plafon. It
-needs no hedge glyph, which is why one marker suffices where the subscriber
-column needed two.
+**One marker, not two.** `§` is gated on a doctor, like the subscriber annex —
+the prevention list is a ceiling, not an order form, and the explainer says so.
+What differs is what the doctor is declining: a published entitlement fixed in
+law and settled above the lab's monthly ceiling, rather than an unpublished
+commercial discount whose enforcement nobody documents. A second glyph would
+grade all 27 lines identically, so the condition is carried once in prose
+instead.
 
 **The repo understates what is obtainable.** A reader who genuinely has a
 diagnosis can get more than `§` suggests, and nothing here tells them so. That
@@ -72,8 +75,10 @@ keeps the panel and the explainer names the swap in one sentence. Recomputing
 Baskets against a route the reader may not take would give every total two
 meanings.
 
-**A refresh has a new failure mode.** The prevention lists live in the
-Contract-cadru annex, not the tariff annex, and can move independently of any
-provider's prices — a change nothing else in this repo would catch. There is
-already a CNAS draft in transparency proposing to add HDL cholesterol, which
-would change the marker set at all three providers.
+**A refresh has a new failure mode.** The prevention lists live in the norms, not
+the tariff annex — the Contract-cadru itself defines the consultation but carries
+no test list — and they can move independently of any provider's prices, a change
+nothing else in this repo would catch. There is already a CNAS draft in
+transparency proposing to add HDL cholesterol, which would mark a new line at
+Synevo and MedLife. It would not retire Regina Maria's swap: triglycerides stay
+unfunded, so the panel would still lose, by a wider margin than today.

@@ -73,8 +73,8 @@ Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 
 All three providers sell 56 of these 57. Cortisol is the exception: MedLife's
 full 2,031-test catalogue carries no standalone serum cortisol assay, verified
-directly against it — only a 3,900 RON hormone panel mentions cortisol, and
-buying that to reach one Core biomarker isn't a reasonable route.
+directly against it — only a large hormone panel mentions cortisol, and buying
+that to reach one Core biomarker isn't a reasonable route.
 
 **Core — Derived (18)**
 
@@ -153,11 +153,11 @@ shared by more than one Specialized Panel repeats under each, marked `†`.
 | 1,5-Anhydroglucitol (1,5-AG) | — | — | — |
 | Adiponectin | Adiponectina | Adiponectina | Adiponectina |
 | C-Peptide | Peptidul C | C-Peptid | Peptid C |
-| Copper (serum) | Cupru in sange (plasma/ser) | Cupru in ser/plasma | Cupru seric |
+| Copper (serum) | Cupru in plasma | Cupru in ser/plasma | Cupru seric |
 | Free T3 (FT3) | FT3 (triiodotironina libera) † | FT3 (triiodotironina libera) † | Free T3 † |
 | Free T4 (FT4) | FT4 (Tiroxina libera) † | FT4 (tiroxina libera) † | Free T4 † |
 | Fructosamine | Fructozamina | Fructozamina | Fructozamina |
-| Gamma-Glutamyl Transferase (GGT) | Gama-glutamiltransferaza (Glutamiltranspeptidaza) | Gamaglutamiltranspeptidaza (GGT) | Gama GT |
+| Gamma-Glutamyl Transferase (GGT) | GGT - Gama-glutamiltransferaza (Glutamiltranspeptidaza, Gama GT) | Gamaglutamiltranspeptidaza (GGT) | Gama GT |
 | Iodine | Iod seric | — | Iod in sange |
 | Leptin | Leptina † | Leptina † | Leptina † |
 | Selenium | Seleniu | Seleniu in sange | Seleniu |
