@@ -2,8 +2,8 @@
 
 Whoop's paid blood panel is US-only, but uploading lab results is free on any
 membership worldwide. This repo maps every biomarker Whoop will accept on upload
-to the lab test a Romanian user can actually buy at Synevo or Regina Maria, and
-says what it costs.
+to the lab test a Romanian user can actually buy at Synevo, Regina Maria, or
+MedLife, and says what it costs.
 
 ## Language
 
@@ -46,7 +46,8 @@ are Core and Extended.
 _Avoid_: profile, profil, package, pachet, bundle
 
 **Provider**:
-A Romanian lab network selling Tests. Exactly two: Synevo and Regina Maria.
+A Romanian lab network selling Tests. Exactly three: Synevo, Regina Maria,
+and MedLife.
 
 ### Money and coverage
 
@@ -65,11 +66,11 @@ it, rendered as an em-dash. Unresolved: we could not determine it, rendered as
 number is never laundered into a hard one.
 
 **Common Set**:
-The Core Biomarkers Covered by both Providers. Provider totals are quoted over
+The Core Biomarkers Covered by all Providers. Provider totals are quoted over
 it so the head-to-head is like-for-like.
 
 **Exclusive**:
-A Biomarker Covered by one Provider and not the other. Priced and listed apart
+A Biomarker Covered by one Provider and not the others. Priced and listed apart
 from the Common Set total, never folded into it.
 
 **Basket**:
