@@ -14,7 +14,7 @@ for the Test name to order.
 
 | Test | RON | Subscriber |
 |---|---:|---:|
-| Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari ‡ | 60 | 0 ○ |
+| Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari ‡ § | 60 | 0 ○ 
 
 ### Lipids
 
@@ -34,7 +34,7 @@ for the Test name to order.
 |---|---:|---:|
 | Hemoglobina glicozilata/HbA1c | 70 | 0 ○ |
 | Insulina | 70 | 70 |
-| Glucoza serica ‡ | 30 | 0 ○ |
+| Glucoza serica ‡ § | 30 | 0 ○ 
 
 ### Liver
 
@@ -43,8 +43,8 @@ for the Test name to order.
 | Test | RON | Subscriber |
 |---|---:|---:|
 | Fosfataza alcalina | 35 | 0 ○ |
-| Alaninaminotransferaza (ALT/GPT/TGP) | 30 | 0 ○ |
-| Aspartataminotransferaza (GOT/AST/TGO) | 30 | 0 ○ |
+| Alaninaminotransferaza (ALT/GPT/TGP) § | 30 | 0 ○ 
+| Aspartataminotransferaza (GOT/AST/TGO) § | 30 | 0 ○ 
 | Bilirubina totala | 30 | 0 ○ |
 
 ### Kidney
@@ -55,7 +55,7 @@ for the Test name to order.
 |---|---:|---:|
 | Albumina serica | 35 | 0 ○ |
 | Uree serica | 30 | 0 ○ |
-| Creatinina serica | 30 | 0 ○ |
+| Creatinina serica § | 30 | 0 ○ 
 
 ### Iron
 
@@ -93,7 +93,7 @@ for the Test name to order.
 
 | Test | RON | Subscriber |
 |---|---:|---:|
-| TSH (Hormon de stimulare tiroidiana) | 70 | 0 ○ |
+| TSH (Hormon de stimulare tiroidiana) § | 70 | 0 ○ 
 
 ### Hormones
 
@@ -151,7 +151,7 @@ share Tests, so their subtotals deliberately don't add up.
 | IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | 100 | 100 |
 | Vitamina B 12 † | 85 | 85 |
 | FT3 (triiodotironina libera) † | 70 | 0 ○ |
-| FT4 (tiroxina libera) † | 70 | 0 ○ |
+| FT4 (tiroxina libera) † § | 70 | 0 ○ 
 | Creatinkinaza (CK) | 45 | 0 ○ |
 | Magneziu seric † | 30 | 0 ○ |
 | Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite ↑ | 10 | 10 |
@@ -169,7 +169,7 @@ share Tests, so their subtotals deliberately don't add up.
 | Cupru in ser/plasma | 175 | 175 |
 | Zinc in ser † | 110 | 110 |
 | FT3 (triiodotironina libera) † | 70 | 0 ○ |
-| FT4 (tiroxina libera) † | 70 | 0 ○ |
+| FT4 (tiroxina libera) † § | 70 | 0 ○ 
 | Fructozamina | 40 | 40 |
 | Gamaglutamiltranspeptidaza (GGT) | 35 | 0 ○ |
 
@@ -186,7 +186,7 @@ share Tests, so their subtotals deliberately don't add up.
 | Vitamina B 12 † | 85 | 85 |
 | Prolactina † | 75 | 0 ○ |
 | FT3 (triiodotironina libera) † | 70 | 0 ○ |
-| FT4 (tiroxina libera) † | 70 | 0 ○ |
+| FT4 (tiroxina libera) † § | 70 | 0 ○ 
 | Progesteron | 70 | 0 ○ |
 | Fosfor seric | 35 | 0 ○ |
 | Magneziu seric † | 30 | 0 ○ |
@@ -202,7 +202,7 @@ share Tests, so their subtotals deliberately don't add up.
 | Zinc in ser † | 110 | 110 |
 | Prolactina † | 75 | 0 ○ |
 | Free PSA | 70 | 70 |
-| PSA (Antigen specific prostatic) | 70 | 0 ○ |
+| PSA (Antigen specific prostatic) § | 70 | 0 ○ 
 | Magneziu seric † | 30 | 0 ○ |
 | Acid uric seric † | 30 | 0 ○ |
 
@@ -217,6 +217,29 @@ columns isn't on the discount annex at all.
 
 Verified against Regina Maria's live subscriber terms 2026-08-05.
 
+## Free on a prevention referral
+
+Lines marked `§` cost nothing if you get them on a *bilet de trimitere* from your
+family doctor, following an annual preventive consultation. You need to be
+insured and not on your doctor's register with a chronic disease — this route is
+for people with no symptoms, which is the point of it. It is a separate thing
+from Comfort Premium above, and it doesn't depend on holding a subscription.
+
+Everyone from 18 gets the blood count, fasting glucose, total cholesterol, LDL,
+creatinine, AST and ALT. From 40 you also get TSH; women get free T4, and men get
+PSA from 50, once every three years. HDL and triglycerides are **not** on the
+list.
+
+Once per calendar year, and your doctor decides which of the list is warranted —
+it is not an order form. The referral is valid 60 days. Unlike an ordinary
+referral this one is settled above the lab's monthly budget, so "funds are
+exhausted" is not a valid refusal.
+
+That takes 180 RON off Core here, or 250 RON from 40. It also flips one Block:
+on this route, skip Profil lipidic and buy HDL Colesterol (35) and Trigliceride
+(30) separately — 65 rather than 85, because total cholesterol and LDL come free
+and the panel's other two don't.
+
 ---
 
 | | Means |
@@ -224,6 +247,7 @@ Verified against Regina Maria's live subscriber terms 2026-08-05.
 | ‡ | One Test, several biomarkers. |
 | † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
 | ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
+| `§` | Free once a year on a prevention referral from your family doctor. See above. |
 | ○ | Estimated — 100% off with a doctor's referral, which is theirs to give. |
 | `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
 | Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |

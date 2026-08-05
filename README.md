@@ -41,6 +41,9 @@ One list per provider, grouped into blocks with per-block subtotals and coverage
 Hold a Regina Maria Comfort Premium or MedLife Respect Infinit subscription? The
 same lists carry a second price column for it.
 
+Roughly 175–250 RON of each list is free once a year on a prevention referral
+from your family doctor, if you're insured. The lists mark those lines `§`.
+
 ---
 
 *Community-maintained mapping, not medical advice. Synevo and Regina Maria

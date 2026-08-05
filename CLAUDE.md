@@ -63,6 +63,10 @@ repo would catch that), then re-derive which lines are `●`, which are `○`, a
 which stay at full price. See each provider's section below for how to find its
 annex.
 
+**The `§` set needs its own pass too**, for the same reason and with a twist: it
+is national, so one derivation feeds all three files and they must come out
+agreeing. See "State funding" below.
+
 ## What each file contains
 
 **Name map** (`BIOMARKERS.md`) — split into Core and Extended.
@@ -146,11 +150,17 @@ MedLife. Descending price within a Block. Markers go on the Test name:
 | `‡` | One Test, several biomarkers |
 | `†` | Shared across Specialized Panels |
 | `↑` | Upgrade, price shown is the *difference* (Synevo and RM reticulocyte hemograms only — MedLife's is a standalone Test) |
+| `§` | Free on a prevention referral from a family doctor |
 | `●` | Subscriber: guaranteed free, no referral |
 | `○` | Subscriber: estimated, referral-gated |
 
-Then a subscription-mechanics section (Regina Maria and MedLife), then the
-**shared legend**, then the disclaimer. The legend is a two-column table and is
+`§` takes no guaranteed/estimated grade the way the subscriber glyphs do — the
+prevention list is fixed in law and settled above the lab's monthly ceiling, so
+it is a hard claim. One marker is enough where the subscriber column needed two.
+
+Then a subscription-mechanics section (Regina Maria and MedLife), then a
+`## Free on a prevention referral` section (all three), then the **shared
+legend**, then the disclaimer. The legend is a two-column table and is
 **identical across all three files** apart from the `●`/`○` rows, which only the
 two providers with subscriptions carry. Change it in one file, change it in all
 three.
@@ -412,6 +422,57 @@ Maria's annex only lists generic "PSA", which is why Free PSA is one of
 category lists "Ag. specific prostatic (PSA)" and "Free PSA" as two
 separate, literal lines — both are unambiguous, covered matches here. Don't
 import Comfort Premium's caution onto this file's Free PSA line.
+
+## State funding (the `§` marker)
+
+`§` marks Tests obtainable free on a prevention referral from a family doctor.
+Unlike the subscriber columns this is **national** — the same entitlement at all
+three providers — so the marked set is derived once and applied three times, and
+the three files must agree. Only the prevention route is modelled; see
+`docs/adr/0002-only-the-prevention-route.md` for why the larger diagnostic route
+is deliberately absent.
+
+**The lists are in two different documents, and only one of them is the one you
+want.** The tariff annex — Anexa 17 to Ordin MS/CNAS 1857/441/2023 — is the 108
+investigations the state funds *at all*, with reimbursed tariffs. The prevention
+lists are elsewhere: **HG 521/2023, anexa 1, lit. B, pct. 1.2.3**, reproduced in
+the norms. Reading the tariff annex alone will overstate `§` by twelve Core
+biomarkers, because it includes everything a *specialist* can order too.
+
+Both live at `https://cnas.ro`. Two traps when reading them:
+
+- **The tariff PDF uses a shifted font subset.** `pdftotext` returns mojibake.
+  Every byte is offset by −29: add 29 to each character to decode. Layout
+  padding spaces come back as `=`, and digits arrive as control bytes in
+  `0x13`–`0x1C`. Decode before concluding anything about its contents.
+- **In the tariff annex, footnote `*1` is the family-doctor gate.** There is no
+  "family doctor" column — the marker system in NOTA 1 is the whole mechanism.
+  Unmarked means specialist-only. This is what keeps cortisol, all sex hormones,
+  ATPO, PTH, the immunoglobulins and reticulocytes off the list.
+
+Refresh discipline: re-derive the `§` set from the prevention lists each sweep.
+It can change independently of every price in this repo, so nothing else here
+would catch it. A CNAS draft in transparency (July 2026) proposes adding HDL
+cholesterol, which would mark a new line at all three providers and, at Regina
+Maria, would make Profil lipidic fully covered and retire the swap note below.
+
+Two lines that look like they qualify and don't. **CRP hs** — the prevention
+list carries plain C-reactive protein, a different assay from the
+high-sensitivity one this repo maps to Whoop's hs-CRP. **The
+reticulocyte-inclusive hemogram** — the state covers the 20-parameter count
+only.
+
+**Regina Maria's lipid Block is knowingly non-optimal on this route.** Total
+cholesterol and LDL come free, leaving only HDL (35) and Trigliceride (30) —
+65 against Profil lipidic's 85. The Basket keeps the panel and the explainer
+names the swap in prose, so that every total in the repo keeps meaning *what you
+pay walking in cold*. Don't "fix" this by forking the Basket.
+
+Regina Maria also publishes its CAS-settled catalogue at
+`/laboratoare-inteligente/gama-de-analize-decontabile`, using the same
+`data-drupal-*` markup as its main catalogue — 114 rows, all at `0 Lei`. Useful
+for cross-checking names against the annex, but it is the *whole* covered set,
+not the prevention subset, so never mark `§` straight from it.
 
 ## Panel membership
 

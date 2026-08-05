@@ -13,7 +13,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 
 | Test | RON | Subscriber |
 |---|---:|---:|
-| Hemoleucograma completa ‡ | 51 | 0 ● |
+| Hemoleucograma completa ‡ § | 51 | 0 ● 
 
 ### Lipids
 
@@ -24,9 +24,9 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 | Lipoproteina (a) | 149 | 149 |
 | Apolipoproteina B | 100 | 0 ○ |
 | HDL- Colesterol | 28 | 0 ● |
-| LDL-Colesterol | 26 | 0 ● |
+| LDL-Colesterol § | 26 | 0 ● 
 | Trigliceride | 21 | 0 ● |
-| Colesterol total | 21 | 0 ● |
+| Colesterol total § | 21 | 0 ● 
 
 ### Metabolic
 
@@ -36,7 +36,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 |---|---:|---:|
 | Insulina | 61 | 61 |
 | Hemoglobina glicozilata (HbA1C) | 58 | 0 ○ |
-| Glucoza serica ‡ | 21 | 0 ● |
+| Glucoza serica ‡ § | 21 | 0 ● 
 
 ### Liver
 
@@ -45,8 +45,8 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 | Test | RON | Subscriber |
 |---|---:|---:|
 | Fosfataza alcalina | 26 | 0 ○ |
-| TGP/ALT | 21 | 0 ● |
-| TGO/AST | 21 | 0 ● |
+| TGP/ALT § | 21 | 0 ● 
+| TGO/AST § | 21 | 0 ● 
 | Bilirubina totala | 20 | 0 ○ |
 
 ### Kidney
@@ -57,7 +57,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 |---|---:|---:|
 | Albumina serica | 21 | 0 ○ |
 | Ureea nitrogen (BUN) | 21 | 21 |
-| Creatinina serica | 21 | 0 ● |
+| Creatinina serica § | 21 | 0 ● 
 
 ### Iron
 
@@ -95,7 +95,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 
 | Test | RON | Subscriber |
 |---|---:|---:|
-| TSH | 60 | 0 ○ |
+| TSH § | 60 | 0 ○ 
 
 ### Hormones
 
@@ -154,7 +154,7 @@ share Tests, so their subtotals deliberately don't add up.
 | IGF-1 (somatomedin C) | 78 | 78 |
 | Vitamina B12 † | 68 | 0 ○ |
 | Folat seric † | 61 | 61 |
-| Free T4 † | 60 | 60 |
+| Free T4 † § | 60 | 60 
 | Free T3 † | 55 | 55 |
 | Numaratoare de reticulocite | 44 | 0 ○ |
 | Creatinkinaza-CK | 24 | 24 |
@@ -173,7 +173,7 @@ share Tests, so their subtotals deliberately don't add up.
 | Zinc † | 116 | 116 |
 | Cupru seric | 106 | 106 |
 | Peptid C | 100 | 100 |
-| Free T4 † | 60 | 60 |
+| Free T4 † § | 60 | 60 
 | Free T3 † | 55 | 55 |
 | Fructozamina | 47 | 47 |
 | Gama GT | 23 | 0 ○ |
@@ -190,7 +190,7 @@ share Tests, so their subtotals deliberately don't add up.
 | Vitamina B12 † | 68 | 0 ○ |
 | Folat seric † | 61 | 61 |
 | Prolactina † | 61 | 0 ○ |
-| Free T4 † | 60 | 60 |
+| Free T4 † § | 60 | 60 
 | Progesteron | 58 | 0 ○ |
 | Free T3 † | 55 | 55 |
 | Fosfor seric | 26 | 0 ○ |
@@ -205,7 +205,7 @@ share Tests, so their subtotals deliberately don't add up.
 | Leptina † | 321 | 321 |
 | Dihidrotestosteron (DHT) | 285 | 285 |
 | Zinc † | 116 | 116 |
-| Ag. specific prostatic (PSA) | 63 | 0 ● |
+| Ag. specific prostatic (PSA) § | 63 | 0 ● 
 | Free PSA | 62 | 0 ○ |
 | Prolactina † | 61 | 0 ○ |
 | Acid uric † | 21 | 0 ○ |
@@ -230,6 +230,28 @@ still supply further free draws later, up to its own cap.
 
 Verified against MedLife's live subscriber terms 2026-08-05.
 
+## Free on a prevention referral
+
+Lines marked `§` cost nothing if you get them on a *bilet de trimitere* from your
+family doctor, following an annual preventive consultation. You need to be
+insured and not on your doctor's register with a chronic disease — this route is
+for people with no symptoms, which is the point of it. It is a separate thing
+from Respect Infinit above, and it doesn't depend on holding a subscription.
+
+Everyone from 18 gets the blood count, fasting glucose, total cholesterol, LDL,
+creatinine, AST and ALT. From 40 you also get TSH; women get free T4, and men get
+PSA from 50, once every three years. HDL and triglycerides are **not** on the
+list.
+
+Once per calendar year, and your doctor decides which of the list is warranted —
+it is not an order form. The referral is valid 60 days. Unlike an ordinary
+referral this one is settled above the lab's monthly budget, so "funds are
+exhausted" is not a valid refusal.
+
+That takes 182 RON off Core here, or 242 RON from 40. MedLife books CNAS
+collections by telephone only, and won't run a line whose sample you didn't
+bring on the day — there is no coming back for it later on the same referral.
+
 ---
 
 | | Means |
@@ -237,6 +259,7 @@ Verified against MedLife's live subscriber terms 2026-08-05.
 | ‡ | One Test, several biomarkers. |
 | † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
 | ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
+| `§` | Free once a year on a prevention referral from your family doctor. See above. |
 | ● | Free 1×/year, no referral. Guaranteed. |
 | ○ | Estimated — 100% off with a doctor's referral, which is theirs to give. Capped 4×/year. |
 | `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |

@@ -72,6 +72,23 @@ referral, which is theirs to give. Never quoted without its grade. Lives beside
 the standard price in the Provider's shopping list, never in place of it.
 _Avoid_: discounted price, member price
 
+**Prevention Route**:
+The annual state-funded screening an insured adult can claim from their family
+doctor without being ill — no diagnosis, no symptoms, and explicitly only for
+people not registered with a chronic disease. Yields a fixed, age- and
+sex-dependent list of Tests at 0 RON, marked `§` in the shopping lists. Not a
+discount on a Provider's price but a different way of obtaining the Test, so it
+never changes a Basket or a total; the lists keep pricing what you pay walking
+in cold. Distinct from the Diagnostic Route, which reaches more Biomarkers but
+needs a diagnosis code and is deliberately not modelled here.
+_Avoid_: CNAS price, free tests, state discount
+
+**Referral**:
+The *bilet de trimitere* a contracted family doctor issues, naming the Tests the
+state will fund. The unit of *entitlement*. A lab may not add to it or
+substitute on it, so what the doctor wrote is what you get.
+_Avoid_: prescription, trimitere, order
+
 **Common Set**:
 The Core Biomarkers Covered by all Providers. Provider totals are quoted over
 it so the head-to-head is like-for-like.
