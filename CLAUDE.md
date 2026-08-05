@@ -345,6 +345,13 @@ both by name against the current annex text on every refresh:
   it "Ac Anti-Tireoperoxidaza (TPO)", same antibody test, not a scope
   difference.
 
+**"Free PSA" is not the same trap it is for Comfort Premium.** Regina
+Maria's annex only lists generic "PSA", which is why Free PSA is one of
+*its* three known ambiguous cases (see above). MedLife's Markeri tumorali
+category lists "Ag. specific prostatic (PSA)" and "Free PSA" as two
+separate, literal lines — both are unambiguous, covered matches here. Don't
+import Comfort Premium's caution onto this file's Free PSA line.
+
 ## Panel membership
 
 Optimizer input. Verify these still hold when refreshing, but expect them to
