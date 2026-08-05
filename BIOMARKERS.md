@@ -6,75 +6,81 @@ shopping list. `—` means the provider does not sell it.
 
 ## Core
 
-| Whoop Biomarker | Synevo | RON | Regina Maria | RON |
-|---|---|---:|---|---:|
-| Alanine Aminotransferase (ALT) | Alaninaminotransferaza (GPT, ALAT, ALT) | 21 | Alaninaminotransferaza (ALT/GPT/TGP) | 30 |
-| Albumin | Albumina serica | 22 | Albumina serica | 35 |
-| Alkaline Phosphatase (ALP) | Fosfataza alcalina | 26 | Fosfataza alcalina | 35 |
-| Apolipoprotein B (ApoB) | Apolipoproteina B | 52 | Apolipoproteina B | 130 |
-| Aspartate Aminotransferase (AST) | Aspartataminotransferaza (GOT/ASAT/AST) | 21 | Aspartataminotransferaza (GOT/AST/TGO) | 30 |
-| Basophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Basophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Blood Fasting Glucose | Glucoza serica (glicemie) | 21 | Glucoza serica | 30 |
-| Blood Urea Nitrogen | Uree serică | 21 | Uree serica | 30 |
-| Calcium | Calciu seric | 18 | Calciu seric | 30 |
-| Carbon Dioxide | Bicarbonat (ECO2) | 58 | Rezerva alcalina (ECO2) | 55 |
-| Chloride | Clor seric | 25 | Clor seric | 30 |
-| Cortisol | Cortizol seric | 63 | Cortizol | 115 |
-| Creatinine | Creatinina serica | 20 | Creatinina serica | 30 |
-| Eosinophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Eosinophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Estradiol | Estradiol | 63 | Estradiol | 70 |
-| Ferritin | Feritina | 57 | Feritina | 75 |
-| Follicle Stimulating Hormone (FSH) | FSH (hormon de stimulare foliculară) | 62 | FSH (hormon de stimulare foliculara) | 70 |
-| Free Testosterone | Testosteron liber | 69 | Testosteron liber | 80 |
-| Glucose | Glucoza serica (glicemie) | 21 | Glucoza serica | 30 |
-| HDL Cholesterol | Colesterol HDL | 26 | HDL Colesterol | 35 |
-| Hematocrit | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Hemoglobin | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Hemoglobin A1c (HbA1c) | Hemoglobina glicata (Hb A1c) | 59 | Hemoglobina glicozilata/HbA1c | 70 |
-| High-Sensitivity C-Reactive Protein (hs-CRP) | Proteina C reactiva (hsCRP) inalt sensibila | 76 | Proteina C reactiva inalt sensibila (HSCRP) | 100 |
-| Homocysteine | Homocisteina | 208 | Homocisteina | 200 |
-| Insulin | Insulina | 65 | Insulina | 70 |
-| Iron | Sideremie | 21 | Fier seric(sideremie) | 35 |
-| LDL Cholesterol | Colesterol LDL | 25 | LDL Colesterol | 35 |
-| Lipoprotein (a) | Lipoproteina (a) | 135 | Lipoproteina A | 155 |
-| Luteinizing Hormone (LH) | LH (hormon luteinizant) | 59 | LH (Hormon luteinizant) | 65 |
-| Lymphocyte % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Lymphocytes | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Mean Corpuscular Hemoglobin (MCH) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Mean Corpuscular Hemoglobin Concentration (MCHC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Mean Corpuscular Volume (MCV) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Mean Platelet Volume (MPV) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Monocyte % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Monocytes | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Neutrophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Neutrophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Platelets | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Potassium | Potasiu seric | 24 | Potasiu seric | 35 |
-| Red Blood Cell Count (RBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Red Cell Distribution Width (RDW) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
-| Sex Hormone Binding Globulin (SHBG) | SHBG (sex hormone binding globuline) | 73 | SHBG (sex hormone binding globulin) | 75 |
-| Sodium | Sodiu seric | 24 | Sodiu seric | 35 |
-| Testosterone | Testosteron | 61 | Testosteron | 70 |
-| Thyroid-Stimulating Hormone (TSH) | TSH (hormon de stimulare tiroidiană) | 56 | TSH (Hormon de stimulare tiroidiana) | 70 |
-| Total Bilirubin | Bilirubina totala | 19 | Bilirubina totala | 30 |
-| Total Cholesterol | Colesterol total | 18 | Colesterol total | 30 |
-| Total Iron-Binding Capacity (TIBC) | Capacitatea totala de legare a fierului (CTLF) | 39 | Capacitatea totala de legare a fierului (CTLF) | 50 |
-| Total Protein | Proteine totale serice | 18 | Proteine totale serice | 35 |
-| Triglycerides | Trigliceride | 21 | Trigliceride | 30 |
-| Vitamin D | 25-OH-vitamina D | 170 | 25 OH Vitamina D | 175 |
-| White Blood Cells (WBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 |
+| Whoop Biomarker | Synevo | RON | Regina Maria | RON | MedLife | RON |
+|---|---|---:|---|---:|---|---:|
+| Alanine Aminotransferase (ALT) | Alaninaminotransferaza (GPT, ALAT, ALT) | 21 | Alaninaminotransferaza (ALT/GPT/TGP) | 30 | TGP/ALT | 21 |
+| Albumin | Albumina serica | 22 | Albumina serica | 35 | Albumina serica | 21 |
+| Alkaline Phosphatase (ALP) | Fosfataza alcalina | 26 | Fosfataza alcalina | 35 | Fosfataza alcalina | 26 |
+| Apolipoprotein B (ApoB) | Apolipoproteina B | 52 | Apolipoproteina B | 130 | Apolipoproteina B | 100 |
+| Aspartate Aminotransferase (AST) | Aspartataminotransferaza (GOT/ASAT/AST) | 21 | Aspartataminotransferaza (GOT/AST/TGO) | 30 | TGO/AST | 21 |
+| Basophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Basophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Blood Fasting Glucose | Glucoza serica (glicemie) | 21 | Glucoza serica | 30 | Glucoza serica | 21 |
+| Blood Urea Nitrogen | Uree serică | 21 | Uree serica | 30 | Ureea nitrogen (BUN) | 21 |
+| Calcium | Calciu seric | 18 | Calciu seric | 30 | Calciu seric total | 20 |
+| Carbon Dioxide | Bicarbonat (ECO2) | 58 | Rezerva alcalina (ECO2) | 55 | Bicarbonat seric | 60 |
+| Chloride | Clor seric | 25 | Clor seric | 30 | Clor seric | 24 |
+| Cortisol | Cortizol seric | 63 | Cortizol | 115 | — | — |
+| Creatinine | Creatinina serica | 20 | Creatinina serica | 30 | Creatinina serica | 21 |
+| Eosinophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Eosinophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Estradiol | Estradiol | 63 | Estradiol | 70 | Estradiol | 61 |
+| Ferritin | Feritina | 57 | Feritina | 75 | Feritina | 60 |
+| Follicle Stimulating Hormone (FSH) | FSH (hormon de stimulare foliculară) | 62 | FSH (hormon de stimulare foliculara) | 70 | FSH | 62 |
+| Free Testosterone | Testosteron liber | 69 | Testosteron liber | 80 | Testosteron liber | 63 |
+| Glucose | Glucoza serica (glicemie) | 21 | Glucoza serica | 30 | Glucoza serica | 21 |
+| HDL Cholesterol | Colesterol HDL | 26 | HDL Colesterol | 35 | HDL- Colesterol | 28 |
+| Hematocrit | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Hemoglobin | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Hemoglobin A1c (HbA1c) | Hemoglobina glicata (Hb A1c) | 59 | Hemoglobina glicozilata/HbA1c | 70 | Hemoglobina glicozilata (HbA1C) | 58 |
+| High-Sensitivity C-Reactive Protein (hs-CRP) | Proteina C reactiva (hsCRP) inalt sensibila | 76 | Proteina C reactiva inalt sensibila (HSCRP) | 100 | CRP hs | 66 |
+| Homocysteine | Homocisteina | 208 | Homocisteina | 200 | Homocisteina | 207 |
+| Insulin | Insulina | 65 | Insulina | 70 | Insulina | 61 |
+| Iron | Sideremie | 21 | Fier seric(sideremie) | 35 | Sideremie | 23 |
+| LDL Cholesterol | Colesterol LDL | 25 | LDL Colesterol | 35 | LDL-Colesterol | 26 |
+| Lipoprotein (a) | Lipoproteina (a) | 135 | Lipoproteina A | 155 | Lipoproteina (a) | 149 |
+| Luteinizing Hormone (LH) | LH (hormon luteinizant) | 59 | LH (Hormon luteinizant) | 65 | LH | 57 |
+| Lymphocyte % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Lymphocytes | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Mean Corpuscular Hemoglobin (MCH) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Mean Corpuscular Hemoglobin Concentration (MCHC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Mean Corpuscular Volume (MCV) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Mean Platelet Volume (MPV) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Monocyte % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Monocytes | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Neutrophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Neutrophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Platelets | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Potassium | Potasiu seric | 24 | Potasiu seric | 35 | Potasiu seric | 24 |
+| Red Blood Cell Count (RBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Red Cell Distribution Width (RDW) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
+| Sex Hormone Binding Globulin (SHBG) | SHBG (sex hormone binding globuline) | 73 | SHBG (sex hormone binding globulin) | 75 | SHBG | 72 |
+| Sodium | Sodiu seric | 24 | Sodiu seric | 35 | Sodiu seric | 24 |
+| Testosterone | Testosteron | 61 | Testosteron | 70 | Testosteron | 61 |
+| Thyroid-Stimulating Hormone (TSH) | TSH (hormon de stimulare tiroidiană) | 56 | TSH (Hormon de stimulare tiroidiana) | 70 | TSH | 60 |
+| Total Bilirubin | Bilirubina totala | 19 | Bilirubina totala | 30 | Bilirubina totala | 20 |
+| Total Cholesterol | Colesterol total | 18 | Colesterol total | 30 | Colesterol total | 21 |
+| Total Iron-Binding Capacity (TIBC) | Capacitatea totala de legare a fierului (CTLF) | 39 | Capacitatea totala de legare a fierului (CTLF) | 50 | CTLFe (Capacitatea totala de legare a fierului) | 33 |
+| Total Protein | Proteine totale serice | 18 | Proteine totale serice | 35 | Proteine totale | 20 |
+| Triglycerides | Trigliceride | 21 | Trigliceride | 30 | Trigliceride | 21 |
+| Vitamin D | 25-OH-vitamina D | 170 | 25 OH Vitamina D | 175 | 25-OH Vitamina D | 174 |
+| White Blood Cells (WBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | Hemoleucograma completa | 51 |
 
-**Common set — 57 of 57 purchasable Core biomarkers, both providers**
+**Common set — 56 of 57 purchasable Core biomarkers, all three providers**
 
 | Provider | Core basket | Coverage |
 |---|---:|---|
-| Synevo | **1,860 RON** | 57/57 |
-| Regina Maria | **2,290 RON** | 57/57 |
+| Synevo | **1,797 RON** | 57/57 |
+| Regina Maria | **2,175 RON** | 57/57 |
+| MedLife | **1,858 RON** | 56/57 |
 
-Coverage is identical, so **Synevo wins on price by 430 RON**. Neither provider
-has a Core exclusive.
+**Synevo wins on price by 61 RON over MedLife and 378 RON over Regina Maria.**
+Cortisol is excluded from the Common Set: MedLife's full 2,031-test catalogue
+carries no standalone serum cortisol assay, verified directly against it — only
+a 3,900 RON hormone panel mentions cortisol, and buying that to reach one Core
+biomarker isn't a reasonable route. Synevo and Regina Maria both cover it
+individually — Synevo 63 RON, Regina Maria 115 RON — priced above in the table
+but held out of the totals here, per the Common Set rule.
 
 **Core — Derived (18)**
 
@@ -99,7 +105,7 @@ has a Core exclusive.
 | Systemic Immune-Inflammation Index (SII) | = Platelets × Neutrophils ÷ Lymphocytes |
 | Triglycerides/HDL | = Triglycerides ÷ HDL |
 
-Costs 0 RON at both providers — buy the inputs above and compute it.
+Costs 0 RON at all three providers — buy the inputs above and compute it.
 
 ## Extended
 
@@ -217,5 +223,6 @@ Costs 0 RON at both providers — buy the inputs above and compute it.
 
 ---
 
-*Prices are București, verified 2026-08-04. Not medical advice — see
+*Synevo and Regina Maria prices are București, verified 2026-08-04. MedLife
+prices are national, verified 2026-08-05. Not medical advice — see
 [README](README.md) for the full disclaimer and licence.*
