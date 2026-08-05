@@ -103,7 +103,7 @@ but held out of the totals here, per the Common Set rule.
 | Plasma Osmolality | = 2×Na + Glucose÷18 + BUN÷2.8 |
 | Remnant Cholesterol | = Total Cholesterol − HDL − LDL |
 | Systemic Immune-Inflammation Index (SII) | = Platelets × Neutrophils ÷ Lymphocytes |
-| Triglycerides/HDL | = Triglycerides ÷ HDL |
+| Triglycerides/HDL Ratio | = Triglycerides ÷ HDL |
 
 Costs 0 RON at all three providers — buy the inputs above and compute it.
 
