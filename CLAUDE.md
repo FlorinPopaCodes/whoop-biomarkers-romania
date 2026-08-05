@@ -8,10 +8,11 @@ actually order; `README.md` is a thin landing page — intro, provider links,
 the headline Core verdict, and pointers to the other files. There are no
 scripts. Everything here is what you need to refresh it correctly.
 
-`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` is a sixth file, deliberately
-outside "the product": it prices Regina Maria's Comfort Premium subscription
-tier for a subscriber, which isn't a price every reader of this repo gets.
-See its own section below.
+`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` and
+`SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` are two more files, deliberately
+outside "the product": each prices one provider's subscription tier for a
+subscriber, which isn't a price every reader of this repo gets. See their
+own sections below.
 
 Read `CONTEXT.md` first — it defines Solo Price, Common Set, Basket, Block and
 the rest of the vocabulary used below.
@@ -42,12 +43,11 @@ directly — there's no separate step, but a price change that flips a
 panel-versus-parts decision has to be reflected in both the chosen Basket
 *and* which lines are ticked-off-able in the shopping list.
 
-**`SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` needs its own pass**, not
-just a copy from `SHOPPING-LIST-REGINA-MARIA.md`: re-check the Comfort
-Premium discount annex itself (it can change independently of Regina Maria's
-public prices, and nothing else in this repo would catch that), then
-re-derive which lines are struck through. See its section below for how to
-find the annex.
+**Both `SUBSCRIPTION-*.md` files need their own pass**, not just a copy from
+their shopping list: re-check each provider's discount annex itself (it can
+change independently of that provider's public prices, and nothing else in
+this repo would catch that), then re-derive which lines are struck through.
+See each file's own section below for how to find its annex.
 
 ## The two deliverables
 
@@ -280,6 +280,70 @@ refresh; Regina Maria could make any of them explicit in either direction.
 This file intentionally never mentions the subscription's own monthly
 cost — it's a per-test price list for someone who already has the
 subscription, not a cost/benefit case for buying one.
+
+## Subscription pricing (MedLife Respect Infinit)
+
+`SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` is the MedLife counterpart to the
+Comfort Premium file above — same "not one of the two deliverables" framing,
+same never-mention-the-monthly-cost rule, same **(estimated)** caveat for
+anything gated on a doctor's say-so.
+
+**The mechanic.** Respect Infinit (539 RON/month, 12-month validity) gives
+two separate things, unlike Comfort Premium's single discount annex. An
+**annual set** of 11 tests — Papanicolau clasic/PSA, Sumar de urină,
+Glicemie, LDL colesterol, HDL colesterol, Trigliceride, Hemoleucogramă, VSH,
+Transaminaze (TGO, TGP), Creatinină serică, Colesterol total — is included
+with **no referral**, capped **1×/year each**; the limit applies from first
+use, not from contract signing. A much larger **discount annex** — about 19
+test categories (Biochimie, Hematologie, Markeri endocrini, Markeri
+cardiovasculari, Imunologie, Coagulare, Electroforeză, Biologie moleculară,
+Anatomie patologică, Markeri tumorali, Markeri osoși, Markeri hepatici,
+Markeri infecțioși, Markeri alergii, Microbiologie, Bacteriologie,
+Toxicologie, Parazitologie, Screening prenatal) — is 100% off but needs "cu
+recomandarea medicului MedLife" (a MedLife doctor's referral), the same
+enforcement uncertainty as Comfort Premium's annex. Unlike Comfort Premium,
+Respect Infinit's annex caps each test at **4×/year** ("1 analiză/trimestru,"
+one per quarter) — Comfort Premium's annex has no equivalent per-test annual
+cap, so don't copy that caveat wording across the two files.
+
+**Finding the current annex.** The terms PDF is at
+`https://www.medlife.ro/documente_publice/abonamente_individuale/2024/Abonament_individual_MedLife_Respect_Infinit.pdf`
+— bilingual RO/EN, revised in place at a stable URL despite the `/2024/` path
+segment (`ModDate` was `2025-07-14` as of the 2026-08-05 check). Check
+`ModDate` against your last refresh before re-deriving anything, same
+discipline as Comfort Premium's PDF.
+
+**Matching annex test names to shopping-list lines is manual and literal**,
+same discipline as Comfort Premium's — see that section above. Known gaps
+confirmed absent from the annex, kept at full price without further comment:
+Cortisol (MedLife doesn't sell it at all), Estradiol, FSH, Insulin, DHEA
+Sulfate (also unplaced — see "The two deliverables" above — so it never gets
+a line in the subscription file either), and "Testosteron liber" (free
+testosterone; only plain "Testosteron" is listed). Known ambiguous cases,
+currently kept at full price rather than assumed covered:
+- "Free T4" and "Free T3" — the annex lists generic "T4"/"T3", not
+  explicitly the free-hormone assays.
+- "Ureea nitrogen (BUN)" — the annex lists generic "Uree serica" (serum
+  urea), not explicitly BUN.
+- "CRP hs" — the annex lists generic "CRP cantitativ", not explicitly the
+  high-sensitivity assay — the same trap as Comfort Premium's HSCRP line.
+
+Two resolved matches, kept covered despite non-identical wording — re-check
+both by name against the current annex text on every refresh:
+- "Glucoza serica" is covered on the strength of the annex's Biochimie
+  category alone, which lists it verbatim. It's also plausibly the annual
+  set's "Glicemie" line — the colloquial Romanian term for the same
+  fasting-glucose draw, not a different assay — which would make it doubly
+  covered, but that reading isn't load-bearing for the "covered" verdict.
+- "Ag. specific prostatic (PSA)" is covered on the strength of the annex's
+  Markeri tumorali category alone, which lists it verbatim. It's also
+  plausibly the annual set's combined "Test Papanicolau clasic / PSA" line,
+  read as Pap smear for women / PSA for men — again not load-bearing for the
+  "covered" verdict, just the reason it gets the simpler no-referral caveat
+  in the subscription file.
+- "Ac Anti-Tireoperoxidaza (ATPO)" — the annex's Imunologie category spells
+  it "Ac Anti-Tireoperoxidaza (TPO)", same antibody test, not a scope
+  difference.
 
 ## Panel membership
 

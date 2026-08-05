@@ -35,7 +35,8 @@ Per provider, with checkboxes, links and Block subtotals:
 
 Regina Maria Comfort Premium subscriber? See
 [SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md](SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md)
-for what changes.
+for what changes. MedLife Respect Infinit subscriber? See
+[SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md](SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md).
 
 ---
 
