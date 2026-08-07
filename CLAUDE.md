@@ -110,12 +110,6 @@ back to one.
 
 Carried deliberately, not forgotten. Each is resolved during a sweep, not before.
 
-- **Regina Maria's free annual screening panel is not modelled.** Every RM
-  subscriber line is `○`; none is `●`, while MedLife's equivalent annual set *is*
-  modelled. The two columns aren't built the same way and RM's ~985 RON may be
-  pessimistic. Resolving it means identifying the ~11 tests in Comfort Premium's
-  screening panel — the same PDF the sweep already opens — and re-grading any
-  that appear in the shopping list.
 - **DHEA Sulfate is unplaced.** Extended, sold at all three providers, but part
   of none of Whoop's five Specialized Panels — checked against Whoop's own panel
   marketing, not inferred. It stays in its own note rather than being folded into

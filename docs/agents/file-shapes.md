@@ -129,7 +129,11 @@ assays but contributes only LDL Small to Heart Health — LDL Cholesterol arrive
 via `Profil lipidic` in Core — so it is correctly unmarked.
 
 `↑` appears only at Synevo and Regina Maria, whose reticulocyte-inclusive
-hemograms are upgrades. MedLife's reticulocyte count is a standalone Test.
+hemograms are upgrades. MedLife's reticulocyte count is a standalone Test. **The
+difference is taken per column**, against whatever the Core Block's version costs
+in that same column — so where a subscriber gets the Core version free, the
+upgrade's subscriber figure is the whole SKU price, not the standard column's
+difference.
 
 `§` takes no guaranteed/estimated grade the way the subscriber glyphs do — not
 because it is ungated, but because a second glyph would grade all 27 lines
@@ -140,6 +144,10 @@ identically. See `docs/adr/0002-only-the-prevention-route.md`.
 One row per marker the file actually uses, **worded identically across all three
 files**. Change a row's wording in one, change it in all three. Which rows appear
 follows from the file: Synevo carries no `●`/`○`, MedLife no `↑`.
+
+The `○` row is the one deliberate exception: MedLife's ends with `Capped 4×/year`
+because its annex caps each test, and Comfort Premium's annex has no equivalent
+cap, so Regina Maria's row stops a sentence earlier. Don't unify them.
 
 Beyond the six markers, every legend also explains three non-marker rows —
 `+`, `Core` and `Derived` — in the same table. Keep them.
