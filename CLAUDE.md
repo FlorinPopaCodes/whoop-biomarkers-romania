@@ -51,9 +51,11 @@ Break one of these and the repo is wrong in a way nothing will flag.
    columns sum honestly. The old Solo Price — sixteen hemogram rows repeating one
    number under a "never sum this column" warning — is retired. Don't
    reintroduce it.
-4. **Derived biomarkers are 0 RON and never get a line**, even where a provider
-   sells one directly (Regina Maria lists "Indice HOMA"). The Basket already
-   contains its inputs, so buying it is pure waste.
+4. **Derived biomarkers are 0 RON and never get a line of their own.** But a
+   product *named* after one is still a Test: all three providers sell an "Indice
+   HOMA", and where it bundles its input assays for less than they cost
+   separately it belongs in the Basket like any other Panel. Synevo's does — 82
+   against 86 — and is in. The derived value itself stays 0 either way.
 5. **`—` and `?` are different states.** `—` means the provider genuinely sells
    nothing that yields the biomarker; `?` means undetermined. Never render `?` as
    `—` — unresolved biomarkers are excluded from the Common Set and named

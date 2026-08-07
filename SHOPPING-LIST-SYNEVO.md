@@ -5,7 +5,7 @@ links to its page in Synevo's [catalogue](https://www.synevo.ro/shop/).
 
 ## Core
 
-1,860 RON · 57 biomarkers · 18 derived
+1,856 RON · 57 biomarkers · 18 derived
 
 ### Blood count
 
@@ -30,13 +30,12 @@ links to its page in Synevo's [catalogue](https://www.synevo.ro/shop/).
 
 ### Metabolic
 
-145 RON · 4 biomarkers · 2 derived
+141 RON · 4 biomarkers · 2 derived
 
 | Test | RON |
 |---|---:|
-| [Insulina](https://www.synevo.ro/shop/insulina/) | 65 |
+| [Indice HOMA](https://www.synevo.ro/shop/indice-homa/) ‡ | 82 |
 | [Hemoglobina glicata (Hb A1c)](https://www.synevo.ro/shop/hemoglobina-glicata-hb-a1c/) | 59 |
-| [Glucoza serica (glicemie)](https://www.synevo.ro/shop/glucoza-serica-glicemie/) ‡ § | 21 |
 
 ### Liver
 
@@ -232,10 +231,18 @@ it is not an order form. The referral is valid 60 days. Unlike an ordinary
 referral this one is settled above the lab's monthly budget, so "funds are
 exhausted" is not a valid refusal.
 
-That takes 170 RON off Core here — 226 RON for women from 40. The referral is a
-closed set the lab may not add to, so you cannot pay the 31 RON upgrade on top of
-the free blood count: wanting reticulocytes means buying the full hemogram (75)
-and forgoing the free one.
+That takes 149 RON off Core here — 205 RON for women from 40. Fasting glucose is
+free on this route too, but it arrives inside Indice HOMA, which also carries
+insulin the state doesn't fund, so no line above can be marked for it.
+
+It also flips one Block: on this route, skip Indice HOMA and buy Glucoza serica
+and Insulina separately — 65 rather than 82, because fasting glucose comes free
+and insulin doesn't. Taken together that is 166 RON off Core, or 222 for women
+from 40.
+
+The referral is a closed set the lab may not add to, so you cannot pay the 31 RON
+upgrade on top of the free blood count: wanting reticulocytes means buying the
+full hemogram (75) and forgoing the free one.
 
 Synevo accepts prevention referrals as walk-ins — no appointment, and none of the
 monthly booking window ordinary CNAS collections go through.

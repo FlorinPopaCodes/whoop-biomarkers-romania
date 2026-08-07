@@ -9,18 +9,20 @@ this says what the files look like.
 A thin landing page: intro, catalogue links, the headline Core verdict, pointers
 to the rest.
 
-**Its table is four hand-copied numbers per provider and nothing enforces any of
-them.** After a Basket recompute, copy across:
+**Its table is hand-copied numbers and nothing enforces any of them.** After a
+Basket recompute, copy across:
 
-- *Like-for-like* — the Common Set total: Core minus any biomarker some provider
-  doesn't sell. Currently that is Cortisol alone, so the set is 56.
-- *Everything it sells* — that provider's full Core total, which is the `## Core`
-  line of its shopping list verbatim, plus its coverage as `n/57`.
+- *Core* — that provider's full Core total, which is the `## Core` line of its
+  shopping list verbatim, plus its coverage as `n/57`.
 - *Subscriber (est.)* — the `subscriber ~N RON` figure from that same `## Core`
   line, for Regina Maria and MedLife.
 
-The two money columns are on **different bases** and always were; the README now
-says so out loud. Don't quietly re-base one to match the other.
+**There is one money column only because all three providers currently cover all
+57 Core biomarkers**, which makes the Common Set the whole of Core and the
+head-to-head like-for-like on its own. The table carried a separate
+*Like-for-like* column while MedLife was missing Cortisol. If any provider drops
+a Core biomarker again, that column comes back — and the two are then on
+different bases, so don't quietly re-base one to match the other.
 
 ## `BIOMARKERS.md` — what is this called, and who sells it?
 

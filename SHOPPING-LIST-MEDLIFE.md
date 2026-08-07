@@ -5,7 +5,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 
 ## Core
 
-1,858 RON · subscriber ~810 RON · 56 of 57 biomarkers · 18 derived
+1,914 RON · subscriber ~866 RON · 57 biomarkers · 18 derived
 
 ### Blood count
 
@@ -99,7 +99,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 
 ### Hormones
 
-376 RON · subscriber ~186 RON · 6 of 7 biomarkers · 1 not sold here
+432 RON · subscriber ~242 RON · 7 biomarkers
 
 | Test | RON | Subscriber |
 |---|---:|---:|
@@ -109,6 +109,7 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 | Estradiol | 61 | 61 |
 | Testosteron | 61 | 0 ○ |
 | LH | 57 | 0 ○ |
+| Cortisol seric | 56 | 56 |
 
 ### Inflammation
 

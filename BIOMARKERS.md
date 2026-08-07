@@ -25,7 +25,7 @@ Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 | Calcium | Calciu seric | Calciu seric | Calciu seric total |
 | Carbon Dioxide | Bicarbonat (ECO2) | Rezerva alcalina (ECO2) | Bicarbonat seric |
 | Chloride | Clor seric | Clor seric | Clor seric |
-| Cortisol | Cortizol seric | Cortizol | — |
+| Cortisol | Cortizol seric | Cortizol | Cortisol seric |
 | Creatinine | Creatinina serica | Creatinina serica | Creatinina serica |
 | Eosinophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
 | Eosinophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
@@ -71,10 +71,7 @@ Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 | Vitamin D | 25-OH-vitamina D | 25 OH Vitamina D | 25-OH Vitamina D |
 | White Blood Cells (WBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
 
-All three providers sell 56 of these 57. Cortisol is the exception: MedLife's
-full 2,031-test catalogue carries no standalone serum cortisol assay, verified
-directly against it — only a large hormone panel mentions cortisol, and buying
-that to reach one Core biomarker isn't a reasonable route.
+All three providers sell all 57.
 
 **Core — Derived (18)**
 

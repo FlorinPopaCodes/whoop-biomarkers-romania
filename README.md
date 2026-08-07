@@ -11,21 +11,18 @@ Catalogues: [Synevo](https://www.synevo.ro/shop/) ·
 
 ## Which provider
 
-| Provider | Like-for-like | Everything it sells | Subscriber (est.) |
-|---|---:|---:|---:|
-| Synevo | **1,797 RON** | 1,860 RON · 57/57 | — |
-| Regina Maria | **2,175 RON** | 2,290 RON · 57/57 | ~985 RON |
-| MedLife | **1,858 RON** | 1,858 RON · 56/57 | ~810 RON |
+| Provider | Core | Subscriber (est.) |
+|---|---:|---:|
+| Synevo | **1,856 RON** · 57/57 | — |
+| Regina Maria | 2,290 RON · 57/57 | ~985 RON |
+| MedLife | 1,914 RON · 57/57 | ~866 RON |
 
-**Synevo wins on price** by 61 RON over MedLife and 378 RON over Regina Maria.
+**Synevo wins on price** by 58 RON over MedLife and 434 RON over Regina Maria.
 
-Like-for-like is the 56 Core biomarkers all three providers sell. Cortisol is the
-57th: MedLife's 2,031-test catalogue carries no standalone serum cortisol assay,
-so it's held out of the comparison — Synevo and Regina Maria both sell it, at 63
-and 115 RON. Subscriber figures are estimates over that provider's *full* Core,
-not the like-for-like set, and most of the discount depends on a recommendation
-from that provider's own doctor; each shopping list spells out which lines are
-guaranteed and which aren't.
+All three sell all 57 Core biomarkers, so the comparison is like-for-like with
+nothing held out. Subscriber figures are estimates, and most of the discount
+depends on a recommendation from that provider's own doctor; each shopping list
+spells out which lines are guaranteed and which aren't.
 
 Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers, Regina
 Maria 28, and MedLife 34. What each provider calls each biomarker, and who sells
@@ -42,8 +39,8 @@ Hold a Regina Maria Comfort Premium or MedLife Respect Infinit subscription? The
 same lists carry a second price column for it.
 
 Insured, symptom-free, not on your family doctor's chronic-disease register, and
-carrying a modifiable risk factor? Roughly 170–182 RON of each list is then free
-once a year on a prevention referral — 226–250 RON for women from 40. The lists
+carrying a modifiable risk factor? Roughly 149–182 RON of each list is then free
+once a year on a prevention referral — 205–250 RON for women from 40. The lists
 mark those lines `§` and spell out the age and sex conditions.
 
 ---

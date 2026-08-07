@@ -98,8 +98,13 @@ attributes, contrary to how it first looks — there is no JSON-LD and no
     data-price="278 lei" data-id="23024768">
 ```
 
-inside `<ul id="servicii-wrapper">`. Parse `data-name`, `data-price` and
-`data-id`. `data-id` is a stable per-test numeric ID (2,031 unique values for
+inside `<ul id="servicii-wrapper">`. **MedLife spells some tests with `s` where
+Synevo and Regina Maria use `z`** — its serum cortisol is `Cortisol seric`, not
+`Cortizol`. Searching with the other two providers' spelling is how this repo
+came to claim for a while that MedLife sold no cortisol at all. Match on a stem,
+never a whole word.
+
+Parse `data-name`, `data-price` and `data-id`. `data-id` is a stable per-test numeric ID (2,031 unique values for
 2,031 rows, one-to-one) worth recording the way Synevo's `CH…` SKU and Regina
 Maria's `data-drupal-investigation` are. There is no per-test deep link — neither
 a Synevo-style slug nor a Regina Maria-style dictionary URL exists.
@@ -178,10 +183,11 @@ legislatie.just.ro's consolidated forms are subscriber-gated.
 
 `§` marks a Test, so a provider whose Basket buys a Panel mixing funded and
 unfunded biomarkers **cannot mark it**; there the explainer must name the funded
-members in prose instead. There is currently one such case — Regina Maria's
+members in prose instead. There are currently two such cases — Regina Maria's
 `Profil lipidic`, where Total Cholesterol and LDL are funded and HDL and
-Triglycerides are not — which is why Regina Maria carries 25 `§` biomarkers
-against the others' 27. **That is the expected shape, not a gap to close.**
+Triglycerides are not, and Synevo's `Indice HOMA`, where fasting glucose is
+funded and insulin is not. Both therefore carry 25 `§` biomarkers against
+MedLife's 27. **That is the expected shape, not a gap to close.**
 
 **`§` and `↑` don't compose**, which the Synevo and Regina Maria explainers say
 out loud. A referral is a closed set the lab may not add to, so the upgrade
@@ -190,11 +196,13 @@ buys the full hemogram (75 Synevo, 70 RM) and forfeits the free one. MedLife is
 immune — its reticulocyte count is a standalone Test. Keep this in prose; don't
 try to express it in a marker.
 
-**Regina Maria's lipid Block is knowingly non-optimal on this route.** Total
+**Two Blocks are knowingly non-optimal on this route.** At Regina Maria, total
 cholesterol and LDL come free, leaving only HDL (35) and Trigliceride (30) — 65
-against `Profil lipidic`'s 85. The Basket keeps the panel and the explainer names
-the swap in prose, so that every total in the repo keeps meaning *what you pay
-walking in cold*. **Don't "fix" this by forking the Basket.**
+against `Profil lipidic`'s 85. At Synevo, fasting glucose comes free, leaving
+only Insulina (65) against `Indice HOMA`'s 82. Both Baskets keep the panel and
+both explainers name the swap in prose, so that every total in the repo keeps
+meaning *what you pay walking in cold*. **Don't "fix" either by forking the
+Basket.**
 
 Regina Maria also publishes its CAS-settled catalogue at
 `/laboratoare-inteligente/gama-de-analize-decontabile`, using the same
@@ -292,9 +300,10 @@ Premium's PDF.
 **Matching is manual and literal**, same discipline as above.
 
 *Confirmed absent from the annex, kept at full price without further comment:*
-Cortisol (MedLife doesn't sell it at all), Estradiol, FSH, Insulin, DHEA Sulfate
-(also unplaced, so it has no line to grade), and "Testosteron liber" — only plain
-"Testosteron" is listed.
+Cortisol, Estradiol, FSH, Insulin, DHEA Sulfate (also unplaced, so it has no line
+to grade), and "Testosteron liber" — only plain "Testosteron" is listed. The
+`Markeri endocrini` category is an enumerated list, not a catch-all, and cortisol
+is not on it; "17 OH Corticosteroizi" is a different assay.
 
 *Ambiguous, kept at full price rather than assumed covered:*
 
@@ -337,6 +346,7 @@ far less often than prices do.
 | Synevo | Hemograma cu formula leucocitara cu Hb, Ht si indici | 44 | 20: as above, minus Reticulocyte Count (RET) |
 | Synevo | Acizi grasi omega 3 si omega 6 | 502 | 4: Arachidonic Acid (AA), Docosahexaenoic Acid (DHA), Eicosapentaenoic Acid (EPA), Linoleic Acid (LA) |
 | Synevo | Glucoza serica (glicemie) | 21 | 2: Blood Fasting Glucose, Glucose |
+| Synevo | Indice HOMA | 82 | 3: Blood Fasting Glucose, Glucose, Insulin — the product page says outright it *conține Glucoză serică și Insulină* |
 | Regina Maria | Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite | 70 | 21: the same 21 as Synevo's reticulocyte hemogram |
 | Regina Maria | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | 60 | 20: as above, minus Reticulocyte Count (RET) |
 | Regina Maria | Profil lipidic | 85 | 4: HDL Cholesterol, LDL Cholesterol, Total Cholesterol, Triglycerides |
@@ -345,6 +355,12 @@ far less often than prices do.
 | MedLife | Hemoleucograma completa | 51 | 20: the 21 above, minus Reticulocyte Count (RET) |
 | MedLife | Glucoza serica | 21 | 2: Blood Fasting Glucose, Glucose |
 | MedLife | Acizi grasi omega 3 si omega 6 | 512 | 4: the same four as Synevo's — same name, yield **assumed** identical; MedLife has no per-test deep link to verify the composition directly |
+
+**The other two providers sell an `Indice HOMA` too, and neither is in a Basket.**
+MedLife's (85) loses to its own parts (21 + 61 = 82). Regina Maria's (90) would
+win against its parts (30 + 70 = 100), but RM publishes no per-test page, so
+whether it reports the two input assays rather than the ratio alone is
+unverified. Confirm that before putting it in RM's Basket; it is worth 10 RON.
 
 The 21-biomarker blood count, in full: Basophil %, Basophils, Eosinophil %,
 Eosinophils, Hematocrit, Hemoglobin, Lymphocyte %, Lymphocytes, Mean Corpuscular
