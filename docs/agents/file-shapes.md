@@ -136,7 +136,7 @@ upgrade's subscriber figure is the whole SKU price, not the standard column's
 difference.
 
 `§` takes no guaranteed/estimated grade the way the subscriber glyphs do — not
-because it is ungated, but because a second glyph would grade all 27 lines
+because it is ungated, but because a second glyph would grade every `§` line
 identically. See `docs/adr/0002-only-the-prevention-route.md`.
 
 ### The shared legend

@@ -390,6 +390,14 @@ MedLife's (85) loses to its own parts (21 + 61 = 82). Regina Maria's (90) would
 win against its parts (30 + 70 = 100), but RM publishes no per-test page, so
 whether it reports the two input assays rather than the ratio alone is
 unverified. Confirm that before putting it in RM's Basket; it is worth 10 RON.
+Carried as an open item in `CLAUDE.md`.
+
+**Regina Maria's `Profil LDL` names `lipoproteina A` in its own SKU title, and
+the table above leaves it out on purpose.** Regina Maria has that assay disabled,
+so the panel yields LDL Cholesterol and LDL Small only. Re-check it each refresh:
+if it comes back, a reader buying Core plus Heart Health pays for Lp(a) twice,
+because Core's Basket buys `Lipoproteina A` at 155 on its own. No Basket moves
+either way — 155 beats 400 for Core alone.
 
 The 21-biomarker blood count, in full: Basophil %, Basophils, Eosinophil %,
 Eosinophils, Hematocrit, Hemoglobin, Lymphocyte %, Lymphocytes, Mean Corpuscular
