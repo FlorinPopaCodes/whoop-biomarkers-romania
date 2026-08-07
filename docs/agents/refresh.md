@@ -224,18 +224,41 @@ subscription, not a cost/benefit case for buying one.
 
 ### Regina Maria — Comfort Premium
 
-**The mechanic.** Comfort Premium gives two things: a free annual screening panel
-(~11 tests, no Recommendation, capped at 1×/year each), and a much larger
-discount annex — about 300 lab tests at 100% off, but *only* "la recomandarea
-medicului RM". Enforcement is a GP's individual call and isn't published
-anywhere, so this repo doesn't model it as guaranteed. Every annex-covered line
-is `○` (estimated), never asserted as a hard price.
+**The mechanic.** Comfort Premium gives two separate things, the same shape as
+Respect Infinit below.
+
+An **annual set** of 11 tests — Test Papanicolau clasic/PSA, Sumar de urină,
+Glicemie, LDL colesterol, HDL colesterol, Trigliceride, Hemoleucogramă, VSH,
+Transaminaze (TGO, TGP), Creatinină serică, Colesterol total — is included with
+**no Recommendation**, capped **1×/year each**; the limit applies from first use,
+not from contract signing. These are the `●` lines. It is the same eleven as
+Respect Infinit's annual set, line for line.
+
+A much larger **discount annex** — about 300 lab tests at 100% off — is *only*
+"la recomandarea medicului RM". Enforcement is a GP's individual call and isn't
+published anywhere, so this repo doesn't model it as guaranteed. Every
+annex-covered line is `○` (estimated), never asserted as a hard price.
 
 The column exists because the discount is large enough — roughly half of RM's
 Core list — to be worth showing, not because it's a price every reader gets.
 
-**The free annual screening panel is not modelled.** See the open items in
-`CLAUDE.md`; resolve it on this pass, from the same PDF.
+**Six shopping-list lines take the annual set's `●`:** the blood count, Glucoza
+serica (as "Glicemie"), both transaminases, Creatinina serica, and PSA (read as
+Pap smear for women / PSA for men, the same reading as MedLife's combined line).
+All six are annex-covered too, so `●` is an upgrade in certainty, not in price —
+**the annual set moved no RON figure in this file.** The remaining six annual-set
+entries have no line to grade: Sumar de urină and VSH are not Whoop biomarkers,
+and total cholesterol, LDL, HDL and triglycerides arrive inside `Profil lipidic`,
+which is annex-covered only. That last one is a genuine reader choice — buying the
+four separately is 0 and guaranteed against the panel's 0 and estimated — so the
+shopping list names it in one sentence, the same way the `§` swap is named.
+
+**`↑` does not compose with the subscriber column the way it does with the
+standard one.** The reticulocyte hemogram is on neither list, so a subscriber buys
+it at its full 70 — but their Core hemogram cost 0, not 60. The upgrade's
+difference is therefore **10 standard and 70 subscriber**, and Performance
+Health's subscriber subtotal carries 70. Don't copy the 10 across on the grounds
+that the two columns should look alike.
 
 **Finding the current annex.** The live terms PDF is linked from
 `https://shop.reginamaria.ro/abonamentul-comfort-premium-adulti.html` as a
@@ -243,7 +266,13 @@ dynamically-served download (`Anexa includeri abonament.pdf`). **That page**, no
 a dated static PDF under `reginamaria.ro/sites/default/files/`, is the one to
 check each refresh, since Regina Maria revises the PDF in place without changing
 its URL. Check the PDF's `ModDate` against your last refresh to see whether it
-changed at all before re-deriving anything.
+changed at all before re-deriving anything; it was `2024-05-27` as of the
+2026-08-07 check.
+
+The page carries no literal `.pdf` href — the download is a Magento endpoint,
+`https://shop.reginamaria.ro/catalog/product/downloadattachment/product_id/70/`,
+which serves `application/pdf` on a plain GET. Grepping the page for `.pdf` finds
+nothing; grep for `downloadattachment`.
 
 **Matching annex names to shopping-list lines is manual and literal.** The annex
 names tests generically ("Testosteron total", "PCR (Proteina C reactivă) test

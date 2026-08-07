@@ -14,7 +14,7 @@ for the Test name to order.
 
 | Test | RON | Subscriber |
 |---|---:|---:|
-| Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari ‡ § | 60 | 0 ○ |
+| Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari ‡ § | 60 | 0 ● |
 
 ### Lipids
 
@@ -34,7 +34,7 @@ for the Test name to order.
 |---|---:|---:|
 | Hemoglobina glicozilata/HbA1c | 70 | 0 ○ |
 | Insulina | 70 | 70 |
-| Glucoza serica ‡ § | 30 | 0 ○ |
+| Glucoza serica ‡ § | 30 | 0 ● |
 
 ### Liver
 
@@ -43,8 +43,8 @@ for the Test name to order.
 | Test | RON | Subscriber |
 |---|---:|---:|
 | Fosfataza alcalina | 35 | 0 ○ |
-| Alaninaminotransferaza (ALT/GPT/TGP) § | 30 | 0 ○ |
-| Aspartataminotransferaza (GOT/AST/TGO) § | 30 | 0 ○ |
+| Alaninaminotransferaza (ALT/GPT/TGP) § | 30 | 0 ● |
+| Aspartataminotransferaza (GOT/AST/TGO) § | 30 | 0 ● |
 | Bilirubina totala | 30 | 0 ○ |
 
 ### Kidney
@@ -55,7 +55,7 @@ for the Test name to order.
 |---|---:|---:|
 | Albumina serica | 35 | 0 ○ |
 | Uree serica | 30 | 0 ○ |
-| Creatinina serica § | 30 | 0 ○ |
+| Creatinina serica § | 30 | 0 ● |
 
 ### Iron
 
@@ -143,7 +143,7 @@ share Tests, so their subtotals deliberately don't add up.
 
 ### Performance Health
 
-+510 RON · subscriber ~295 RON · 8 of 13 biomarkers · 5 not sold here
++510 RON · subscriber ~355 RON · 8 of 13 biomarkers · 5 not sold here
 
 | Test | RON | Subscriber |
 |---|---:|---:|
@@ -154,7 +154,7 @@ share Tests, so their subtotals deliberately don't add up.
 | FT4 (tiroxina libera) † § | 70 | 0 ○ |
 | Creatinkinaza (CK) | 45 | 0 ○ |
 | Magneziu seric † | 30 | 0 ○ |
-| Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite ↑ | 10 | 10 |
+| Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite ↑ | 10 | 70 |
 
 ### Metabolic Health
 
@@ -202,21 +202,32 @@ share Tests, so their subtotals deliberately don't add up.
 | Zinc in ser † | 110 | 110 |
 | Prolactina † | 75 | 0 ○ |
 | Free PSA | 70 | 70 |
-| PSA (Antigen specific prostatic) § | 70 | 0 ○ |
+| PSA (Antigen specific prostatic) § | 70 | 0 ● |
 | Magneziu seric † | 30 | 0 ○ |
 | Acid uric seric † | 30 | 0 ○ |
 
 ## Comfort Premium
 
 The `Subscriber` column above is what these Tests cost if you hold a Comfort
-Premium subscription. Comfort Premium discounts ~300 lab tests by 100%, but only
-"la recomandarea medicului RM" — with a recommendation from a Regina Maria
-doctor, which is an individual GP's call and isn't published anywhere. So every
-`0 ○` is
-an estimate, not a guaranteed price; a Test showing its full price in both
-columns isn't on the discount annex at all.
+Premium subscription. It gives two separate things.
 
-Verified against Regina Maria's live subscriber terms 2026-08-05.
+An **annual set** of 11 Tests is included with no recommendation, capped 1×/year
+each, from first use rather than from signing — those are the `0 ●` lines, and
+they're guaranteed. A much larger **discount annex**, about 300 lab tests at 100%
+off, needs "la recomandarea medicului RM" — a Regina Maria doctor's
+recommendation, which is an individual GP's call and isn't published anywhere.
+Those are the `0 ○` lines, and they're estimates. A Test showing its full price in
+both columns is on neither list.
+
+Several Tests sit on both lists; they're marked with the annual set's guaranteed
+`●`, since that's the better route for the first order each year — the annex can
+still supply further free draws later.
+
+Profil lipidic is annex-covered only, but the annual set carries all four of its
+members as separate Tests — so a subscriber who wants a guaranteed 0 rather than
+an estimated one orders the four instead of the panel.
+
+Verified against Regina Maria's live subscriber terms 2026-08-07.
 
 ## Free on a prevention referral
 
@@ -258,6 +269,7 @@ full hemogram (70) and forgoing the free one.
 | † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
 | ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
 | `§` | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
+| ● | Free 1×/year, no recommendation. Guaranteed. |
 | ○ | Estimated — 100% off with a doctor's recommendation, which is theirs to give. |
 | `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
 | Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
