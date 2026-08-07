@@ -74,6 +74,15 @@ Eight Core biomarkers are on the annex but out of a family doctor's reach: album
 
 Ten Core biomarkers are not on the annex at all, at any referrer: ApoB, chloride, free testosterone, hs-CRP, homocysteine, insulin, Lp(a), SHBG, TIBC and vitamin D.
 ## What it saves
+
+> **The figures below are stale as of 2026-08-07 and have not been re-derived.**
+> Two corrections landed after they were computed: MedLife does sell cortisol
+> (`Cortisol seric`, 56 RON), so its Core is 1,914 and it covers 57/57; and
+> Synevo's Basket now buys `Indice HOMA`, putting its Core at 1,856. Cortisol is
+> specialist-only either way, so it stays paid on this route — but the
+> remainders, the percentages and the margin claim all need recomputing before
+> they can be quoted.
+
 Taking the diagnostic route's 39 free and pricing only the remainder:
 
 | Provider | Core basket today | Remainder after CNAS | Saved |
@@ -82,7 +91,7 @@ Taking the diagnostic route's 39 free and pricing only the remainder:
 | Regina Maria | 2,290 RON | 1,615 RON | 675 RON |
 | MedLife | 1,858 RON | 1,329 RON | 529 RON |
 
-Roughly 27–30% off, not half — because the free set is exactly the cheap commodity chemistry, while what survives is vitamin D, homocysteine, Lp(a), ApoB and the hormones. The provider ranking does not flip: like-for-like (excluding cortisol, which MedLife doesn't sell) Synevo stays ahead of MedLife, but the margin narrows from 61 RON to about 33.
+Roughly 27–30% off, not half — because the free set is exactly the cheap commodity chemistry, while what survives is vitamin D, homocysteine, Lp(a), ApoB and the hormones. The provider ranking does not flip: Synevo stays ahead of MedLife, though by a narrower margin than walking in cold.
 
 On the prevention route the saving is smaller again, since it is essentially the blood count plus six cheap chemistries.
 ## The ceiling, and the exemption that matters

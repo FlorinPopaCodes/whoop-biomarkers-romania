@@ -68,12 +68,14 @@ instead.
 diagnosis can get more than `§` suggests, and nothing here tells them so. That
 is the cost, and it is accepted.
 
-**One Basket is knowingly left non-optimal.** With total cholesterol and LDL
+**Some Baskets are knowingly left non-optimal.** With total cholesterol and LDL
 free, Regina Maria's 85 RON lipid panel loses to buying HDL and triglycerides
-separately for 65. Rather than fork the Basket per route, the shopping list
-keeps the panel and the explainer names the swap in one sentence. Recomputing
-Baskets against a route the reader may not take would give every total two
-meanings.
+separately for 65; with fasting glucose free, Synevo's 82 RON `Indice HOMA` loses
+to buying insulin alone for 65. Rather than fork the Basket per route, each
+shopping list keeps the panel and its explainer names the swap in one sentence.
+Recomputing Baskets against a route the reader may not take would give every
+total two meanings. (At adoption this affected Regina Maria only; Synevo joined
+it when its `Indice HOMA` was found to beat its parts walking in cold.)
 
 **A refresh has a new failure mode.** The prevention lists live in the norms, not
 the tariff annex — the Contract-cadru itself defines the consultation but carries
