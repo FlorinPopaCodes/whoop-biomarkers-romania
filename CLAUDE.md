@@ -15,8 +15,8 @@ place**:
 | `SHOPPING-LIST-*.md` | What do I order and what does it cost? | Source of truth for every price |
 
 The biomarker set is 127: 75 Core plus 52 Extended. 100 are purchasable — 57
-Core, 43 Extended — and 27 are Derived. Those five numbers appear in every
-coverage count in the repo.
+Core, 43 Extended — and 27 are Derived. Those numbers appear in every coverage
+count in the repo.
 
 ## Read first
 
@@ -48,9 +48,9 @@ Break one of these and the repo is wrong in a way nothing will flag.
    but nothing in the README looks broken. This is the one way this repo goes
    quietly wrong.
 3. **Prices are per Test, never per biomarker.** Each Test appears once, so the
-   columns sum honestly. The old Solo Price — sixteen hemogram rows repeating one
-   number under a "never sum this column" warning — is retired. Don't
-   reintroduce it.
+   columns sum honestly. The old Solo Price — one hemogram's price repeated on
+   every biomarker it yields, under a "never sum this column" warning — is
+   retired. Don't reintroduce it.
 4. **Derived biomarkers are 0 RON and never get a line of their own.** But a
    product *named* after one is still a Test: all three providers sell an "Indice
    HOMA", and where it bundles its input assays for less than they cost
@@ -74,8 +74,11 @@ Break one of these and the repo is wrong in a way nothing will flag.
    true, not how it was decided.
 10. **Re-stamp a footer date only for what you actually re-verified.** The four
     price-carrying files share one date because they share prices.
-    `BIOMARKERS.md`'s date means *names checked against the catalogue*. The `§`
-    date means *the funded set re-derived*. These are three different claims.
+    `BIOMARKERS.md`'s date means *names checked against the catalogue*. Each
+    subscription section carries its own date meaning *that annex re-read at its
+    source*, which moves independently — Regina Maria's already sits ahead of its
+    price footer. The `§` date means *the funded set re-derived*. These are four
+    different claims.
 
 ## The refresh sweep
 
@@ -110,6 +113,11 @@ back to one.
 
 Carried deliberately, not forgotten. Each is resolved during a sweep, not before.
 
+- **Regina Maria's `Indice HOMA` is unverified.** At 90 it would beat buying
+  `Glucoza serica` and `Insulina` separately (30 + 70), but Regina Maria
+  publishes no per-test page, so whether it reports the two input assays or only
+  the ratio is unknown. Worth 10 RON off RM's Core if it holds.
+  `docs/agents/refresh.md` carries the detail.
 - **DHEA Sulfate is unplaced.** Extended, sold at all three providers, but part
   of none of Whoop's five Specialized Panels — checked against Whoop's own panel
   marketing, not inferred. It stays in its own note rather than being folded into

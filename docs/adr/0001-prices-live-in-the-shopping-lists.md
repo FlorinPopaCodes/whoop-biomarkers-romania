@@ -23,10 +23,10 @@ full Core, with nothing on either page saying which. In the same README table th
 column beside it was on the Common Set basis.
 
 Separately, the Solo Price rule made `BIOMARKERS.md`'s price column actively
-awkward: sixteen biomarkers come out of one hemogram, so sixteen rows repeated
-the same number, and a reader's natural instinct — summing the column — was
-wrong by construction. The file carried a standing warning about a trap it had
-itself created.
+awkward: twenty biomarkers come out of one hemogram, so twenty rows repeated the
+same number, and a reader's natural instinct — summing the column — was wrong by
+construction. The file carried a standing warning about a trap it had itself
+created.
 
 ## Decision
 
@@ -38,8 +38,9 @@ Prices live in the three `SHOPPING-LIST-*.md` files and nowhere else.
 - Subscriber pricing merges into the provider's shopping list as a second price
   column. `SUBSCRIPTION-REGINA-MARIA-COMFORT-PREMIUM.md` and
   `SUBSCRIPTION-MEDLIFE-RESPECT-INFINIT.md` are deleted.
-- `README.md` shows both the Common Set and full-Core figures side by side, so
-  the two can no longer disagree invisibly.
+- `README.md` quotes every figure on a named basis, so the two can no longer
+  disagree invisibly. `docs/agents/file-shapes.md` carries the column layout
+  that follows from it.
 
 Each file now answers exactly one question: `README.md` which provider,
 `BIOMARKERS.md` what it's called and who sells it, `SHOPPING-LIST-*.md` what it

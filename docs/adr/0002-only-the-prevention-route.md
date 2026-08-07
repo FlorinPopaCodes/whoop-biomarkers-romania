@@ -27,7 +27,7 @@ carrying a modifiable risk factor, can claim an annual preventive consultation
 and, with it, a referral for a fixed list requiring no diagnosis at all. It maps
 onto **27 of 57 Core** — the blood count, fasting glucose, total cholesterol,
 LDL, creatinine, AST, ALT — plus TSH and free T4 for women 40+, and PSA for men
-from 50. Worth 170–182 RON, or 226–250 RON for women from 40; a man gains no
+from 50. Worth 149–182 RON, or 205–250 RON for women from 40; a man gains no
 further Core biomarker at any age. Crucially it is settled **above** the monthly
 ceiling, so exhausted funds are not a lawful refusal.
 
@@ -61,7 +61,7 @@ the prevention list is a ceiling, not an order form, and the explainer says so.
 What differs is what the doctor is declining: a published entitlement fixed in
 law and settled above the lab's monthly ceiling, rather than an unpublished
 commercial discount whose enforcement nobody documents. A second glyph would
-grade all 27 lines identically, so the condition is carried once in prose
+grade every `§` line identically, so the condition is carried once in prose
 instead.
 
 **The repo understates what is obtainable.** A reader who genuinely has a

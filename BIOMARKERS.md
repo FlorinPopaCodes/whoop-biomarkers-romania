@@ -193,9 +193,11 @@ shared by more than one Specialized Panel repeats under each, marked `†`.
 once. The shopping lists say what that saves.
 
 **Not yet placed:** DHEA Sulfate is Extended but isn't part of any of Whoop's
-five Specialized Panels, so it has no Block and no shopping-list line. Its
-prices live here for want of anywhere better: Synevo 65 RON, Regina Maria 70
-RON, MedLife 57 RON. See `CLAUDE.md` for why this is still open.
+five Specialized Panels, so it has no Block and no shopping-list line — which is
+why each Extended coverage count above runs one ahead of what that provider's
+five Specialized Panels cover between them. Its prices live here for want of
+anywhere better: Synevo 65 RON, Regina Maria 70 RON, MedLife 57 RON. See
+`CLAUDE.md` for why this is still open.
 
 **Extended — Derived (9)**
 
@@ -218,4 +220,6 @@ Costs 0 RON at all three providers — buy the inputs above and compute it.
 *Test names checked against each provider's catalogue — Synevo and Regina Maria
 2026-08-04, MedLife 2026-08-05. Prices, and their own verification dates, are in
 the shopping lists. Not medical advice — see [README](README.md) for the full
-disclaimer and licence.*
+disclaimer.*
+
+MIT — see [LICENSE](LICENSE).
