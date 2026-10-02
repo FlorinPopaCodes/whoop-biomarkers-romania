@@ -216,9 +216,8 @@ An **annual set** of 11 Tests is included with no recommendation, capped 1×/yea
 each, from first use rather than from signing — those are the `0 ●` lines, and
 they're guaranteed. A much larger **discount annex**, about 300 lab tests at 100%
 off, needs "la recomandarea medicului RM" — a Regina Maria doctor's
-recommendation, which is an individual GP's call and isn't published anywhere.
-Those are the `0 ○` lines, and they're estimates. A Test showing its full price in
-both columns is on neither list.
+recommendation, which is theirs to give. Those are the `0 ○` lines, and they're
+estimates. A Test showing its full price in both columns is on neither list.
 
 Several Tests sit on both lists; they're marked with the annual set's guaranteed
 `●`, since that's the better route for the first order each year — the annex can
@@ -269,10 +268,10 @@ full hemogram (70) and forgoing the free one.
 | ‡ | One Test, several biomarkers. |
 | † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
 | ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
-| `§` | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
+| § | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
 | ● | Free 1×/year, no recommendation. Guaranteed. |
 | ○ | Estimated — 100% off with a doctor's recommendation, which is theirs to give. |
-| `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
+| + | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
 | Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
 | Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
 

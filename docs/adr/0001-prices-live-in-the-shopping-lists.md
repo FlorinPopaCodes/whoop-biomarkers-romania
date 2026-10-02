@@ -64,7 +64,7 @@ elsewhere: the provider head-to-head is a basket comparison in `README.md`, and
 the per-test price you'd pay is in the shopping list you're ordering from.
 
 **Subscriber estimates now sit next to hard prices.** The risk is a reader taking
-a referral-gated estimate for a guaranteed price. Mitigated by per-row glyphs —
+a Recommendation-gated estimate for a guaranteed price. Mitigated by per-row glyphs —
 `●` guaranteed, `○` estimated — defined in each file's legend, so the grade
 travels with the number instead of being asserted once in a file header.
 

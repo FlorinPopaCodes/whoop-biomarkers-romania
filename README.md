@@ -25,8 +25,8 @@ depends on a recommendation from that provider's own doctor; each shopping list
 spells out which lines are guaranteed and which aren't.
 
 Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers, Regina
-Maria 29 confirmed (4 unresolved), and MedLife 34. What each provider calls each biomarker, and who sells
-what, is in [BIOMARKERS.md](BIOMARKERS.md).
+Maria 29 with 4 unresolved, and MedLife 34. What each provider calls each
+biomarker, and who sells what, is in [BIOMARKERS.md](BIOMARKERS.md).
 
 ## What to order
 

@@ -15,7 +15,7 @@ beyond Core; the gap is that the marketing list omits Blood Fasting Glucose,
 which the FAQ counts. Verified 2026-08-04 — 100 purchasable (57 Core, 43
 Extended), 27 Derived.
 
-The current WHOOP panel pages checked 2026-10-02 still show 75 Core biomarkers
+Whoop's panel pages, checked 2026-10-02, still show 75 Core biomarkers
 and the same five Specialized Panels. They expose only a short list of key
 biomarkers in plain HTML, so the full 127-name inventory above retains its
 2026-08-04 verification date.
@@ -48,8 +48,8 @@ rates.
 https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize
 ```
 
-Server-renders the entire 1,305-test catalogue in ~1 MB of HTML (2026-10-02): no login, no
-pagination, no JS. Each row carries machine-readable attributes:
+Server-renders the entire 1,305-test catalogue in ~1 MB of HTML (2026-10-02): no
+login, no pagination, no JS. Each row carries machine-readable attributes:
 
 ```html
 <div class="add-analysis" data-drupal-investigation="155290"
@@ -93,8 +93,8 @@ sitemap is the only bulk route. One national price, no region selector.
 https://www.medlife.ro/gama-analize
 ```
 
-Server-renders the entire 2,096-test catalogue in ~1.9 MB of HTML on a plain GET (2026-10-02):
-no parameters, no login, no pagination, no JS. Each row carries machine-readable
+Server-renders the entire 2,096-test catalogue in ~1.9 MB of HTML on a plain GET
+(2026-10-02): no parameters, no login, no pagination, no JS. Each row carries machine-readable
 attributes, contrary to how it first looks — there is no JSON-LD and no
 `data-drupal-*` naming, but the same shape exists under different names:
 
@@ -109,9 +109,9 @@ Synevo and Regina Maria use `z`** — its serum cortisol is `Cortisol seric`, no
 came to claim for a while that MedLife sold no cortisol at all. Match on a stem,
 never a whole word.
 
-Parse `data-name`, `data-price` and `data-id`. `data-id` is a stable per-test numeric ID (2,096 unique values for
-2,096 rows, one-to-one as of 2026-10-02) worth recording the way Synevo's `CH…` SKU and Regina
-Maria's `data-drupal-investigation` are. There is no per-test deep link — neither
+Parse `data-name`, `data-price` and `data-id`. `data-id` is a stable per-test
+numeric ID (2,096 unique values for 2,096 rows as of 2026-10-02) worth recording
+the way Synevo's `CH…` SKU and Regina Maria's `data-drupal-investigation` are. There is no per-test deep link — neither
 a Synevo-style slug nor a Regina Maria-style dictionary URL exists.
 
 The page shows a locality selector, a specific-lab selector, and a 27-category
@@ -242,8 +242,8 @@ not from contract signing. These are the `●` lines. It is the same eleven as
 Respect Infinit's annual set, line for line.
 
 A much larger **discount annex** — about 300 lab tests at 100% off — is *only*
-"la recomandarea medicului RM". Enforcement is a GP's individual call and isn't
-published anywhere, so this repo doesn't model it as guaranteed. Every
+"la recomandarea medicului RM". Whether a doctor gives it is their call, and RM
+publishes no criteria, so this repo doesn't model it as guaranteed. Every
 annex-covered line is `○` (estimated), never asserted as a hard price.
 
 The column exists because the discount is large enough — roughly half of RM's
@@ -253,7 +253,7 @@ Core list — to be worth showing, not because it's a price every reader gets.
 serica (as "Glicemie"), both transaminases, Creatinina serica, and PSA (read as
 Pap smear for women / PSA for men, the same reading as MedLife's combined line).
 All six are annex-covered too, so `●` is an upgrade in certainty, not in price —
-**the annual set moved no RON figure in this file.** The remaining six annual-set
+**the annual set moved no RON figure in the shopping list.** The remaining six annual-set
 entries have no line to grade: Sumar de urină and VSH are not Whoop biomarkers,
 and total cholesterol, LDL, HDL and triglycerides arrive inside `Profil lipidic`,
 which is annex-covered only. That last one is a genuine reader choice — buying the
@@ -302,7 +302,7 @@ The counterpart to Comfort Premium, with the same never-mention-the-monthly-cost
 rule and the same `○` caveat for anything gated on a doctor's say-so.
 
 **The mechanic.** Respect Infinit (539 RON/month, 12-month validity) gives two
-separate things, unlike Comfort Premium's single annex.
+separate things, the same shape as Comfort Premium.
 
 An **annual set** of 11 tests — Papanicolau clasic/PSA, Sumar de urină, Glicemie,
 LDL colesterol, HDL colesterol, Trigliceride, Hemoleucogramă, VSH, Transaminaze

@@ -75,9 +75,8 @@ Break one of these and the repo is wrong in a way nothing will flag.
     price-carrying files share one date because they share prices.
     `BIOMARKERS.md`'s date means *names checked against the catalogue*. Each
     subscription section carries its own date meaning *that annex re-read at its
-    source*, which moves independently — Regina Maria's already sits ahead of its
-    price footer. The `§` date means *the funded set re-derived*. These are four
-    different claims.
+    source*, which moves independently of the price footer. The `§` date means
+    *the funded set re-derived*. These are four different claims.
 
 ## The refresh sweep
 
