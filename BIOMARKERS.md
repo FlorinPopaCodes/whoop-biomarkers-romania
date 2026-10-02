@@ -1,13 +1,13 @@
 # Biomarkers
 
-What each provider calls each Whoop biomarker, and who sells it. `—` means the
-provider sells nothing that yields it; `?` means undetermined. Where a biomarker
-is only obtainable inside a panel, the cell names the panel.
+The test name each provider uses for each Whoop biomarker. `—` means the
+provider sells no test that measures it; `?` means we don't know yet. If a
+biomarker only comes as part of a panel, the cell names the panel.
 
 Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 [Regina Maria](SHOPPING-LIST-REGINA-MARIA.md) ·
-[MedLife](SHOPPING-LIST-MEDLIFE.md). Which provider comes out cheapest is in
-[README](README.md).
+[MedLife](SHOPPING-LIST-MEDLIFE.md). The [README](README.md) compares the
+providers.
 
 ## Core
 
@@ -71,7 +71,7 @@ Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 | Vitamin D | 25-OH-vitamina D | 25 OH Vitamina D | 25-OH Vitamina D |
 | White Blood Cells (WBC) | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
 
-All three providers sell all 57.
+All three providers sell all 57 Core biomarkers.
 
 **Core — Derived (18)**
 
@@ -96,13 +96,14 @@ All three providers sell all 57.
 | Systemic Immune-Inflammation Index (SII) | = Platelets × Neutrophils ÷ Lymphocytes |
 | Triglycerides/HDL Ratio | = Triglycerides ÷ HDL |
 
-Costs 0 RON at all three providers — buy the inputs above and compute them.
+These cost nothing: buy the inputs above and calculate them.
 
 ## Extended
 
-Beyond Core, Synevo covers 34 of 43 purchasable Extended biomarkers, Regina
-Maria 29 with 4 unresolved, and MedLife 34. Grouped by Whoop's five Specialized
-Panels; a biomarker shared by more than one repeats under each, marked `†`.
+Of the 43 Extended biomarkers you can buy, Synevo and MedLife each sell 34 and
+Regina Maria sells 29, with 4 more unresolved. They're grouped by Whoop's five
+Specialized Panels. A biomarker in more than one Panel appears under each and is
+marked `†`.
 
 ### Heart Health
 
@@ -189,14 +190,14 @@ Panels; a biomarker shared by more than one repeats under each, marked `†`.
 | Uric Acid (UA) | Acid uric seric † | Acid uric seric † | Acid uric † |
 | Zinc (serum) | Zinc în plasmă † | Zinc in ser † | Zinc † |
 
-† appears in more than one Specialized Panel, and repeats under each — you buy it
-once. The shopping lists say what that saves.
+`†` means the biomarker is in more than one Specialized Panel. You only buy it
+once.
 
-**Not yet placed:** DHEA Sulfate is Extended but isn't part of any of Whoop's
-five Specialized Panels, so it has no Block and no shopping-list line — which is
-why each Extended coverage count above runs one ahead of what that provider's
-five Specialized Panels cover between them. Its prices live here: Synevo 65 RON,
-Regina Maria 70 RON, MedLife 57 RON.
+**Not yet placed:** DHEA Sulfate is an Extended biomarker, but it isn't in any
+of Whoop's five Specialized Panels. That means it has no Block or shopping-list
+line, and each provider's Extended count above is one higher than the number
+its five Panels cover. Its prices: Synevo 65 RON, Regina Maria 70 RON, MedLife
+57 RON.
 
 **Extended — Derived (9)**
 
@@ -212,12 +213,12 @@ Regina Maria 70 RON, MedLife 57 RON.
 | PSA %, Free | = PSA Free ÷ PSA Total × 100 |
 | Reticulocyte Index (RI) | = Reticulocyte % × (Hematocrit ÷ 45) |
 
-Costs 0 RON at all three providers — buy the inputs above and compute them.
+These cost nothing: buy the inputs above and calculate them.
 
 ---
 
-*Test names checked against each provider's catalogue 2026-10-02. Prices, and
-their own verification dates, are in the shopping lists. Not medical advice — see [README](README.md) for the full
-disclaimer.*
+*Test names checked against each provider's catalogue on 2026-10-02. Prices and
+their dates are in the shopping lists. Not medical advice; see the
+[README](README.md) for the full disclaimer.*
 
 MIT — see [LICENSE](LICENSE).

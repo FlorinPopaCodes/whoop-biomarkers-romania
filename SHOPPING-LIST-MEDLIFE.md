@@ -1,7 +1,7 @@
 # MedLife — Shopping List
 
-Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
-[catalogue](https://www.medlife.ro/gama-analize) for the Test name to order.
+Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). To order, search
+MedLife's [catalogue](https://www.medlife.ro/gama-analize) for the Test name.
 
 ## Core
 
@@ -130,8 +130,9 @@ Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search MedLife's
 
 ## Extended
 
-Whoop's five Specialized Panels, priced on top of Core. No total — the Panels
-share Tests, so their subtotals deliberately don't add up.
+Whoop's five Specialized Panels, each priced as an add-on to Core. There's no
+total: some Tests belong to more than one Panel, so adding the subtotals would
+count them twice.
 
 ### Heart Health
 
@@ -214,65 +215,67 @@ share Tests, so their subtotals deliberately don't add up.
 
 ## Respect Infinit
 
-The `Subscriber` column above is what these Tests cost if you hold a Respect
-Infinit subscription. It gives two separate things.
+The Subscriber column shows what each Test costs if you have a Respect Infinit
+subscription. The subscription covers tests in two ways.
 
-An **annual set** of 11 Tests is included with no recommendation, capped 1×/year
-each, from first use rather than from signing — those are the `0 ●` lines, and
-they're guaranteed. A much larger **discount annex**, about 19 test categories at
-100% off, needs "cu recomandarea medicului MedLife" — a MedLife doctor's
-recommendation, which is theirs to give — and caps each Test at 4×/year. Those
-are the `0 ○` lines, and they're estimates. A Test showing its full price in both
-columns is on neither list.
+The **annual set** is 11 Tests you get free once a year, with no recommendation
+needed. The year counts from when you first use it, not from when you sign.
+These lines show `0 ●` and are guaranteed.
 
-Several Tests sit on both lists; they're marked with the annual set's guaranteed
-`●`, since that's the better route for the first order each year — the annex can
-still supply further free draws later, up to its own cap.
+The **discount annex** covers about 19 categories of tests at 100% off, but only
+"cu recomandarea medicului MedLife": a MedLife doctor has to recommend the test,
+and that's up to them. Each Test can be used up to 4 times a year. These lines
+show `0 ○` and are estimates.
 
-Verified against MedLife's live subscriber terms 2026-10-02.
+A Test at full price in both columns is in neither. A Test in both is marked `●`,
+because the annual set is the surer way to get it free the first time each year.
+The annex can still cover later draws, up to its limit.
+
+Checked against MedLife's current subscription terms on 2026-10-02.
 
 ## Free on a prevention referral
 
-Lines marked `§` cost nothing if you get them on a *bilet de trimitere* from your
-family doctor, following an annual preventive consultation. You need to be
-insured, symptom-free, not on your doctor's register with a chronic disease, and
-carrying at least one modifiable risk factor — the annual bloods attach to risk,
-not to the consultation alone. It is a separate thing from Respect Infinit above,
-and it doesn't depend on holding a subscription.
+Lines marked § are free if your family doctor puts them on a *bilet de
+trimitere* after your annual preventive check-up. To qualify you need to be
+insured, have no symptoms, not be registered with your doctor for a chronic
+disease, and have at least one modifiable risk factor. The check-up alone isn't
+enough: the blood tests depend on the risk factor. This is separate from
+Respect Infinit, and you don't need a subscription for it.
 
-Everyone from 18 gets the blood count, fasting glucose, total cholesterol, LDL,
-creatinine, AST and ALT. Women from 40 also get TSH and free T4; men get PSA from
-50, once every three years, and no further Core biomarker at any age. HDL and
-triglycerides are **not** on the list.
+Everyone from 18 can get the blood count, fasting glucose, total cholesterol,
+LDL, creatinine, AST and ALT. Women from 40 can also get TSH and free T4. Men
+from 50 can get PSA once every three years, and men get no other Core biomarker
+at any age. HDL and triglycerides are not on the list.
 
-Once per calendar year, and your doctor decides which of the list is warranted —
-it is not an order form. The referral is valid 60 days. Unlike an ordinary
-referral this one is settled above the lab's monthly budget, so "funds are
-exhausted" is not a valid refusal.
+You can use it once per calendar year. Your doctor decides which of these tests
+you need; you can't pick from the list yourself. The referral is valid for 60
+days. Labs are paid for these referrals outside their monthly budget, so a lab
+can't turn you away because the month's funds have run out.
 
-That takes 182 RON off Core here — 242 RON for women from 40. MedLife books CNAS
-collections by telephone only, and won't run a line whose sample you didn't
-bring on the day — there is no coming back for it later on the same referral.
+At MedLife that takes 182 RON off Core, or 242 RON for women from 40. MedLife
+books CNAS tests by phone only. Bring every sample on the day: MedLife won't run
+a test whose sample you didn't bring, and you can't come back for it later on
+the same referral.
 
 ---
 
 | | Means |
 |---|---|
-| ‡ | One Test, several biomarkers. |
-| † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
-| § | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
-| ● | Free 1×/year, no recommendation. Guaranteed. |
-| ○ | Estimated — 100% off with a doctor's recommendation, which is theirs to give. Capped 4×/year. |
+| ‡ | One Test that gives several biomarkers. |
+| † | Counted in more than one Specialized Panel. You only buy it once, so two Panels together cost less than their subtotals add up to. |
+| § | Free once a year on a prevention referral from your family doctor, PSA once every three years. See above. |
+| ● | Free once a year, no recommendation needed. Guaranteed. |
+| ○ | Estimated: 100% off if one of the provider's doctors recommends it, which is up to them. Up to 4 times a year. |
 | + | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
-| Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
-| Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
+| Core | The cheapest way to get every Core biomarker this provider sells. Each Block's line shows what you'd give up by dropping it. |
+| Derived | Calculated from other biomarkers on the list, so it costs 0 RON anywhere. Buy the inputs. Formulas are in [BIOMARKERS.md](BIOMARKERS.md). |
 
-Which biomarkers a Block covers, and what's missing, is in
-[BIOMARKERS.md](BIOMARKERS.md).
+[BIOMARKERS.md](BIOMARKERS.md) shows which biomarkers each Block covers and
+which are missing.
 
 ---
 
-*Community-maintained mapping, not medical advice. Prices are national,
-verified 2026-10-02; check with the provider before ordering.*
+*Community-maintained, not medical advice. Prices are national, checked
+2026-10-02. Confirm with the provider before you order.*
 
 MIT — see [LICENSE](LICENSE).
