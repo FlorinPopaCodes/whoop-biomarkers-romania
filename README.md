@@ -14,10 +14,10 @@ Catalogues: [Synevo](https://www.synevo.ro/shop/) ·
 | Provider | Core | Subscriber (est.) |
 |---|---:|---:|
 | Synevo | **1,856 RON** · 57/57 | — |
-| Regina Maria | 2,290 RON · 57/57 | ~985 RON |
+| Regina Maria | 2,220 RON · 57/57 | ~915 RON |
 | MedLife | 1,914 RON · 57/57 | ~866 RON |
 
-**Synevo wins on price** by 58 RON over MedLife and 434 RON over Regina Maria.
+**Synevo wins on price** by 58 RON over MedLife and 364 RON over Regina Maria.
 
 All three sell all 57 Core biomarkers, so the comparison is like-for-like with
 nothing held out. Subscriber figures are estimates, and most of the discount
@@ -25,7 +25,7 @@ depends on a recommendation from that provider's own doctor; each shopping list
 spells out which lines are guaranteed and which aren't.
 
 Beyond Core, Synevo covers 34 of the 43 purchasable Extended biomarkers, Regina
-Maria 28, and MedLife 34. What each provider calls each biomarker, and who sells
+Maria 29 confirmed (4 unresolved), and MedLife 34. What each provider calls each biomarker, and who sells
 what, is in [BIOMARKERS.md](BIOMARKERS.md).
 
 ## What to order
@@ -46,7 +46,7 @@ mark those lines `§` and spell out the age and sex conditions.
 ---
 
 *Community-maintained mapping, not medical advice. Synevo and Regina Maria
-prices are București, verified 2026-08-04. MedLife prices are national,
-verified 2026-08-05. Check with the provider before ordering.*
+prices are București, verified 2026-10-02. MedLife prices are national,
+verified 2026-10-02. Check with the provider before ordering.*
 
 MIT — see [LICENSE](LICENSE).

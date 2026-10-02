@@ -20,7 +20,7 @@ Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 | Aspartate Aminotransferase (AST) | Aspartataminotransferaza (GOT/ASAT/AST) | Aspartataminotransferaza (GOT/AST/TGO) | TGO/AST |
 | Basophil % | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
 | Basophils | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
-| Blood Fasting Glucose | Glucoza serica (glicemie) | Glucoza serica | Glucoza serica |
+| Blood Fasting Glucose | Glucoza serica (glicemie) | Glucoza serica (glicemie) | Glucoza serica |
 | Blood Urea Nitrogen | Uree serică | Uree serica | Ureea nitrogen (BUN) |
 | Calcium | Calciu seric | Calciu seric | Calciu seric total |
 | Carbon Dioxide | Bicarbonat (ECO2) | Rezerva alcalina (ECO2) | Bicarbonat seric |
@@ -33,7 +33,7 @@ Prices are in the shopping lists: [Synevo](SHOPPING-LIST-SYNEVO.md) ·
 | Ferritin | Feritina | Feritina | Feritina |
 | Follicle Stimulating Hormone (FSH) | FSH (hormon de stimulare foliculară) | FSH (hormon de stimulare foliculara) | FSH |
 | Free Testosterone | Testosteron liber | Testosteron liber | Testosteron liber |
-| Glucose | Glucoza serica (glicemie) | Glucoza serica | Glucoza serica |
+| Glucose | Glucoza serica (glicemie) | Glucoza serica (glicemie) | Glucoza serica |
 | HDL Cholesterol | Colesterol HDL | HDL Colesterol | HDL- Colesterol |
 | Hematocrit | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
 | Hemoglobin | Hemograma cu formula leucocitara cu Hb, Ht si indici | Hemoleucograma cu formula leucocitara,Hb,Ht, indici eritrocitari | Hemoleucograma completa |
@@ -101,25 +101,25 @@ Costs 0 RON at all three providers — buy the inputs above and compute it.
 ## Extended
 
 Beyond Core, Synevo covers 34 of 43 purchasable Extended biomarkers, Regina
-Maria 28, and MedLife 34. Grouped by Whoop's five Specialized Panels; a biomarker
+Maria 29 confirmed with four unresolved, and MedLife 34. Grouped by Whoop's five Specialized Panels; a biomarker
 shared by more than one Specialized Panel repeats under each, marked `†`.
 
 ### Heart Health
 
 | Whoop Biomarker | Synevo | Regina Maria | MedLife |
 |---|---|---|---|
-| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Asymmetric Dimethylarginine (ADMA) | — | — | — |
 | Cystatin C | Cistatina C | Cystatin C | Cistatina C |
-| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Docosapentaenoic Acid (DPA) | — | — | — |
-| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | HDL Large | — | — | — |
 | LDL Medium | — | — | — |
 | LDL Particle Number | — | — | — |
 | LDL Peak Size | — | — | — |
 | LDL Small | small dense LDL (sdLDL) | Profil LDL (LDL colesterol, sd-LDL colesterol, LDL oxidat, lipoproteina A) | Small dense LDL (sdLDL) |
-| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Lipoprotein-Associated Phospholipase A₂ (Lp-PLA₂) | Lipoproteina asociata fosfolipazei A2 | — | Lipoproteina asociata fosfolipazei A2 |
 | Myeloperoxidase (MPO) | — | — | — |
 | Symmetric Dimethylarginine (SDMA) | — | — | — |
@@ -129,16 +129,16 @@ shared by more than one Specialized Panel repeats under each, marked `†`.
 
 | Whoop Biomarker | Synevo | Regina Maria | MedLife |
 |---|---|---|---|
-| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Arachidonic Acid (AA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Creatine Kinase (CK) | Creatinkinaza (CK) | Creatinkinaza (CK) | Creatinkinaza-CK |
-| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Docosahexaenoic Acid (DHA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Docosapentaenoic Acid (DPA) | — | — | — |
-| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| Eicosapentaenoic Acid (EPA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Folate (Vitamin B9) | Folati serici † | Folati serici (acid folic) † | Folat seric † |
 | Free T3 (FT3) | FT3 (triiodotironina libera) † | FT3 (triiodotironina libera) † | Free T3 † |
 | Free T4 (FT4) | FT4 (Tiroxina libera) † | FT4 (tiroxina libera) † | Free T4 † |
-| IGF-1 | IGF-I (somatomedin C) | IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | IGF-1 (somatomedin C) |
-| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | — | Acizi grasi omega 3 si omega 6 † |
+| IGF-1 | IGF-I (somatomedin C) | IGF 1 (somatomedin c) | IGF-1 (somatomedin C) |
+| Linoleic Acid (LA) | Acizi grasi omega 3 si omega 6 † | ? | Acizi grasi omega 3 si omega 6 † |
 | Magnesium | Magneziu seric † | Magneziu seric † | Magneziu † |
 | Reticulocyte Count (RET) | Hemograma cu formula leucocitara, Hb,Ht,indici si reticulocite (Hemograma) | Hemoleucograma completa cu formula leucocitara, Hb, Ht, indici si reticulocite | Numaratoare de reticulocite |
 | Vitamin B12 (cobalamin) | Vitamina B12 † | Vitamina B 12 † | Vitamina B12 † |
@@ -155,7 +155,7 @@ shared by more than one Specialized Panel repeats under each, marked `†`.
 | Free T4 (FT4) | FT4 (Tiroxina libera) † | FT4 (tiroxina libera) † | Free T4 † |
 | Fructosamine | Fructozamina | Fructozamina | Fructozamina |
 | Gamma-Glutamyl Transferase (GGT) | GGT - Gama-glutamiltransferaza (Glutamiltranspeptidaza, Gama GT) | Gamaglutamiltranspeptidaza (GGT) | Gama GT |
-| Iodine | Iod seric | — | Iod in sange |
+| Iodine | Iod seric | Iod seric | Iod in sange |
 | Leptin | Leptina † | Leptina † | Leptina † |
 | Selenium | Seleniu | Seleniu in sange | Seleniu |
 | Zinc (serum) | Zinc în plasmă † | Zinc in ser † | Zinc † |
@@ -217,8 +217,8 @@ Costs 0 RON at all three providers — buy the inputs above and compute it.
 
 ---
 
-*Test names checked against each provider's catalogue — Synevo and Regina Maria
-2026-08-04, MedLife 2026-08-05. Prices, and their own verification dates, are in
+*Test names checked against each provider's catalogue — Synevo, Regina Maria,
+and MedLife 2026-10-02. Prices, and their own verification dates, are in
 the shopping lists. Not medical advice — see [README](README.md) for the full
 disclaimer.*
 

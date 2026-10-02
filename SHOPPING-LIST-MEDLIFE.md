@@ -229,7 +229,7 @@ Several Tests sit on both lists; they're marked with the annual set's guaranteed
 `●`, since that's the better route for the first order each year — the annex can
 still supply further free draws later, up to its own cap.
 
-Verified against MedLife's live subscriber terms 2026-08-05.
+Verified against MedLife's live subscriber terms 2026-10-02.
 
 ## Free on a prevention referral
 
@@ -273,6 +273,6 @@ Which biomarkers a Block covers, and what's missing, is in
 ---
 
 *Community-maintained mapping, not medical advice. Prices are national,
-verified 2026-08-05; check with the provider before ordering.*
+verified 2026-10-02; check with the provider before ordering.*
 
 MIT — see [LICENSE](LICENSE).

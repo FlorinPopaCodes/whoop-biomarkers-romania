@@ -26,12 +26,11 @@ count in the repo.
 - **`docs/agents/file-shapes.md`** — the exact shape of every product file.
   Read before editing one.
 - **`docs/agents/refresh.md`** — the quarterly sweep end to end: where each
-  provider's prices come from, how the subscriber columns and the `§` set are
-  derived, how to recompute a Basket. Read before a refresh.
+  provider's prices come from, the public prevention sources behind `§`, how
+  subscriber columns are derived, and how to recompute a Basket. Read before a
+  refresh.
 - **`docs/adr/`** — decisions not to silently reverse. `0001` puts prices in the
   shopping lists; `0002` models only the prevention route.
-- **`docs/research/cnas-medic-de-familie.md`** — the state-funding analysis `§`
-  came from, including the diagnostic route this repo deliberately omits.
 
 ## Invariants
 
@@ -118,6 +117,11 @@ Carried deliberately, not forgotten. Each is resolved during a sweep, not before
   publishes no per-test page, so whether it reports the two input assays or only
   the ratio is unknown. Worth 10 RON off RM's Core if it holds.
   `docs/agents/refresh.md` carries the detail.
+- **Regina Maria's fatty-acid panel has unresolved membership.** Its catalogue
+  lists `Acizi grasi - saturati, mononesaturati, omega-3, omega-6`, but does not
+  identify whether it reports AA, DHA, EPA, or LA individually. Keep those four
+  Extended mappings as `?` until a component list is obtained; do not count
+  or price them in a shopping-list Block on the panel name alone.
 - **DHEA Sulfate is unplaced.** Extended, sold at all three providers, but part
   of none of Whoop's five Specialized Panels — checked against Whoop's own panel
   marketing, not inferred. It stays in its own note rather than being folded into
@@ -125,6 +129,7 @@ Carried deliberately, not forgotten. Each is resolved during a sweep, not before
   its shopping-list coverage count. Revisit if Whoop ever documents where it
   belongs.
 - **A CNAS draft in transparency (July 2026) proposes adding HDL cholesterol.**
+  The current consolidated prevention list checked 2026-10-02 still omits it.
   That would mark a new line at Synevo and MedLife. It would *not* retire Regina
   Maria's lipid swap note: triglycerides stay unfunded, so `Profil lipidic` would
   still lose — to buying Trigliceride alone for 30 against the panel's 85, a
