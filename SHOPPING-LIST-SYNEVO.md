@@ -1,6 +1,6 @@
 # Synevo — Shopping List
 
-Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Every Test name
+Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Each Test name
 links to its page in Synevo's [catalogue](https://www.synevo.ro/shop/).
 
 ## Core
@@ -129,8 +129,9 @@ links to its page in Synevo's [catalogue](https://www.synevo.ro/shop/).
 
 ## Extended
 
-Whoop's five Specialized Panels, priced on top of Core. No total — the Panels
-share Tests, so their subtotals deliberately don't add up.
+Whoop's five Specialized Panels, each priced as an add-on to Core. There's no
+total: some Tests belong to more than one Panel, so adding the subtotals would
+count them twice.
 
 ### Heart Health
 
@@ -211,60 +212,60 @@ share Tests, so their subtotals deliberately don't add up.
 | [Acid uric seric](https://www.synevo.ro/shop/acid-uric-seric/) † | 21 |
 | [Magneziu seric](https://www.synevo.ro/shop/magneziu-seric/) † | 19 |
 
-Synevo has no subscription tier priced here.
+Synevo has no subscription priced here.
 
 ## Free on a prevention referral
 
-Lines marked `§` cost nothing if you get them on a *bilet de trimitere* from your
-family doctor, following an annual preventive consultation. You need to be
-insured, symptom-free, not on your doctor's register with a chronic disease, and
-carrying at least one modifiable risk factor — the annual bloods attach to risk,
-not to the consultation alone.
+Lines marked § are free if your family doctor puts them on a *bilet de
+trimitere* after your annual preventive check-up. To qualify you need to be
+insured, have no symptoms, not be registered with your doctor for a chronic
+disease, and have at least one modifiable risk factor. The check-up alone isn't
+enough: the blood tests depend on the risk factor.
 
-Everyone from 18 gets the blood count, fasting glucose, total cholesterol, LDL,
-creatinine, AST and ALT. Women from 40 also get TSH and free T4; men get PSA from
-50, once every three years, and no further Core biomarker at any age. HDL and
-triglycerides are **not** on the list.
+Everyone from 18 can get the blood count, fasting glucose, total cholesterol,
+LDL, creatinine, AST and ALT. Women from 40 can also get TSH and free T4. Men
+from 50 can get PSA once every three years, and men get no other Core biomarker
+at any age. HDL and triglycerides are not on the list.
 
-Once per calendar year, and your doctor decides which of the list is warranted —
-it is not an order form. The referral is valid 60 days. Unlike an ordinary
-referral this one is settled above the lab's monthly budget, so "funds are
-exhausted" is not a valid refusal.
+You can use it once per calendar year. Your doctor decides which of these tests
+you need; you can't pick from the list yourself. The referral is valid for 60
+days. Labs are paid for these referrals outside their monthly budget, so a lab
+can't turn you away because the month's funds have run out.
 
-That takes 149 RON off Core here — 205 RON for women from 40. Fasting glucose is
-free on this route too, but it arrives inside Indice HOMA, which also carries
-insulin the state doesn't fund, so no line above can be marked for it.
+At Synevo that takes 149 RON off Core, or 205 RON for women from 40. Fasting
+glucose is free on this route too, but here it comes inside Indice HOMA together
+with insulin, which the state doesn't pay for, so that line carries no mark.
 
-It also flips one Block: on this route, skip Indice HOMA and buy Glucoza serica
-and Insulina separately — 65 rather than 82, because fasting glucose comes free
-and insulin doesn't. Taken together that is 166 RON off Core, or 222 for women
-from 40.
+On this route the Metabolic Block changes: skip Indice HOMA and buy Glucoza
+serica and Insulina separately. That costs 65 instead of 82, because the glucose
+is free and only the insulin is paid for. In total you save 166 RON on Core, or
+222 for women from 40.
 
-The referral is a closed set the lab may not add to, so you cannot pay the 31 RON
-upgrade on top of the free blood count: wanting reticulocytes means buying the
-full hemogram (75) and forgoing the free one.
+The lab can't add anything to a referral, so you can't pay the 31 RON upgrade on
+top of the free blood count. If you want reticulocytes, buy the full hemogram
+(75) and skip the free one.
 
-Synevo accepts prevention referrals as walk-ins — no appointment, and none of the
-monthly booking window ordinary CNAS collections go through.
+Synevo takes prevention referrals as walk-ins. You don't need an appointment,
+and you skip the monthly booking window that ordinary CNAS tests go through.
 
 ---
 
 | | Means |
 |---|---|
-| ‡ | One Test, several biomarkers. |
-| † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
-| ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
-| `§` | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
-| `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
-| Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
-| Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
+| ‡ | One Test that gives several biomarkers. |
+| † | Counted in more than one Specialized Panel. You only buy it once, so two Panels together cost less than their subtotals add up to. |
+| ↑ | Upgrade: it replaces the Core Block's version of the same Test. The price shown is the extra cost, not the Test's full price. |
+| § | Free once a year on a prevention referral from your family doctor, PSA once every three years. See above. |
+| + | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
+| Core | The cheapest way to get every Core biomarker this provider sells. Each Block's line shows what you'd give up by dropping it. |
+| Derived | Calculated from other biomarkers on the list, so it costs 0 RON anywhere. Buy the inputs. Formulas are in [BIOMARKERS.md](BIOMARKERS.md). |
 
-Which biomarkers a Block covers, and what's missing, is in
-[BIOMARKERS.md](BIOMARKERS.md).
+[BIOMARKERS.md](BIOMARKERS.md) shows which biomarkers each Block covers and
+which are missing.
 
 ---
 
-*Community-maintained mapping, not medical advice. Prices are București, verified
-2026-10-02; check with the provider before ordering.*
+*Community-maintained, not medical advice. Prices are for București, checked
+2026-10-02. Confirm with the provider before you order.*
 
 MIT — see [LICENSE](LICENSE).

@@ -1,155 +1,149 @@
 # Maintaining this repo
 
-`README.md`, `BIOMARKERS.md`, `SHOPPING-LIST-SYNEVO.md`,
-`SHOPPING-LIST-REGINA-MARIA.md` and `SHOPPING-LIST-MEDLIFE.md` are the product —
-all five of it. There are no scripts, no build, no tests. Everything that keeps
-these files correct is written down; nothing is enforced by a machine.
+The product is five Markdown files: `README.md`, `BIOMARKERS.md`,
+`SHOPPING-LIST-SYNEVO.md`, `SHOPPING-LIST-REGINA-MARIA.md` and
+`SHOPPING-LIST-MEDLIFE.md`. There are no scripts, build or tests. Everything
+that keeps these files correct is written down here and in `docs/`; nothing
+checks it automatically.
 
-Each file answers exactly one question, and **every price exists in exactly one
+Each file answers one question, and **each price is written in exactly one
 place**:
 
 | File | Answers | Prices |
 |---|---|---|
-| `README.md` | Which provider do I pick? | Four hand-copied numbers per provider |
-| `BIOMARKERS.md` | What is this biomarker called, and who sells it? | None, bar one documented exception |
-| `SHOPPING-LIST-*.md` | What do I order and what does it cost? | Source of truth for every price |
+| `README.md` | Which provider should I pick? | Four numbers per provider, copied by hand |
+| `BIOMARKERS.md` | What is this biomarker called, and who sells it? | None, with one documented exception |
+| `SHOPPING-LIST-*.md` | What do I order and what does it cost? | Every price, as the source of truth |
 
-The biomarker set is 127: 75 Core plus 52 Extended. 100 are purchasable — 57
-Core, 43 Extended — and 27 are Derived. Those numbers appear in every coverage
-count in the repo.
+There are 127 biomarkers: 75 Core and 52 Extended. 100 can be bought (57 Core,
+43 Extended) and 27 are Derived. Every coverage count in the repo uses these
+numbers.
 
 ## Read first
 
-- **`CONTEXT.md`** — the glossary. Test, Panel, Block, Basket, Common Set,
-  Subscriber Price, Referral, Recommendation. It also names the synonyms to
-  avoid. Use its vocabulary; read it before writing anything.
-- **`docs/agents/file-shapes.md`** — the exact shape of every product file.
-  Read before editing one.
-- **`docs/agents/refresh.md`** — the quarterly sweep end to end: where each
-  provider's prices come from, the public prevention sources behind `§`, how
-  subscriber columns are derived, and how to recompute a Basket. Read before a
+- **`CONTEXT.md`**: the glossary (Test, Panel, Block, Basket, Common Set,
+  Subscriber Price, Referral, Recommendation) and the synonyms to avoid. Read it
+  before writing anything, and use its terms.
+- **`docs/agents/file-shapes.md`**: the exact layout of each product file. Read
+  it before editing one.
+- **`docs/agents/refresh.md`**: the quarterly refresh step by step: where each
+  provider's prices come from, the public sources behind `§`, how the subscriber
+  columns are worked out, and how to recompute a Basket. Read it before a
   refresh.
-- **`docs/adr/`** — decisions not to silently reverse. `0001` puts prices in the
-  shopping lists; `0002` models only the prevention route.
+- **`docs/adr/`**: decisions to keep unless someone deliberately reopens them.
+  `0001` puts prices in the shopping lists; `0002` covers only the prevention
+  route.
 
 ## Invariants
 
-Break one of these and the repo is wrong in a way nothing will flag.
+Nothing will flag it if you break one of these.
 
-1. **Every price lives in exactly one shopping list.** `BIOMARKERS.md` carries
-   no prices. The sole exception is DHEA Sulfate, which belongs to no
-   Specialized Panel and so has no shopping-list line; its three prices live in
-   the note explaining why it's unplaced. See
-   `docs/adr/0001-prices-live-in-the-shopping-lists.md`.
-2. **After changing any price, recompute every Basket from scratch.** The Basket
-   is an optimizer output, not data. Drop Synevo's lipid profile from 90 to 60
-   and the right answer changes — buying the panel now beats buying its parts —
-   but nothing in the README looks broken. This is the one way this repo goes
-   quietly wrong.
+1. **Each price lives in one shopping list.** `BIOMARKERS.md` has no prices,
+   except for DHEA Sulfate. It belongs to no Specialized Panel, so it has no
+   shopping-list line, and its three prices sit in the note that explains why.
+   See `docs/adr/0001-prices-live-in-the-shopping-lists.md`.
+2. **After any price change, recompute every Basket from scratch.** The Basket
+   is calculated, not stored. If a panel becomes cheaper than buying its parts,
+   the right Basket changes, but nothing in the README looks wrong. This is the
+   easiest way for the repo to become wrong without anyone noticing.
 3. **Prices are per Test, never per biomarker.** Each Test appears once, so the
-   columns sum honestly. The old Solo Price — one hemogram's price repeated on
-   every biomarker it yields, under a "never sum this column" warning — is
-   retired. Don't reintroduce it.
-4. **Derived biomarkers are 0 RON and never get a line of their own.** But a
-   product *named* after one is still a Test: all three providers sell an "Indice
-   HOMA", and where it bundles its input assays for less than they cost
-   separately it belongs in the Basket like any other Panel. Synevo's does — 82
-   against 86 — and is in. The derived value itself stays 0 either way.
-5. **`—` and `?` are different states.** `—` means the provider genuinely sells
-   nothing that yields the biomarker; `?` means undetermined. Never render `?` as
-   `—` — unresolved biomarkers are excluded from the Common Set and named
-   explicitly, and quietly demoting one shifts every total on evidence you don't
-   have.
-6. **Never put a price in heading text.** Anchors like `#lipids` are permalinks
-   and must survive a refresh. Numbers go on the metadata line under the heading.
-7. **Quote the head-to-head over the Common Set**, so the comparison is
-   like-for-like. List each provider's exclusives separately with their prices;
-   never fold an exclusive into the comparable total.
-8. **Absences are counted, never named** — `13 not sold here`, not a list of
-   thirteen biomarkers. `BIOMARKERS.md` already renders every absence as `—`.
-9. **No per-item editorial notes in the product files.** Why a line is kept at
-   full price, why an annex match was rejected, why a name is ambiguous — all
-   agent-facing, all lives in `docs/agents/`. The product files state what is
-   true, not how it was decided.
-10. **Re-stamp a footer date only for what you actually re-verified.** The four
-    price-carrying files share one date because they share prices.
-    `BIOMARKERS.md`'s date means *names checked against the catalogue*. Each
-    subscription section carries its own date meaning *that annex re-read at its
-    source*, which moves independently — Regina Maria's already sits ahead of its
-    price footer. The `§` date means *the funded set re-derived*. These are four
-    different claims.
+   price columns add up correctly. The old Solo Price, which repeated one
+   hemogram's price on every biomarker it measures, is gone. Keep it out.
+4. **Derived biomarkers cost 0 RON and never get their own line.** A product
+   *named* after one is still a Test, though. All three providers sell an
+   "Indice HOMA". Where it bundles its input tests for less than they cost
+   separately, it goes in the Basket like any other Panel. Synevo's does (82
+   against 86) and is in. The derived value itself still costs 0.
+5. **`—` and `?` mean different things.** `—` means the provider sells nothing
+   that measures the biomarker. `?` means we don't know. Never turn a `?` into a
+   `—`: unresolved biomarkers are left out of the Common Set and named, and
+   guessing would change totals without evidence.
+6. **Keep prices out of headings.** Anchors like `#lipids` are permalinks and
+   must not change on a refresh. Numbers go on the metadata line under the
+   heading.
+7. **Compare providers over the Common Set**, so the comparison is like for
+   like. List each provider's Exclusives separately with their prices, and keep
+   them out of the comparable total.
+8. **Count absences; don't list them.** Write `13 not sold here`, not thirteen
+   names. `BIOMARKERS.md` already shows every absence as `—`.
+9. **Product files say what is true, not how it was decided.** Reasons a line
+   is kept at full price, why an annex match was rejected, or why a name is
+   ambiguous belong in `docs/agents/`.
+10. **Only update a date for what you actually checked.** The four files with
+    prices share one date because they share prices. `BIOMARKERS.md`'s date means
+    *names checked against the catalogues*. Each subscription section has its
+    own date, meaning *that annex was re-read at its source*, and it can move
+    separately from the price footer. The `§` date means *the free list was
+    re-checked*. These are four separate claims.
 
-## The refresh sweep
+## The refresh
 
-Every ~3 months. Re-verify **every** price at all three providers, not just the
-gaps: a table mixing fresh and stale cells under one date lies about half its
-contents.
+About every three months. Re-check **every** price at all three providers, not
+only the gaps: a table that mixes new and old prices under one date is wrong
+about half of them.
 
-Work in this order — each step consumes the one before it.
-`docs/agents/refresh.md` carries the how for every step.
+Work in this order, because each step uses the result of the one before.
+`docs/agents/refresh.md` explains how to do each step.
 
-1. Check whether Whoop's biomarker list moved.
-2. Re-fetch all three catalogues; re-verify every price.
-3. Re-check every test name against the catalogue → `BIOMARKERS.md`.
-4. Re-derive the `§` set from the CNAS prevention lists. It moves independently
-   of every price here, so nothing else would catch a change.
-5. Re-check each subscriber annex at its source, then re-grade every `●`/`○`.
-   The annex can change independently of that provider's public prices.
-6. Confirm panel membership still holds — the Basket optimizer's only input
-   besides prices.
+1. Check whether Whoop's biomarker list has changed.
+2. Fetch all three catalogues again and re-check every price.
+3. Re-check every test name against the catalogue and update `BIOMARKERS.md`.
+4. Re-check the `§` list against the CNAS prevention lists. It changes
+   independently of prices, so nothing else would catch it.
+5. Re-read each subscription annex at its source, then re-grade every `●` and
+   `○`. An annex can change without any public price changing.
+6. Confirm each panel still contains the same tests. Apart from prices, this is
+   the only input to the Basket.
 7. Recompute every Basket from scratch.
-8. Rewrite the shopping lists; recompute every Block subtotal and coverage count.
-9. Copy README's four numbers per provider across.
-10. Re-stamp the dates, per invariant 10.
+8. Rewrite the shopping lists, and recompute every Block subtotal and coverage
+   count.
+9. Copy the four numbers per provider into the README.
+10. Update the dates, following invariant 10.
 
-**Onboarding a new provider is not a sweep.** Adding a provider's first column
-and file leaves the existing providers' cells genuinely untouched, not stale, so
-re-stamping them under the new provider's date is the same lie in reverse. A
-footer may carry one date per provider until the next full sweep collapses it
-back to one.
+**Adding a new provider is not a refresh.** The existing providers' prices
+weren't checked again, so they keep their old date. A footer may show one date
+per provider until the next full refresh brings them back to one.
 
 ## Open items
 
-Carried deliberately, not forgotten. Each is resolved during a sweep, not before.
+These are known and left open on purpose. Resolve them during a refresh.
 
-- **Regina Maria's `Indice HOMA` is unverified.** At 90 it would beat buying
-  `Glucoza serica` and `Insulina` separately (30 + 70), but Regina Maria
-  publishes no per-test page, so whether it reports the two input assays or only
-  the ratio is unknown. Worth 10 RON off RM's Core if it holds.
-  `docs/agents/refresh.md` carries the detail.
-- **Regina Maria's fatty-acid panel has unresolved membership.** Its catalogue
-  lists `Acizi grasi - saturati, mononesaturati, omega-3, omega-6`, but does not
-  identify whether it reports AA, DHA, EPA, or LA individually. Keep those four
-  Extended mappings as `?` until a component list is obtained; do not count
-  or price them in a shopping-list Block on the panel name alone.
-- **DHEA Sulfate is unplaced.** Extended, sold at all three providers, but part
-  of none of Whoop's five Specialized Panels — checked against Whoop's own panel
-  marketing, not inferred. It stays in its own note rather than being folded into
-  a topically-close Panel, which would make that Panel's row count disagree with
-  its shopping-list coverage count. Revisit if Whoop ever documents where it
+- **Regina Maria's `Indice HOMA` is unconfirmed.** At 90 RON it would be cheaper
+  than buying `Glucoza serica` (30) and `Insulina` (70) separately, but Regina
+  Maria has no per-test page, so we don't know whether it reports both input
+  values or only the ratio. If it reports both, RM's Core drops by 10 RON.
+  Details in `docs/agents/refresh.md`.
+- **We don't know what Regina Maria's fatty-acid panel reports.** The catalogue
+  lists `Acizi grasi - saturati, mononesaturati, omega-3, omega-6` but doesn't
+  say whether AA, DHA, EPA or LA are reported separately. Keep those four
+  Extended biomarkers as `?` until someone finds the panel's contents, and don't
+  count or price them on the panel name alone.
+- **DHEA Sulfate has no Specialized Panel.** It's Extended and all three
+  providers sell it, but Whoop's own panel pages don't put it in any of the five.
+  It stays in its own note. Adding it to a related Panel would make that Panel's
+  row count disagree with its shopping-list count. Revisit if Whoop says where it
   belongs.
-- **A CNAS draft in transparency (July 2026) proposes adding HDL cholesterol.**
-  The current consolidated prevention list checked 2026-10-02 still omits it.
-  That would mark a new line at Synevo and MedLife. It would *not* retire Regina
-  Maria's lipid swap note: triglycerides stay unfunded, so `Profil lipidic` would
-  still lose — to buying Trigliceride alone for 30 against the panel's 85, a
-  wider gap than today's.
+- **A CNAS draft from July 2026 proposes adding HDL cholesterol** to the
+  prevention list. The current list, checked 2026-10-02, still leaves it out. If
+  it's added, a new line gets `§` at Synevo and MedLife. Regina Maria's lipid
+  note would stay: triglycerides would still not be free, so `Profil lipidic`
+  (85) would lose to buying Trigliceride alone (30) by an even wider margin.
 
 ## Style
 
-Spartan. Five files, one question each — `README.md` a thin landing page,
-`BIOMARKERS.md` the name map, one `SHOPPING-LIST-*.md` per provider carrying
-every price including the subscriber column. Each file carries its own back-link,
-one-line disclaimer, and one-line licence. No table of contents, no emoji
-headers, no medical essay.
+Short and plain. Five files, one question each: `README.md` is a short landing
+page, `BIOMARKERS.md` is the name map, and each `SHOPPING-LIST-*.md` has every
+price for its provider, including the subscriber column. Each file has its own
+link back, a one-line disclaimer and a one-line licence. No table of contents,
+no emoji in headings, no medical explanations.
 
-Before adding a section to any product file, check whether it belongs in
-`docs/agents/` instead. Justifications especially.
+Before adding a section to a product file, check whether it belongs in
+`docs/agents/` instead. Explanations of why usually do.
 
 ## Agent skills
 
-**Issue tracker.** Issues and PRDs live as GitHub issues in this repo (`gh`
-CLI). See `docs/agents/issue-tracker.md`.
+**Issue tracker.** Issues and PRDs are GitHub issues in this repo, managed with
+the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
-**Domain docs.** Single-context layout — `CONTEXT.md` and `docs/adr/` at the
-repo root. See `docs/agents/domain.md`.
+**Domain docs.** One context: `CONTEXT.md` and `docs/adr/` at the repo root.
+See `docs/agents/domain.md`.

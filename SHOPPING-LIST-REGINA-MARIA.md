@@ -1,8 +1,9 @@
 # Regina Maria — Shopping List
 
-Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). Search Regina
-Maria's [catalogue](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize)
-for the Test name to order.
+Part of [Whoop Biomarkers — Romanian Lab Mapping](README.md). To order, search
+Regina Maria's
+[catalogue](https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize)
+for the Test name.
 
 ## Core
 
@@ -128,8 +129,9 @@ for the Test name to order.
 
 ## Extended
 
-Whoop's five Specialized Panels, priced on top of Core. No total — the Panels
-share Tests, so their subtotals deliberately don't add up.
+Whoop's five Specialized Panels, each priced as an add-on to Core. There's no
+total: some Tests belong to more than one Panel, so adding the subtotals would
+count them twice.
 
 ### Heart Health
 
@@ -209,79 +211,80 @@ share Tests, so their subtotals deliberately don't add up.
 
 ## Comfort Premium
 
-The `Subscriber` column above is what these Tests cost if you hold a Comfort
-Premium subscription. It gives two separate things.
+The Subscriber column shows what each Test costs if you have a Comfort Premium
+subscription. The subscription covers tests in two ways.
 
-An **annual set** of 11 Tests is included with no recommendation, capped 1×/year
-each, from first use rather than from signing — those are the `0 ●` lines, and
-they're guaranteed. A much larger **discount annex**, about 300 lab tests at 100%
-off, needs "la recomandarea medicului RM" — a Regina Maria doctor's
-recommendation, which is an individual GP's call and isn't published anywhere.
-Those are the `0 ○` lines, and they're estimates. A Test showing its full price in
-both columns is on neither list.
+The **annual set** is 11 Tests you get free once a year, with no recommendation
+needed. The year counts from when you first use it, not from when you sign.
+These lines show `0 ●` and are guaranteed.
 
-Several Tests sit on both lists; they're marked with the annual set's guaranteed
-`●`, since that's the better route for the first order each year — the annex can
-still supply further free draws later.
+The **discount annex** covers about 300 more lab tests at 100% off, but only "la
+recomandarea medicului RM": a Regina Maria doctor has to recommend the test, and
+that's up to them. These lines show `0 ○` and are estimates.
 
-Profil lipidic is annex-covered only, but the annual set carries all four of its
-members as separate Tests — so a subscriber who wants a guaranteed 0 rather than
-an estimated one orders the four instead of the panel.
+A Test at full price in both columns is in neither. A Test in both is marked `●`,
+because the annual set is the surer way to get it free the first time each year.
+The annex can still cover later draws.
 
-Verified against Regina Maria's live subscriber terms 2026-10-02.
+Profil lipidic is only in the annex, but the annual set includes all four of its
+tests separately. For a guaranteed 0 instead of an estimated one, order those
+four instead of the panel.
+
+Checked against Regina Maria's current subscription terms on 2026-10-02.
 
 ## Free on a prevention referral
 
-Lines marked `§` cost nothing if you get them on a *bilet de trimitere* from your
-family doctor, following an annual preventive consultation. You need to be
-insured, symptom-free, not on your doctor's register with a chronic disease, and
-carrying at least one modifiable risk factor — the annual bloods attach to risk,
-not to the consultation alone. It is a separate thing from Comfort Premium above,
-and it doesn't depend on holding a subscription.
+Lines marked § are free if your family doctor puts them on a *bilet de
+trimitere* after your annual preventive check-up. To qualify you need to be
+insured, have no symptoms, not be registered with your doctor for a chronic
+disease, and have at least one modifiable risk factor. The check-up alone isn't
+enough: the blood tests depend on the risk factor. This is separate from
+Comfort Premium, and you don't need a subscription for it.
 
-Everyone from 18 gets the blood count, fasting glucose, total cholesterol, LDL,
-creatinine, AST and ALT. Women from 40 also get TSH and free T4; men get PSA from
-50, once every three years, and no further Core biomarker at any age. HDL and
-triglycerides are **not** on the list.
+Everyone from 18 can get the blood count, fasting glucose, total cholesterol,
+LDL, creatinine, AST and ALT. Women from 40 can also get TSH and free T4. Men
+from 50 can get PSA once every three years, and men get no other Core biomarker
+at any age. HDL and triglycerides are not on the list.
 
-Once per calendar year, and your doctor decides which of the list is warranted —
-it is not an order form. The referral is valid 60 days. Unlike an ordinary
-referral this one is settled above the lab's monthly budget, so "funds are
-exhausted" is not a valid refusal.
+You can use it once per calendar year. Your doctor decides which of these tests
+you need; you can't pick from the list yourself. The referral is valid for 60
+days. Labs are paid for these referrals outside their monthly budget, so a lab
+can't turn you away because the month's funds have run out.
 
-That takes 180 RON off Core here — 250 RON for women from 40. Total cholesterol
-and LDL are free on this route too, but they arrive inside Profil lipidic, which
-also carries two the state doesn't fund, so no line above can be marked for them.
+At Regina Maria that takes 180 RON off Core, or 250 RON for women from 40. Total
+cholesterol and LDL are free on this route too, but here they come inside Profil
+lipidic together with two tests the state doesn't pay for, so that line carries
+no mark.
 
-It also flips one Block: on this route, skip Profil lipidic and buy HDL
-Colesterol (35) and Trigliceride (30) separately — 65 rather than 85, because
-total cholesterol and LDL come free and the panel's other two don't. Taken
-together that is 200 RON off Core, or 270 for women from 40.
+On this route the Lipids Block changes: skip Profil lipidic and buy HDL
+Colesterol (35) and Trigliceride (30) separately. That costs 65 instead of 85,
+because total cholesterol and LDL are free. In total you save 200 RON on Core, or
+270 for women from 40.
 
-The referral is a closed set the lab may not add to, so you cannot pay the 10 RON
-upgrade on top of the free blood count: wanting reticulocytes means buying the
-full hemogram (70) and forgoing the free one.
+The lab can't add anything to a referral, so you can't pay the 10 RON upgrade on
+top of the free blood count. If you want reticulocytes, buy the full hemogram
+(70) and skip the free one.
 
 ---
 
 | | Means |
 |---|---|
-| ‡ | One Test, several biomarkers. |
-| † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
-| ↑ | Upgrade — replaces the Core Block's version of the same Test. The figure shown is the difference, not the Test's own price. |
-| `§` | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
-| ● | Free 1×/year, no recommendation. Guaranteed. |
-| ○ | Estimated — 100% off with a doctor's recommendation, which is theirs to give. |
-| `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
-| Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
-| Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
+| ‡ | One Test that gives several biomarkers. |
+| † | Counted in more than one Specialized Panel. You only buy it once, so two Panels together cost less than their subtotals add up to. |
+| ↑ | Upgrade: it replaces the Core Block's version of the same Test. The price shown is the extra cost, not the Test's full price. |
+| § | Free once a year on a prevention referral from your family doctor, PSA once every three years. See above. |
+| ● | Free once a year, no recommendation needed. Guaranteed. |
+| ○ | Estimated: 100% off if one of the provider's doctors recommends it, which is up to them. |
+| + | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
+| Core | The cheapest way to get every Core biomarker this provider sells. Each Block's line shows what you'd give up by dropping it. |
+| Derived | Calculated from other biomarkers on the list, so it costs 0 RON anywhere. Buy the inputs. Formulas are in [BIOMARKERS.md](BIOMARKERS.md). |
 
-Which biomarkers a Block covers, and what's missing, is in
-[BIOMARKERS.md](BIOMARKERS.md).
+[BIOMARKERS.md](BIOMARKERS.md) shows which biomarkers each Block covers and
+which are missing.
 
 ---
 
-*Community-maintained mapping, not medical advice. Prices are București, verified
-2026-10-02; check with the provider before ordering.*
+*Community-maintained, not medical advice. Prices are for București, checked
+2026-10-02. Confirm with the provider before you order.*
 
 MIT — see [LICENSE](LICENSE).
