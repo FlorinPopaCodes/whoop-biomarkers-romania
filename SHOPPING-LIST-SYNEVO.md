@@ -265,6 +265,6 @@ Which biomarkers a Block covers, and what's missing, is in
 ---
 
 *Community-maintained mapping, not medical advice. Prices are București, verified
-2026-08-04; check with the provider before ordering.*
+2026-10-02; check with the provider before ordering.*
 
 MIT — see [LICENSE](LICENSE).

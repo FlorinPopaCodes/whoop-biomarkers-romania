@@ -15,6 +15,11 @@ beyond Core; the gap is that the marketing list omits Blood Fasting Glucose,
 which the FAQ counts. Verified 2026-08-04 — 100 purchasable (57 Core, 43
 Extended), 27 Derived.
 
+The current WHOOP panel pages checked 2026-10-02 still show 75 Core biomarkers
+and the same five Specialized Panels. They expose only a short list of key
+biomarkers in plain HTML, so the full 127-name inventory above retains its
+2026-08-04 verification date.
+
 Check the [Advanced Labs
 FAQ](https://support.whoop.com/s/article/Advanced-Labs-FAQ?language=en_US) — it
 lists the Comprehensive panel and prints a "Last Published Date", which makes
@@ -43,7 +48,7 @@ rates.
 https://www.reginamaria.ro/laboratoare-inteligente/gama-de-analize
 ```
 
-Server-renders the entire 1,083-test catalogue in ~1 MB of HTML: no login, no
+Server-renders the entire 1,305-test catalogue in ~1 MB of HTML (2026-10-02): no login, no
 pagination, no JS. Each row carries machine-readable attributes:
 
 ```html
@@ -68,7 +73,7 @@ only — the shopping list doesn't link RM tests, see `file-shapes.md`.
 
 ### Synevo — one request per test
 
-Slugs enumerate from `https://www.synevo.ro/sitemap_index.xml` (2,354 `/shop/`
+Slugs enumerate from `https://www.synevo.ro/sitemap_index.xml` (2,375 `/shop/`
 products; it is one flat urlset despite the name). Then fetch
 `https://www.synevo.ro/shop/<slug>/` and read the JSON-LD `offers.price`. The
 JSON-LD `sku` is a stable `CH…` code worth recording.
@@ -88,7 +93,7 @@ sitemap is the only bulk route. One national price, no region selector.
 https://www.medlife.ro/gama-analize
 ```
 
-Server-renders the entire 2,031-test catalogue in ~1.8 MB of HTML on a plain GET:
+Server-renders the entire 2,096-test catalogue in ~1.9 MB of HTML on a plain GET (2026-10-02):
 no parameters, no login, no pagination, no JS. Each row carries machine-readable
 attributes, contrary to how it first looks — there is no JSON-LD and no
 `data-drupal-*` naming, but the same shape exists under different names:
@@ -104,8 +109,8 @@ Synevo and Regina Maria use `z`** — its serum cortisol is `Cortisol seric`, no
 came to claim for a while that MedLife sold no cortisol at all. Match on a stem,
 never a whole word.
 
-Parse `data-name`, `data-price` and `data-id`. `data-id` is a stable per-test numeric ID (2,031 unique values for
-2,031 rows, one-to-one) worth recording the way Synevo's `CH…` SKU and Regina
+Parse `data-name`, `data-price` and `data-id`. `data-id` is a stable per-test numeric ID (2,096 unique values for
+2,096 rows, one-to-one as of 2026-10-02) worth recording the way Synevo's `CH…` SKU and Regina
 Maria's `data-drupal-investigation` are. There is no per-test deep link — neither
 a Synevo-style slug nor a Regina Maria-style dictionary URL exists.
 
@@ -131,7 +136,7 @@ applied three times. Only the prevention route is modelled;
 `docs/adr/0002-only-the-prevention-route.md` says why the larger diagnostic route
 is deliberately absent.
 
-**The set as derived 2026-08-05:** the 20-parameter blood count, fasting glucose,
+**The set as re-derived 2026-10-02:** the 20-parameter blood count, fasting glucose,
 total cholesterol, LDL, creatinine, AST and ALT for everyone from 18; TSH and
 free T4 for women from 40; PSA for men from 50, once every three years. **TSH is
 women-only** — the norms read "TSH şi FT4 la femei", where `la femei` scopes both,
@@ -155,7 +160,9 @@ agree. Use CNAS's own consolidation, currently
 https://cnas.ro/wp-content/uploads/2026/01/ALL-ORDIN-Nr.-1857_441_2023-Partea-I.pdf
 ```
 
-legislatie.just.ro's consolidated forms are subscriber-gated.
+The [Legislative Portal's consolidated norm](https://legislatie.just.ro/Public/DetaliiDocumentAfis/305898)
+was also checked on 2026-10-02; its latest listed consolidation is 2026-01-01.
+Its prevention list still omits HDL and triglycerides.
 
 ### Three traps when reading them
 
@@ -396,8 +403,14 @@ Carried as an open item in `CLAUDE.md`.
 the table above leaves it out on purpose.** Regina Maria has that assay disabled,
 so the panel yields LDL Cholesterol and LDL Small only. Re-check it each refresh:
 if it comes back, a reader buying Core plus Heart Health pays for Lp(a) twice,
-because Core's Basket buys `Lipoproteina A` at 155 on its own. No Basket moves
-either way — 155 beats 400 for Core alone.
+because Core's Basket buys `Lipoproteina A` at 85 on its own. No Basket moves
+either way — 85 beats 400 for Core alone (2026-10-02 catalogue price).
+
+**Regina Maria's broad fatty-acid panel has unresolved membership.** The current
+catalogue lists `Acizi grasi - saturati, mononesaturati, omega-3, omega-6` at
+830 RON, but does not identify the individual acids reported. AA, DHA, EPA, and
+LA are `?` for Regina Maria in `BIOMARKERS.md`, not confirmed coverage. Obtain a
+component list before counting or pricing them in Heart or Performance Health.
 
 The 21-biomarker blood count, in full: Basophil %, Basophils, Eosinophil %,
 Eosinophils, Hematocrit, Hemoglobin, Lymphocyte %, Lymphocytes, Mean Corpuscular

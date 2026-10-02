@@ -6,7 +6,7 @@ for the Test name to order.
 
 ## Core
 
-2,290 RON · subscriber ~985 RON · 57 biomarkers · 18 derived
+2,220 RON · subscriber ~915 RON · 57 biomarkers · 18 derived
 
 ### Blood count
 
@@ -18,13 +18,13 @@ for the Test name to order.
 
 ### Lipids
 
-370 RON · subscriber ~155 RON · 6 biomarkers · 6 derived
+300 RON · subscriber ~85 RON · 6 biomarkers · 6 derived
 
 | Test | RON | Subscriber |
 |---|---:|---:|
-| Lipoproteina A | 155 | 155 |
+| Lipoproteina A | 85 | 85 |
 | Apolipoproteina B | 130 | 0 ○ |
-| Profil lipidic ‡ | 85 | 0 ○ |
+| Profil lipidic (LDL colesterol, HDL colesterol, colesterol total, trigliceride) ‡ | 85 | 0 ○ |
 
 ### Metabolic
 
@@ -34,7 +34,7 @@ for the Test name to order.
 |---|---:|---:|
 | Hemoglobina glicozilata/HbA1c | 70 | 0 ○ |
 | Insulina | 70 | 70 |
-| Glucoza serica ‡ § | 30 | 0 ● |
+| Glucoza serica (glicemie) ‡ § | 30 | 0 ● |
 
 ### Liver
 
@@ -133,7 +133,7 @@ share Tests, so their subtotals deliberately don't add up.
 
 ### Heart Health
 
-+595 RON · subscriber ~565 RON · 3 of 16 biomarkers · 13 not sold here
++595 RON · subscriber ~565 RON · 3 of 16 biomarkers · 9 not sold here · 4 unresolved
 
 | Test | RON | Subscriber |
 |---|---:|---:|
@@ -143,12 +143,12 @@ share Tests, so their subtotals deliberately don't add up.
 
 ### Performance Health
 
-+510 RON · subscriber ~355 RON · 8 of 13 biomarkers · 5 not sold here
++510 RON · subscriber ~355 RON · 8 of 13 biomarkers · 1 not sold here · 4 unresolved
 
 | Test | RON | Subscriber |
 |---|---:|---:|
 | Folati serici (acid folic) † | 100 | 100 |
-| IGF 1 (Factor 1 de inhibitie a cresterii) (IGF) | 100 | 100 |
+| IGF 1 (somatomedin c) | 100 | 100 |
 | Vitamina B 12 † | 85 | 85 |
 | FT3 (triiodotironina libera) † | 70 | 0 ○ |
 | FT4 (tiroxina libera) † § | 70 | 0 ○ |
@@ -158,11 +158,12 @@ share Tests, so their subtotals deliberately don't add up.
 
 ### Metabolic Health
 
-+1,705 RON · subscriber ~1,530 RON · 10 of 12 biomarkers · 2 not sold here
++2,145 RON · subscriber ~1,970 RON · 11 of 12 biomarkers · 1 not sold here
 
 | Test | RON | Subscriber |
 |---|---:|---:|
 | Leptina † | 420 | 420 |
+| Iod seric | 440 | 440 |
 | Adiponectina | 350 | 350 |
 | Seleniu in sange | 250 | 250 |
 | C-Peptid | 185 | 185 |
@@ -227,7 +228,7 @@ Profil lipidic is annex-covered only, but the annual set carries all four of its
 members as separate Tests — so a subscriber who wants a guaranteed 0 rather than
 an estimated one orders the four instead of the panel.
 
-Verified against Regina Maria's live subscriber terms 2026-08-07.
+Verified against Regina Maria's live subscriber terms 2026-10-02.
 
 ## Free on a prevention referral
 
@@ -281,6 +282,6 @@ Which biomarkers a Block covers, and what's missing, is in
 ---
 
 *Community-maintained mapping, not medical advice. Prices are București, verified
-2026-08-04; check with the provider before ordering.*
+2026-10-02; check with the provider before ordering.*
 
 MIT — see [LICENSE](LICENSE).

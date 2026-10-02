@@ -39,8 +39,9 @@ both and let the reader choose.
 Model the prevention route only.
 
 The diagnostic route is not marked, not priced, and not described in any product
-file. It is recorded in `docs/research/cnas-medic-de-familie.md` so the analysis
-isn't lost.
+file. The broader diagnostic-route analysis remains in private working notes;
+the public prevention sources and maintenance rules are in
+`docs/agents/refresh.md`.
 
 Expression is deliberately minimal: a `§` marker on affected Test lines plus one
 explainer section per shopping list. No fourth price column, no new file, and no

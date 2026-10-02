@@ -1,6 +1,9 @@
 # Source data file
 biomarkers.csv
 
+# Private working research
+/docs/research/
+
 # macOS
 .DS_Store
 
