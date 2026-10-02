@@ -96,13 +96,13 @@ All three providers sell all 57.
 | Systemic Immune-Inflammation Index (SII) | = Platelets × Neutrophils ÷ Lymphocytes |
 | Triglycerides/HDL Ratio | = Triglycerides ÷ HDL |
 
-Costs 0 RON at all three providers — buy the inputs above and compute it.
+Costs 0 RON at all three providers — buy the inputs above and compute them.
 
 ## Extended
 
 Beyond Core, Synevo covers 34 of 43 purchasable Extended biomarkers, Regina
-Maria 29 confirmed with four unresolved, and MedLife 34. Grouped by Whoop's five Specialized Panels; a biomarker
-shared by more than one Specialized Panel repeats under each, marked `†`.
+Maria 29 with 4 unresolved, and MedLife 34. Grouped by Whoop's five Specialized
+Panels; a biomarker shared by more than one repeats under each, marked `†`.
 
 ### Heart Health
 
@@ -195,9 +195,8 @@ once. The shopping lists say what that saves.
 **Not yet placed:** DHEA Sulfate is Extended but isn't part of any of Whoop's
 five Specialized Panels, so it has no Block and no shopping-list line — which is
 why each Extended coverage count above runs one ahead of what that provider's
-five Specialized Panels cover between them. Its prices live here for want of
-anywhere better: Synevo 65 RON, Regina Maria 70 RON, MedLife 57 RON. See
-`CLAUDE.md` for why this is still open.
+five Specialized Panels cover between them. Its prices live here: Synevo 65 RON,
+Regina Maria 70 RON, MedLife 57 RON.
 
 **Extended — Derived (9)**
 
@@ -213,13 +212,12 @@ anywhere better: Synevo 65 RON, Regina Maria 70 RON, MedLife 57 RON. See
 | PSA %, Free | = PSA Free ÷ PSA Total × 100 |
 | Reticulocyte Index (RI) | = Reticulocyte % × (Hematocrit ÷ 45) |
 
-Costs 0 RON at all three providers — buy the inputs above and compute it.
+Costs 0 RON at all three providers — buy the inputs above and compute them.
 
 ---
 
-*Test names checked against each provider's catalogue — Synevo, Regina Maria,
-and MedLife 2026-10-02. Prices, and their own verification dates, are in
-the shopping lists. Not medical advice — see [README](README.md) for the full
+*Test names checked against each provider's catalogue 2026-10-02. Prices, and
+their own verification dates, are in the shopping lists. Not medical advice — see [README](README.md) for the full
 disclaimer.*
 
 MIT — see [LICENSE](LICENSE).

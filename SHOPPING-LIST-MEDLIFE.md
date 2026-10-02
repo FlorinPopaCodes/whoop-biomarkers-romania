@@ -260,10 +260,10 @@ bring on the day — there is no coming back for it later on the same referral.
 |---|---|
 | ‡ | One Test, several biomarkers. |
 | † | Counted in more than one Specialized Panel. You buy it once, so two Panels together cost less than their subtotals suggest. |
-| `§` | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
+| § | Free on a prevention referral from your family doctor, once a year — PSA once every three years. See above. |
 | ● | Free 1×/year, no recommendation. Guaranteed. |
 | ○ | Estimated — 100% off with a doctor's recommendation, which is theirs to give. Capped 4×/year. |
-| `+` | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
+| + | On an Extended subtotal: what that Specialized Panel costs on top of Core. |
 | Core | The cheapest complete route to every Core biomarker this provider sells. Drop a Block and its line tells you what you gave up. |
 | Derived | Computed from other biomarkers on the list. 0 RON everywhere — buy the inputs. Formulas in [BIOMARKERS.md](BIOMARKERS.md). |
 
